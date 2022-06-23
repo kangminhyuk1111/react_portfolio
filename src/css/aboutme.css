@@ -1,0 +1,19 @@
+.aboutme{
+    width: 100%;
+    height: 300px;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+.aboutme h1{
+    padding-top: 20px;
+}
+.aboutme_summary{
+    width: 100%;
+    height: 65%;
+    margin: 0 auto;
+    margin-top: 20px;
+    overflow: hidden;
+}
+.aboutme_summary i{
+    font-size: 36px;
+}
