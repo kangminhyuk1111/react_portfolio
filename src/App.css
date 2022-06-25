@@ -4,8 +4,5 @@
 }
 .App{
   width: 100%;
-  background-color: burlywood;
-}
-.slick-dots{
-  display: none;
+  background-color: #f2f2f2;
 }

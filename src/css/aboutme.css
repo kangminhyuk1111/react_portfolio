@@ -4,16 +4,24 @@
     background-color: #f2f2f2;
     text-align: center;
 }
-.aboutme h1{
+.aboutme_h1{
+    width: 90%;
     padding-top: 20px;
+    font-size: 2rem;
+    margin: 0 auto;
+    text-align: left;
 }
 .aboutme_summary{
-    width: 100%;
-    height: 65%;
+    width: 90%;
+    height: 100%;
     margin: 0 auto;
-    margin-top: 20px;
-    overflow: hidden;
+}
+.test-css{
+    display: none;
 }
 .aboutme_summary i{
-    font-size: 36px;
+    font-size: 26px;
+}
+.test-css{
+    display: none !important;
 }

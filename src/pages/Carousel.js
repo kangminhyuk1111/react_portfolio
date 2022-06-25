@@ -14,8 +14,8 @@ export default function Carousel() {
     };
 
     return (
-        <div>
-            <Slider {...settings}>
+        <div className='dis'>
+            <Slider {...settings} dotsClass='test-css'>
                 <Card title='이름'
                 second='강민혁'
                 third={<i class="fa-solid fa-circle-user"></i>}/>

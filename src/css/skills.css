@@ -1,0 +1,54 @@
+.skills{
+    width: 100%;
+    height: 700px;
+    background-color: #f2f2f2;
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+}
+.skills_h1{
+    width: 90%;
+    padding-top: 20px;
+    font-size: 2rem;
+    margin: 0 auto;
+    text-align: left;
+}
+.pgbar{
+    text-align: left;
+}
+.inner_pgbar{
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    padding-left: 20px;
+}
+.inner_pgbar progress{
+    width: 80%;
+    height: 20px;
+    margin-top: 15px;
+    padding-left: 10px;
+}
+.skill_name{
+    width: 50px;
+    margin-top: 15px;
+    padding-left: 10px;
+    font-size: 12px;
+}
+#progress {
+    appearance: none;
+}
+#progress::-webkit-progress-bar {
+    background:#f0f0f0;
+    border-radius:10px;
+    box-shadow: inset 3px 3px 10px #ccc;
+}
+#progress::-webkit-progress-value {
+    border-radius:10px;
+    background: #1D976C;
+    background: -webkit-linear-gradient(to right, #93F9B9, #1D976C);
+    background: linear-gradient(to right, #93F9B9, #1D976C);
+}
+.inner_pgbar img{
+    width: 48px;
+    height: 48px    ;
+}

@@ -1,14 +1,14 @@
 import './App.css';
-import Header from './pages/Header';
 import Main from './pages/Main';
 import Aboutme from './pages/Aboutme';
+import Skills from './pages/Skills';
 
 function App() {
   return (
     <div className='App'>
-      <Header/>
       <Main/>
       <Aboutme/>
+      <Skills/>
     </div>
   );
 }
