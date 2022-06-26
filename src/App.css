@@ -1,6 +1,11 @@
+@font-face{
+  font-family: "Yoon";
+  src: url(./font/AnyConv.com__KoPubDotumBold.eot);
+}
 *{
   margin: 0;
   padding: 0;
+  font-family: "Yoon" sans-serif;
 }
 .App{
   width: 100%;

@@ -1,7 +1,7 @@
 .main{
     width: 100%;
     height: 750px;
-    background-color: bisque;
+    background-color: #f2f2f2;
 }
 .main_inner{
     width: 100%;
@@ -13,7 +13,7 @@
 .main_left{
     width: 60%;
     height: 80%;
-    background-color: antiquewhite;
+    background-color: #f2f2f2;
     position: relative;
     top: 10%;
     text-align: center;
@@ -27,16 +27,19 @@
     text-align: left;
 }
 .top_p_1{
-    font-weight: 800;
+    font-weight: 700;
 }
 .top_p_2{
     font-weight: 500;
-    font-size: 1.7rem;
+    font-size: 1.4rem;
+}
+.inner_top_icon{
+    margin-bottom: 40px;
 }
 .main_inner_summary{
     width: 80%;
     margin-top: 5%;
-    font-size: 1rem;
+    font-size: 1.1rem;
     text-align: left;
     position: relative;
     left: 10%;
@@ -54,11 +57,16 @@
     width: 100%;
     height: 70%;
     border-radius: 30px;
-    margin-top: 30%;
+    margin-top: 20%;
 }
 .inner_p{
     margin-top: 15px;
     font-size: 1.05rem;
+}
+.inner_p_1{
+    margin-top: 15px;
+    font-size: 1.05rem;
+    padding-bottom: 40px;
 }
 .myinfo_links{
     margin-top: 5px;
