@@ -1,5 +1,61 @@
 .projects{
     width: 100%;
-    height: 700px;
-    background-color: aquamarine;
+    height: 1000px;
+}
+.projects_main{
+    width: 83.3%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.myprojects{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 5%;
+    border-radius: 0.5rem;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1),
+        0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+.myprojects_header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.myprojects_header p{
+    padding: 10px;
+    padding-top: 20px;
+    font-size: 20px;
+    padding-right: 30px;
+    padding-left: 20px;
+}
+.myprojects_summary{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.summary_left{
+    width: 30%;
+    height: 80%;
+    padding: 10px;
+    padding-left: 20px;
+}
+.summary_right{
+    width: 70%;
+    height: 80%;
+}
+.summary_left_top{
+    padding-bottom: 40px;
+}
+.summary_left_top h2{
+    padding-bottom: 20px;
+    font-weight: 600;
+}
+.summary_right img{
+    width: 90%;
+    height: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
 }

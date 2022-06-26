@@ -15,6 +15,7 @@
     width: 40%;
     height: 90%;
     position: relative;
+    background-color: #fff;
     top: 5%;
     border-radius: 0.5rem;
     box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1),
@@ -27,6 +28,7 @@
     display: flex;
     flex-direction: row;
     padding-left: 50px;
+    padding-top: 20px;
 }
 .archiving_logos{
     font-size: 1.5rem;
@@ -46,7 +48,7 @@
     padding-left: 30px;
     display: flex;
     flex-direction: row;
-    font-size: 18px;
+    font-size: 16px;
 }
 .archiving_ul li img{
     width: 24px;
