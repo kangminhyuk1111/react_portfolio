@@ -9,6 +9,7 @@ export default function MyProject() {
             <p>ToDoList</p>
             <p>소요기간 : 1주</p>
             <p><a href='#'>LINK TO GIT HUB</a></p>
+            <p><a href='#'>LIVE PAGES</a></p>
         </div>
         <div className='myprojects_summary'>
             <div className='summary_left'>
