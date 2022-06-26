@@ -1,5 +1,6 @@
 import React from 'react'
 import todoimgs from '../images/todoimgs.jpg';
+import usedcar from '../images/usedcar.jpg';
 
 export default function MyProject() {
   return (
@@ -20,7 +21,7 @@ export default function MyProject() {
                 유동적인 작업이 가능하다고 느꼈습니다. React를 사용 했을때 코드를 재사용 하여 조금 더 빠르고 편리하게 작업을 할 수 있음을 느꼈습니다.</p>
             </div>
             <div className='summary_right'>
-                <img src={todoimgs}/>
+                <img src={usedcar}/>
             </div>    
         </div>      
     </div>
