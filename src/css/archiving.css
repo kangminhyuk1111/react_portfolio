@@ -50,7 +50,8 @@
     flex-direction: row;
     font-size: 16px;
 }
-.archiving_ul li img{
-    width: 24px;
-    height: 24px;
+.archiving_ul li i{
+    width: 20px;
+    height: 20px;
+    padding-top: 4px;
 }

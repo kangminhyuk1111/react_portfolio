@@ -6,7 +6,7 @@ export default function Skills() {
 
     return (
         <div className='skills'>
-            <h1 className='skills_h1'>Skills</h1>
+            <h1 className='skill_h1'>Skills</h1>
             <div className='flex flex-col box-content h-4/6 w-10/12 rounded-lg mt-10 pb-16 m-auto shadow-lg shadow-gray-300 bg-white'>
                 <Pgbar skillicons={<img src="https://img.icons8.com/color/48/000000/html-5--v1.png" />}
                     skillname='HTML'

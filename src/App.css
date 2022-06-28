@@ -1,11 +1,14 @@
 @font-face{
   font-family: "Yoon";
-  src: url(./font/AnyConv.com__KoPubDotumBold.eot);
+  src: url(./font//NotoSansKR-Light.otf);
+
+  font-family: "SF";
+  src: url(./font/SF-Pro-Display-Light.otf);
 }
 *{
   margin: 0;
   padding: 0;
-  font-family: "Yoon" sans-serif;
+  font-family: "Yoon" , "SF";
 }
 .App{
   width: 100%;

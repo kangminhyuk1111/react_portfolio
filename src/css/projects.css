@@ -18,6 +18,8 @@
         0 4px 6px -4px rgb(0 0 0 / 0.1);
     margin-top: 30px;
     background-color: #fff;
+    min-height: 550px;
+    padding-bottom: 30px;
 }
 
 .myprojects_header {
@@ -39,6 +41,8 @@
     height: 100%;
     display: flex;
     flex-direction: row;
+    font-size: 14px;
+    text-align: left;
 }
 
 .summary_left {

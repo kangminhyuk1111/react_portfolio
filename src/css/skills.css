@@ -1,5 +1,5 @@
 .skills{
-    width: 100%;
+    width: 80%;
     height: 600px;
     background-color: #f2f2f2;
     position: relative;
@@ -13,6 +13,15 @@
     margin: 0 auto;
     text-align: left;
 }
+.skill_h1{
+    width: 120%;
+    padding-top: 20px;
+    font-size: 2rem;
+    margin: 0 auto;
+    text-align: left;
+    position: relative;
+    left: -6.5%;
+}
 .pgbar{
     text-align: left;
 }
@@ -23,10 +32,11 @@
     padding-left: 20px;
 }
 .inner_pgbar progress{
-    width: 80%;
+    width: 90%;
     height: 20px;
     margin-top: 15px;
     padding-left: 10px;
+    padding-right: 10px;
 }
 .skill_name{
     width: 50px;
