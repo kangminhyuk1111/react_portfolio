@@ -1,6 +1,7 @@
 .projects {
-    width: 100%;
+    width: 80%;
     height: 2000px;
+    margin: 0 auto;
 }
 
 .projects_main {

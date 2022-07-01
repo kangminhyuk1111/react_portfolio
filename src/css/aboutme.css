@@ -1,8 +1,9 @@
 .aboutme{
-    width: 100%;
+    width: 80%;
     height: 300px;
     background-color: #f2f2f2;
     text-align: center;
+    margin: 0 auto;
 }
 .aboutme_h1{
     width: 90%;

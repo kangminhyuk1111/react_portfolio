@@ -1,16 +1,33 @@
-@font-face{
+@font-face {
   font-family: "Yoon";
   src: url(./font//NotoSansKR-Light.otf);
 
   font-family: "SF";
   src: url(./font/SF-Pro-Display-Light.otf);
 }
-*{
+
+* {
   margin: 0;
   padding: 0;
-  font-family: "Yoon" , "SF";
+  font-family: "Yoon", "SF";
 }
-.App{
+
+html{
+  font-size: 14px;
+}
+
+.App {
   width: 100%;
   background-color: #f2f2f2;
+}
+
+@media all and (max-width : 1330px){
+  .top_p_2{
+    font-size: 1.3rem;
+  }
+}
+@media all and (max-width : 1120px){
+  .top_p_2{
+    font-size: 1rem;
+  }
 }
