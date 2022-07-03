@@ -7,7 +7,7 @@ import todoimgs from '../images/todoimgs.jpg';
 export default function Projects() {
   return (
     <div className='projects'>
-        <h1 className='skills_h1'>Projects</h1>
+        <h1 className='skills_h1'>PROJECTS</h1>
         <div className='projects_main'>
           <MyProject title='ToDoList'
           lesstime='1주'

@@ -16,22 +16,22 @@ export default function Carousel() {
     return (
         <div className='dis'>
             <Slider {...settings} dotsClass='test-css'>
-                <Card title='이름'
+                <Card title='Name'
                 second='강민혁'
                 third={<i class="fa-solid fa-circle-user"></i>}/>
-                <Card title='생년월일'
+                <Card title='Birth'
                 second='2000.02.22'
                 third={<i class="fa-solid fa-cake-candles"></i>}/>
-                <Card title='주소지'
+                <Card title='Address'
                 second='대구광역시 달서구'
                 third={<i class="fa-solid fa-house"></i>}/>
-                <Card title='연락처'
+                <Card title='Tel'
                 second='010-9938-4664'
                 third={<i class="fa-solid fa-phone"></i>}/>
-                <Card title='이메일'
+                <Card title='E-mail'
                 second='rkdglqkr12@naver.com'
                 third={<i class="fa-solid fa-envelope"></i>}/>
-                <Card title='경력'
+                <Card title='Career'
                 second='신입'
                 third={<i class="fa-solid fa-pen-to-square"></i>}/>
             </Slider>

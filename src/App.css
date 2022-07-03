@@ -1,15 +1,20 @@
 @font-face {
   font-family: "Yoon";
-  src: url(./font//NotoSansKR-Light.otf);
-
-  font-family: "SF";
-  src: url(./font/SF-Pro-Display-Light.otf);
+  src: url(./font/NotoSansKR-Light.otf);
+}
+@font-face {
+  font-family: "Yoon330";
+  src: url(./font/윤고딕330.otf);
+}
+@font-face {
+  font-family: "Yoon320";
+  src: url(./font/윤고딕320.otf);
 }
 
 * {
   margin: 0;
   padding: 0;
-  font-family: "Yoon", "SF";
+  font-family: "Yoon";
 }
 
 html{
@@ -19,15 +24,4 @@ html{
 .App {
   width: 100%;
   background-color: #f2f2f2;
-}
-
-@media all and (max-width : 1330px){
-  .top_p_2{
-    font-size: 1.3rem;
-  }
-}
-@media all and (max-width : 1120px){
-  .top_p_2{
-    font-size: 1rem;
-  }
 }

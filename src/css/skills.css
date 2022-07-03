@@ -7,11 +7,12 @@
     margin: 0 auto;
 }
 .skills_h1{
-    width: 90%;
+    width: 75%;
     padding-top: 20px;
     font-size: 2rem;
     margin: 0 auto;
     text-align: left;
+    font-family: "Yoon330";
 }
 .skill_h1{
     width: 120%;
@@ -29,20 +30,21 @@
     display: flex;
     flex-direction: row;
     margin: 5px;
-    padding-left: 20px;
+    padding-left: 50px;
 }
 .inner_pgbar progress{
-    width: 90%;
-    height: 20px;
-    margin-top: 15px;
-    padding-left: 10px;
+    width: 82%;
+    height: 14px;
+    margin-top: 18px;
+    padding-left: 20px;
     padding-right: 10px;
 }
 .skill_name{
     width: 50px;
     margin-top: 15px;
-    padding-left: 10px;
-    font-size: 12px;
+    padding-left: 8px;
+    font-size: 14px;
+    font-family: "Yoon330";
 }
 #progress {
     appearance: none;
@@ -55,10 +57,12 @@
 #progress::-webkit-progress-value {
     border-radius:10px;
     background: #1D976C;
-    background: -webkit-linear-gradient(to right, #93F9B9, #1D976C);
-    background: linear-gradient(to right, #93F9B9, #1D976C);
+    background: -webkit-linear-gradient(to right, #c4c4c4, #7b7b7b);
+    background: linear-gradient(to right, #c4c4c4, #7b7b7b);
 }
 .inner_pgbar img{
     width: 48px;
-    height: 48px    ;
+    height: 48px;   
 }
+
+/* to right, #93F9B9, #1D976C */

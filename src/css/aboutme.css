@@ -6,14 +6,15 @@
     margin: 0 auto;
 }
 .aboutme_h1{
-    width: 90%;
+    width: 75%;
     padding-top: 20px;
     font-size: 2rem;
     margin: 0 auto;
     text-align: left;
+    font-family: "Yoon330";
 }
 .aboutme_summary{
-    width: 90%;
+    width: 77.6%;
     height: 100%;
     margin: 0 auto;
 }
@@ -25,4 +26,7 @@
 }
 .test-css{
     display: none !important;
+}
+#card_titles{
+    font-family: "Yoon330";
 }
