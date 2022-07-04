@@ -1,12 +1,27 @@
-import React from 'react'
+import React ,{useRef,useEffect} from 'react'
 import '../css/main.css';
 import profile from '../images/profile.jpg';
-import profile1 from '../images/profile1.jpg';
+import useFadeIn from '../Hook/useScrollFadeIn';
 
 export default function Main() {
+    const useFadeIn = (duration) => {
+        const element = useRef();
+        useEffect(() => {
+            if (element.current) {
+                const { current } = element;
+                current.style.transition = `opacity ${duration}s`;
+                current.style.opacity = 1;
+            }
+        }, [duration])
+        return {
+            ref: element,
+            style: { opacity: 0 }
+        }
+    }
+    const titleFadeIn = useFadeIn(3);
     return (
         <div className='main'>
-            <div className='main_inner'>
+            <div className='main_inner' {...titleFadeIn}>
                 <div className='main_left'>
                     <div className='main_inner_top'>
                         <p className='inner_top_icon'>👨‍💻</p>
@@ -16,7 +31,7 @@ export default function Main() {
                     <div className='main_inner_summary'>
                         <p className='inner_p'>컴퓨터 언어를 사용해 구현하고자 하는 프로그램이 시각화되는 매력에 빠져 개발자가 되기로 결심했습니다. </p>
                         <p className='inner_p'>
-                        사용자의 입장에서 느끼는 좋은 서비스가 무엇인지 다양한 관점에서 고민하고, 다양한 개발자분들과 함께 정보를 공유하며 제가 가진 능력을 적극적으로 성장시켰습니다.</p>
+                            사용자의 입장에서 느끼는 좋은 서비스가 무엇인지 다양한 관점에서 고민하고, 다양한 개발자분들과 함께 정보를 공유하며 제가 가진 능력을 적극적으로 성장시켰습니다.</p>
                         <p className='inner_p_1'>진취적이며 능동적으로 업무에 임하는 개발자가되겠습니다.</p>
                         <p className='myinfo_links'>📧<a href='#'>rkdglqkr12@naver.com</a></p>
                         <p className='myinfo_links'>🐱<a href='#'>Blog</a></p>

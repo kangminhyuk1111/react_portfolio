@@ -8,7 +8,6 @@
 }
 #skills_main{
     animation: fadein 3s;
-    -webkit-animation: fadein 3s;
 }
 .skills_h1{
     width: 75%;

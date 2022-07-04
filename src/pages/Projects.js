@@ -9,7 +9,7 @@ export default function Projects() {
     <div className='projects'>
         <h1 className='skills_h1'>PROJECTS</h1>
         <div className='projects_main'>
-          <MyProject title='ToDoList'
+          <MyProject title='TO DO LIST'
           lesstime='1주'
           gitlink='#'
           liveserver='#'

@@ -17,8 +17,6 @@
     width: 77.6%;
     height: 100%;
     margin: 0 auto;
-    animation: fadein 3s;
-    -webkit-animation: fadein 3s;
 }
 .test-css{
     display: none;

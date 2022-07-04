@@ -10,8 +10,6 @@
     flex-direction: row;
     justify-content: space-around;
     margin: 0 auto;
-    animation: fadein 3s;
-    -webkit-animation: fadein 3s;
 }
 .main_left{
     width: 65%;
