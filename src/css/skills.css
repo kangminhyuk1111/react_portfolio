@@ -6,6 +6,10 @@
     text-align: center;
     margin: 0 auto;
 }
+#skills_main{
+    animation: fadein 3s;
+    -webkit-animation: fadein 3s;
+}
 .skills_h1{
     width: 75%;
     padding-top: 20px;

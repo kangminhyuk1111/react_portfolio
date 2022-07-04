@@ -1,5 +1,3 @@
-
-
 .main{
     width: 100%;
     height: 750px;
@@ -12,6 +10,8 @@
     flex-direction: row;
     justify-content: space-around;
     margin: 0 auto;
+    animation: fadein 3s;
+    -webkit-animation: fadein 3s;
 }
 .main_left{
     width: 65%;
@@ -37,6 +37,8 @@
 }
 .inner_top_icon{
     margin-bottom: 40px;
+    position: relative;
+    top: 20px;
 }
 .main_inner_summary{
     width: 80%;

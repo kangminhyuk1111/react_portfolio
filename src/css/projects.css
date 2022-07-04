@@ -7,6 +7,8 @@
 .projects_main {
     width: 75%;
     margin: 0 auto;
+    animation: fadein 3s;
+    -webkit-animation: fadein 3s;
 }
 
 .myprojects {
@@ -26,13 +28,12 @@
 .myprojects_header {
     width: 100%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .myprojects_header p {
-    padding: 10px;
     padding-top: 20px;
-    font-size: 20px;
+    font-size: 26px;
     padding-right: 30px;
     padding-left: 20px;
 }
@@ -43,7 +44,17 @@
     display: flex;
     flex-direction: row;
     font-size: 14px;
-    text-align: left;
+    text-align: justify;
+}
+
+.header_second{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 20px;
+}
+.header_second p{
+    font-size: 1.2rem;
 }
 
 .summary_left {

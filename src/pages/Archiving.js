@@ -9,7 +9,7 @@
                     <div className='archiving_left'>
                         <div className='archiving_top'>
                             <i className="fa-brands fa-github"></i>
-                            <span className='archiving_logos'>GITHUB</span>
+                            <span className='archiving_logos'><a href='https://github.com/kangminhyuk1111'>GITHUB</a></span>
                         </div>
                         <div className='archving_footer'>
                             <ul className='archiving_ul'>
@@ -23,7 +23,7 @@
                     <div className='archiving_right'>
                         <div className='archiving_top'>
                             <i className="fa-brands fa-blogger-b" id='naverblog'></i>
-                            <span className='archiving_logos'>NAVER BLOG</span>
+                            <span className='archiving_logos'><a href='https://blog.naver.com/rkdglqkr12'>NAVER BLOG</a></span>
                         </div>
                         <div className='archving_footer'>
                             <ul className='archiving_ul'>

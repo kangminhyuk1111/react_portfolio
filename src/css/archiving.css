@@ -10,6 +10,8 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    animation: fadein 3s;
+    -webkit-animation: fadein 3s;
 }
 
 .archiving_left,
