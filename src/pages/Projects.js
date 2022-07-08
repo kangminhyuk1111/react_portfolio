@@ -4,7 +4,7 @@ import MyProject from './MyProject';
 import usedcar from '../images/usedcar.jpg';
 import todoimgs from '../images/todoimgs.jpg';
 
-export default function Projects() {
+export default function Projects(props) {
   return (
     <div className='projects'>
         <h1 className='skills_h1'>PROJECTS</h1>
@@ -18,7 +18,8 @@ export default function Projects() {
           기존에 클래스형 컴포넌트로 개발하던 프로젝트를 함수형 컴포넌트로 작업중 변경 하였습니다.'
           feelings='기존에 JavaScript 언어를 이해하기 위해 작업했던 ToDoList와 비교 했을때 React를 사용 했을때 훨씬 더 간결하고
           유동적인 작업이 가능하다고 느꼈습니다. React를 사용 했을때 코드를 재사용 하여 조금 더 빠르고 편리하게 작업을 할 수 있음을 느꼈습니다.'
-          projectImg={todoimgs}/>
+          projectImg={todoimgs}
+          mode={props.mode}/>
           <MyProject title='현대모비스 오토벨 중고차 사이트'
           lesstime='2주'
           gitlink='#'
@@ -33,7 +34,8 @@ export default function Projects() {
           nodejs를 접했습니다. nodejs로 어떻게 서버를 구축하고 만들어나가는지 알게 되었고, 서버에서 DB에 접근해서 어떻게 정보들을 가져 올 수 있는지
           공부하였고 프로젝트에 접목시켰습니다. 이를 통해 프론트엔드와 백엔드의 흐름을 이해하게 되었고 더 나아가 데이터베이스에 접근
           선택, 수정 등 기본적인 SQL이해하는데 도움이 되었던 프로젝트였습니다.'
-          projectImg={usedcar}/>
+          projectImg={usedcar}
+          mode={props.mode}/>
         </div>
     </div>
   )

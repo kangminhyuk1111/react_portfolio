@@ -1,9 +1,8 @@
 import React ,{useRef,useEffect} from 'react'
 import '../css/main.css';
 import profile from '../images/profile.jpg';
-import useFadeIn from '../Hook/useScrollFadeIn';
 
-export default function Main() {
+export default function Main(props) {
     const useFadeIn = (duration) => {
         const element = useRef();
         useEffect(() => {
@@ -20,10 +19,10 @@ export default function Main() {
     }
     const titleFadeIn = useFadeIn(3);
     return (
-        <div className='main'>
-            <div className='main_inner' {...titleFadeIn}>
-                <div className='main_left'>
-                    <div className='main_inner_top'>
+        <div className={`main ${props.mode}`}>
+            <div className={`main_inner ${props.mode}`} {...titleFadeIn}>
+                <div className={`main_left ${props.mode}`}>
+                    <div className={`main_inner_top ${props.mode}`}>
                         <p className='inner_top_icon'>👨‍💻</p>
                         <p className='top_p_2'>빠르게 바뀌는 트렌드 속 사용자들의 더 나은 경험을 위해 노력하는</p>
                         <p className='top_p_2'><span className='top_p_1'>FRONTEND DEVELOPER 강민혁</span>입니다.</p>

@@ -1,12 +1,12 @@
     import React from 'react'
     import '../css/archiving.css';
 
-    export default function Archiving() {
+    export default function Archiving(props) {
         return (
             <div className='archiving'>
                 <h1 className='skills_h1'>ARCHIVING</h1>
                 <div className='archiving_main'>
-                    <div className='archiving_left'>
+                    <div className={`archiving_left ${props.mode}s`}>
                         <div className='archiving_top'>
                             <i className="fa-brands fa-github"></i>
                             <span className='archiving_logos'><a href='https://github.com/kangminhyuk1111'>GITHUB</a></span>
@@ -20,7 +20,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div className='archiving_right'>
+                    <div className={`archiving_right ${props.mode}s`}>
                         <div className='archiving_top'>
                             <i className="fa-brands fa-blogger-b" id='naverblog'></i>
                             <span className='archiving_logos'><a href='https://blog.naver.com/rkdglqkr12'>NAVER BLOG</a></span>

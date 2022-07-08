@@ -4,7 +4,7 @@ import React from 'react'
 
 export default function MyProject(props) {
   return (
-    <div className='myprojects'>
+    <div className={`myprojects ${props.mode}s`}>
         <div className='myprojects_header'>
             <p>{props.title}</p>
             <div className='header_second'>

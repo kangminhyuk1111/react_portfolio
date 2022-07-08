@@ -80,3 +80,12 @@
 .strong{
     font-weight: 700;
 }
+
+/* dark mode theme */
+.true{
+    background-color: #202b38 !important;
+    color: #dbdbdb !important;
+}
+.trues{
+    background-color: #49607c !important;
+}

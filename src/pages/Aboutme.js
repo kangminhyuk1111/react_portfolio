@@ -3,7 +3,7 @@ import '../css/aboutme.css';
 import Carousel from './Carousel';
 import { useEffect, useRef } from 'react';
 
-export default function Aboutme() {
+export default function Aboutme(props) {
   window.addEventListener('scroll',()=>{
     if(window.scrollY >= 700){
       
@@ -25,10 +25,10 @@ export default function Aboutme() {
   }
   const aboutmeFadeIn = useFadeIn(3)
   return (
-    <div className='aboutme'>
+    <div className={`aboutme ${props.mode}`}>
       <h1 className='aboutme_h1'>PROFILE</h1>
       <div className='aboutme_summary' {...aboutmeFadeIn}>
-        <Carousel />
+        <Carousel mode={props.mode}/>
       </div>
     </div>
   )
