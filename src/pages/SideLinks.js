@@ -2,28 +2,28 @@ import React, { useState } from 'react';
 import '../css/sideLinks.css';
 
 export default function SideLinks() {
-    const [burgerMenu , setburgerMenu] = useState(()=>false);
-    const burgerState = () =>{
-      if(burgerMenu == false){
-        setburgerMenu(true)
-      }else{
-        setburgerMenu(false)
-      }
+  const [burgerMenu, setburgerMenu] = useState(() => false);
+  const burgerState = () => {
+    if (burgerMenu == false) {
+      setburgerMenu(true)
+    } else {
+      setburgerMenu(false)
     }
+  }
   return (
-        <div className='sideLinks'>
-            <a
-              onClick={burgerState}
-              className={burgerMenu ? "burger_menu" : "burger_menu_hide"}><i className="fa-solid fa-bars"></i></a>
-            <div className='burgerLinks'>
-              <ul className='burger_ul'>
-                <li>1</li>
-                <li>2</li>
-                <li>3</li>
-                <li>4</li>
-                <li>5</li>
-              </ul>
-            </div>
-        </div>
+    <div className='sideLinks'>
+      <div
+        onClick={burgerState}
+        className='burger_menu'>
+        {burgerMenu ? <i className="fa-solid fa-x"></i> : <i className="fa-solid fa-bars"></i>}
+      </div>
+        <ul className={burgerMenu ? 'burger_ul' : "burger_ul_hides"}>
+          <li><a onClick={''}>PROFILE</a></li>
+          <li><a onClick={''}>SKILLS</a></li>
+          <li><a onClick={''}>ARCHIVING</a></li>
+          <li><a onClick={''}>PROJECTS</a></li>
+          <li><a onClick={''}>PROFILE</a></li>
+        </ul>
+    </div>
   )
 }

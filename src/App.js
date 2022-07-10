@@ -24,7 +24,7 @@ return (
     <Skills mode={isdark}/>
     <Archiving mode={isdark}/>
     <Projects mode={isdark}/>
-    <SideLinks/>
+    
   </div>
 );
 }

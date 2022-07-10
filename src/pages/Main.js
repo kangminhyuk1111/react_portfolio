@@ -1,6 +1,7 @@
 import React ,{useRef,useEffect} from 'react'
 import '../css/main.css';
 import profile from '../images/profile.jpg';
+import SideLinks from './SideLinks';
 
 export default function Main(props) {
     const useFadeIn = (duration) => {
@@ -20,6 +21,7 @@ export default function Main(props) {
     const titleFadeIn = useFadeIn(3);
     return (
         <div className={`main ${props.mode}`}>
+            <SideLinks/>
             <div className={`main_inner ${props.mode}`} {...titleFadeIn}>
                 <div className={`main_left ${props.mode}`}>
                     <div className={`main_inner_top ${props.mode}`}>
