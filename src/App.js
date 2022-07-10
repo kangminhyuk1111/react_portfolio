@@ -5,6 +5,7 @@ import Skills from './pages/Skills';
 import Archiving from './pages/Archiving';
 import Projects from './pages/Projects';
 import DarkMode from './pages/DarkMode';
+import SideLinks from './pages/SideLinks';
 import { useEffect, useState } from 'react';
 
 function App() {
@@ -23,6 +24,7 @@ return (
     <Skills mode={isdark}/>
     <Archiving mode={isdark}/>
     <Projects mode={isdark}/>
+    <SideLinks/>
   </div>
 );
 }
