@@ -19,12 +19,12 @@ function App() {
 return (
   <div className={`App ${isdark}`}>
     <DarkMode darkmodeSet={darkmodeSet}/>
+    <SideLinks/>
     <Main mode={isdark}/>
     <Aboutme mode={isdark}/>
     <Skills mode={isdark}/>
     <Archiving mode={isdark}/>
     <Projects mode={isdark}/>
-    
   </div>
 );
 }
