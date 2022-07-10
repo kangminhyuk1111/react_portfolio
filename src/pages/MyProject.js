@@ -1,7 +1,5 @@
 import React from 'react'
 
-
-
 export default function MyProject(props) {
   return (
     <div className={`myprojects ${props.mode}s`}>
