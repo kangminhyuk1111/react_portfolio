@@ -1,14 +1,14 @@
 @font-face {
   font-family: "Yoon";
-  src: url(./font/NotoSansKR-Light.otf);
+  src: url(/src/font/NotoSansKR-Light.otf);
 }
 @font-face {
   font-family: "Yoon330";
-  src: url(./font/윤고딕330.otf);
+  src: url(/src/font/윤고딕330.otf);
 }
 @font-face {
   font-family: "Yoon320";
-  src: url(./font/윤고딕320.otf);
+  src: url(/src/font/윤고딕320.otf);
 }
 
 * {
