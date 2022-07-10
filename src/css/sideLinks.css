@@ -5,3 +5,10 @@
     border-radius: 45px;
     font-size: 48px;
 }
+.burger_menu_hide{
+    opacity: 0.2;
+}
+.burger_ul{
+    font-size: 20px;
+    display: none;
+}
