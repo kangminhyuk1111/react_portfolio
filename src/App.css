@@ -2,10 +2,12 @@
   font-family: "Yoon";
   src: url(/src/font/NotoSansKR-Light.otf);
 }
+
 @font-face {
   font-family: "Yoon330";
   src: url(../src/font/윤고딕330.otf);
 }
+
 @font-face {
   font-family: "Yoon320";
   src: url(/src/font/윤고딕320.otf);
@@ -17,42 +19,45 @@
   font-family: "Yoon";
 }
 
-a{
+a {
   color: rgb(120, 120, 255);
   text-decoration: underline;
 }
-a:hover{
+
+a:hover {
   color: blue;
 }
 
-@media (prefers-color-scheme: dark){
-
-}
+@media (prefers-color-scheme: dark) {}
 
 @keyframes fadein {
   from {
-      opacity: 0;
+    opacity: 0;
   }
+
   to {
-      opacity: 1;
+    opacity: 1;
   }
 }
 
-@-webkit-keyframes fadein { /* Safari and Chrome */
+@-webkit-keyframes fadein {
+
+  /* Safari and Chrome */
   from {
-      opacity: 0;
+    opacity: 0;
   }
+
   to {
-      opacity: 1;
+    opacity: 1;
   }
 }
 
-html{
+html {
   font-size: 14px;
 }
 
-@media (max-width : 1100px){
-  html{
+@media (max-width : 1100px) {
+  html {
     font-size: 12px;
   }
 }
@@ -63,42 +68,86 @@ html{
   margin: 0 auto;
 }
 
-.toggle_btn{
+.toggle_btn {
   position: fixed;
   top: 87%;
   left: 92%;
 }
 
 @media all and (max-width : 768px) {
-  .main{
+  .main {
     height: 500px !important;
   }
-  .main_inner{
+
+  .main_inner {
     width: 100% !important;
     flex-direction: column;
   }
+
   .aboutme,
   .skills,
   .archiving,
-  .projects{
+  .projects {
     width: 100% !important;
   }
-  .main_left{
+
+  .main_left {
     width: 100% !important;
   }
-  .main_right{
+
+  .main_right {
     display: none !important;
   }
-  .myprojects_summary{
+
+  .myprojects_summary {
     flex-direction: column;
   }
-  .summary_left{
+
+  .summary_left {
     width: 96% !important;
   }
-  .summary_right{
+
+  .summary_right {
     width: 100% !important;
   }
-  .summary_right img{
+
+  .summary_right img {
     margin: 0 auto !important;
+  }
+
+  .toggle_btn {
+    left: 90% !important;
+  }
+}
+@media all and (max-width : 400px){
+  .main {
+    height: 550px !important;
+  }
+  .inner_pgbar{
+    padding-left: 10px !important;
+  }
+  .skill_name{
+    font-size: 10px !important;
+  }
+  .archiving_top{
+    padding: 0 !important;
+    padding-top: 15px !important;
+    height: 102px !important;
+  }
+  .archiving_ul{
+    padding: 0 !important;
+  }
+  .archiving_ul li{
+    height: 70px !important;
+  }
+  .archiving_logos{
+    font-size: 11px !important;
+    padding-top: 32px !important;
+  }
+  .header_second{
+    flex-direction: column;
+  }
+  .projects{
+    height: 5200px !important;
   }
 }
