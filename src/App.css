@@ -119,7 +119,7 @@ html {
     left: 90% !important;
   }
 }
-@media all and (max-width : 400px){
+@media all and (max-width : 450px){
   .main {
     height: 550px !important;
   }
