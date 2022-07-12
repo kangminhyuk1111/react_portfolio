@@ -1,6 +1,6 @@
 .projects {
     width: 80%;
-    height: 2000px;
+    height: 4000px;
     margin: 0 auto;
 }
 
@@ -84,4 +84,5 @@
     height: 90%;
     margin: 0 auto;
     margin-top: 8%;
+    border: 1px solid gray;
 }

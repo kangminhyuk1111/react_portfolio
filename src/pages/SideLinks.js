@@ -10,8 +10,8 @@ export default function SideLinks() {
       setburgerMenu(false)
     }
   }
-  const windowHeights = (scrollHeight) =>{
-    window.scroll(0,scrollHeight)
+  const windowHeights = (scrollHeight) => {
+    window.scroll(0, scrollHeight)
   }
   return (
     <div className='sideLinks'>
@@ -21,12 +21,12 @@ export default function SideLinks() {
         {burgerMenu ? <i className="fa-solid fa-x"></i> : <i className="fa-solid fa-bars"></i>}
       </div>
       <div className='a_setting_div'>
-      <ul className={burgerMenu ? 'burger_ul' : "burger_ul_hides"}>
-          <li><a onClick={()=>windowHeights(700)}>PROFILE</a></li>
-          <li><a onClick={()=>windowHeights(1020)}>SKILLS</a></li>
-          <li><a onClick={()=>windowHeights(1635)}>ARCHIVING</a></li>
-          <li><a onClick={()=>windowHeights(2180)}>PROJECTS</a></li>
-          <li><a onClick={()=>windowHeights(700)}>PROFILE</a></li>
+        <ul className={burgerMenu ? 'burger_ul' : "burger_ul_hides"}>
+          <li><a onClick={() => windowHeights(0)}>TOP</a></li>
+          <li><a onClick={() => windowHeights(700)}>PROFILE</a></li>
+          <li><a onClick={() => windowHeights(1020)}>SKILLS</a></li>
+          <li><a onClick={() => windowHeights(1635)}>ARCHIVING</a></li>
+          <li><a onClick={() => windowHeights(2180)}>PROJECTS</a></li>
         </ul>
       </div>
     </div>
