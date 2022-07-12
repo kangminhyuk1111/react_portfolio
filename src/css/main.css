@@ -8,8 +8,7 @@
     width: 80%;
     height: 90%;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     margin: 0 auto;
 }
 .main_left{
@@ -22,7 +21,7 @@
 }
 .main_inner_top{
     width: 80%;
-    font-size: 1.5vw;
+    font-size: 1.5rem;
     position: relative;
     top: 5%;
     left: 10%;
@@ -42,7 +41,7 @@
 .main_inner_summary{
     width: 80%;
     margin-top: 50px;
-    font-size: 1.1vw;
+    font-size: 1.1rem;
     text-align: left;
     position: relative;
     left: 10%;
@@ -64,11 +63,11 @@
 }
 .inner_p{
     margin-top: 25px;
-    font-size: 1vw;
+    font-size: 1rem;
 }
 .inner_p_1{
     margin-top: 25px;
-    font-size: 1vw;
+    font-size: 1rem;
     padding-bottom: 40px;
 }
 .myinfo_links{

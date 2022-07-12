@@ -40,10 +40,10 @@
 }
 
 .myprojects_summary {
-    width: 100%;
+    max-width: 100%;
     height: 100%;
     display: flex;
-    flex-direction: row;
+    flex-basis: 500px;
     font-size: 14px;
     text-align: justify;
 }

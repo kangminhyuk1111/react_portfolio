@@ -51,6 +51,12 @@ html{
   font-size: 14px;
 }
 
+@media (max-width : 1100px){
+  html{
+    font-size: 12px;
+  }
+}
+
 .App {
   max-width: 1920px;
   background-color: #f2f2f2;
@@ -61,4 +67,38 @@ html{
   position: fixed;
   top: 87%;
   left: 92%;
+}
+
+@media all and (max-width : 768px) {
+  .main{
+    height: 500px !important;
+  }
+  .main_inner{
+    width: 100% !important;
+    flex-direction: column;
+  }
+  .aboutme,
+  .skills,
+  .archiving,
+  .projects{
+    width: 100% !important;
+  }
+  .main_left{
+    width: 100% !important;
+  }
+  .main_right{
+    display: none !important;
+  }
+  .myprojects_summary{
+    flex-direction: column;
+  }
+  .summary_left{
+    width: 96% !important;
+  }
+  .summary_right{
+    width: 100% !important;
+  }
+  .summary_right img{
+    margin: 0 auto !important;
+  }
 }
