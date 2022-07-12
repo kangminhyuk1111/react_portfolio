@@ -59,7 +59,7 @@
     padding-left: 30px;
     display: flex;
     flex-direction: row;
-    font-size: 0.9vw;
+    font-size: 0.9rem;
 }
 .archiving_ul li i{
     width: 20px;
