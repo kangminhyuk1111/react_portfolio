@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Yoon";
-  src: url(/src/font/NotoSansKR-Light.otf);
+  src: url(../src/font/NotoSansKR-Light.otf);
 }
 
 @font-face {
@@ -149,5 +149,14 @@ html {
   }
   .projects{
     height: 5200px !important;
+  }
+  .toggle_btn {
+    position: relative;
+    top: 5px !important;
+    left: 80% !important;
+    z-index: 1;
+  }
+  .sideLinks{
+    position: absolute !important;
   }
 }
