@@ -15,7 +15,6 @@
     font-size: 2rem;
     margin: 0 auto;
     text-align: left;
-    font-family: "Yoon330";
 }
 .pgbar{
     text-align: left;
@@ -38,7 +37,6 @@
     margin-top: 15px;
     padding-left: 8px;
     font-size: 14px;
-    font-family: "Yoon330";
 }
 #progress {
     appearance: none;
