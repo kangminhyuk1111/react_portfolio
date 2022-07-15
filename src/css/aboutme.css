@@ -1,32 +1,37 @@
-.aboutme{
+.aboutme {
     width: 100%;
     height: 600px;
-    background:linear-gradient(135deg,#4568dc,#b06ab3);
-    clip-path   :polygon(0 20%, 100% 0%, 100% 80%, 0% 100%);
+    background: linear-gradient(135deg, #6ec6ff, #2196f3);
+    clip-path: polygon(0 20%, 100% 0%, 100% 80%, 0% 100%);
     text-align: center;
     margin: 0 auto;
     padding-top: 150px;
     z-index: 1;
     position: relative;
 }
-.aboutme_h1{
+
+.aboutme_h1 {
     width: 60%;
     padding-top: 20px;
     font-size: 2rem;
     margin: 0 auto;
     text-align: left;
 }
-.aboutme_summary{
+
+.aboutme_summary {
     width: 62.08%;
     height: 100%;
     margin: 0 auto;
 }
-.test-css{
+
+.test-css {
     display: none;
 }
-.aboutme_summary i{
+
+.aboutme_summary i {
     font-size: 26px;
 }
-.test-css{
+
+.test-css {
     display: none !important;
 }

@@ -5,7 +5,6 @@ import Pgbar from './Pgbar'
 export default function Skills(props) {
     const [classNames, setClassNames] = useState('none');
     window.addEventListener('scroll', () => {
-        console.log(window.scrollY)
         if (window.scrollY >= 730) {
             setClassNames('good');
         } else {

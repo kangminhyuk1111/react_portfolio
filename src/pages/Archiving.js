@@ -4,18 +4,17 @@ import '../css/archiving.css';
 export default function Archiving(props) {
     const [classNames, setClassNames] = useState('none');
     window.addEventListener('scroll', () => {
-        console.log(window.scrollY)
-        if (window.scrollY >= 1450) {
-            setClassNames('good');
+        if (window.scrollY >= 1400) {
+            setClassNames('right_good');
         } else {
             setClassNames('none');
         }
     });
     return (
-        <div className='archiving'>
+        <div className={`archiving ${props.mode}linear`}>
             <h1 className={`archiving_h1 ${classNames}`}>ARCHIVING</h1>
             <div className={`archiving_main ${classNames}`}>
-                <div className={`archiving_left ${props.mode}s`}>
+                <div className={`archiving_left ${props.mode}s ${classNames}`}>
                     <div className='archiving_top'>
                         <i className="fa-brands fa-github"></i>
                         <span className='archiving_logos'><a href='https://github.com/kangminhyuk1111'>GITHUB</a></span>
@@ -29,7 +28,7 @@ export default function Archiving(props) {
                         </ul>
                     </div>
                 </div>
-                <div className={`archiving_right ${props.mode}s`}>
+                <div className={`archiving_right ${props.mode}s ${classNames}`}>
                     <div className='archiving_top'>
                         <i className="fa-brands fa-blogger-b" id='naverblog'></i>
                         <span className='archiving_logos'><a href='https://blog.naver.com/rkdglqkr12'>NAVER BLOG</a></span>

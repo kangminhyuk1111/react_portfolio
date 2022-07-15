@@ -6,7 +6,6 @@ import SideLinks from './SideLinks';
 export default function Main(props) {
     const [classNames, setClassNames] = useState('none');
     window.addEventListener('scroll', () => {
-        console.log(window.scrollY)
         if (window.scrollY >= 0) {
             setClassNames('good');
         } else {

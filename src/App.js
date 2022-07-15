@@ -1,4 +1,5 @@
 import './App.css';
+import './css/animation.css';
 import Main from './pages/Main';
 import Aboutme from './pages/Aboutme';
 import Skills from './pages/Skills';
