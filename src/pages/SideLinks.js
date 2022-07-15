@@ -24,9 +24,9 @@ export default function SideLinks() {
         <ul className={burgerMenu ? 'burger_ul' : "burger_ul_hides"}>
           <li><a onClick={() => windowHeights(0)}>TOP</a></li>
           <li><a onClick={() => windowHeights(700)}>PROFILE</a></li>
-          <li><a onClick={() => windowHeights(1020)}>SKILLS</a></li>
-          <li><a onClick={() => windowHeights(1635)}>ARCHIVING</a></li>
-          <li><a onClick={() => windowHeights(2180)}>PROJECTS</a></li>
+          <li><a onClick={() => windowHeights(1295)}>SKILLS</a></li>
+          <li><a onClick={() => windowHeights(2025)}>ARCHIVING</a></li>
+          <li><a onClick={() => windowHeights(2760)}>PROJECTS</a></li>
         </ul>
       </div>
     </div>

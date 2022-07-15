@@ -8,6 +8,7 @@
     left: 2%;
     font-size: 24px;
     text-align: left;
+    z-index: 99;
 }
 @keyframes fadeInRight {
     0% {

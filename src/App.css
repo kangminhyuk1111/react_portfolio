@@ -72,6 +72,7 @@ html {
   position: fixed;
   top: 87%;
   left: 92%;
+  z-index: 99;
 }
 
 @media all and (max-width : 768px) {
@@ -159,4 +160,10 @@ html {
   .sideLinks{
     position: absolute !important;
   }
+}
+.none{
+  display: none;
+}
+.good{
+  animation: fadeInRight 2s;
 }

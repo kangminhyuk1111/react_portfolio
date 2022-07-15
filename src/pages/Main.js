@@ -1,28 +1,22 @@
-import React, { useRef, useEffect } from 'react'
+import React, { useState, useEffect } from 'react'
 import '../css/main.css';
 import profile from '../images/profile.jpg';
 import SideLinks from './SideLinks';
 
 export default function Main(props) {
-    const useFadeIn = (duration) => {
-        const element = useRef();
-        useEffect(() => {
-            if (element.current) {
-                const { current } = element;
-                current.style.transition = `opacity ${duration}s`;
-                current.style.opacity = 1;
-            }
-        }, [duration])
-        return {
-            ref: element,
-            style: { opacity: 0 }
+    const [classNames, setClassNames] = useState('none');
+    window.addEventListener('scroll', () => {
+        console.log(window.scrollY)
+        if (window.scrollY >= 0) {
+            setClassNames('good');
+        } else {
+            setClassNames('none');
         }
-    }
-    const titleFadeIn = useFadeIn(3);
+    });
     return (
         <div className='top_main'>
             <div className={`main ${props.mode}`}>
-                <div className={`main_inner ${props.mode}`} {...titleFadeIn}>
+                <div className={`main_inner ${props.mode}`}>
                     <div className={`main_left ${props.mode}`}>
                         <div className={`main_inner_top ${props.mode}`}>
                             <p className='inner_top_icon'>👨‍💻</p>

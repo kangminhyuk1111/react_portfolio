@@ -1,14 +1,22 @@
-import React from 'react'
+import React , { useState }from 'react'
 import '../css/skills.css'
 import Pgbar from './Pgbar'
 
 export default function Skills(props) {
-
+    const [classNames, setClassNames] = useState('none');
+    window.addEventListener('scroll', () => {
+        console.log(window.scrollY)
+        if (window.scrollY >= 730) {
+            setClassNames('good');
+        } else {
+            setClassNames('none');
+        }
+    });
     return (
         <div className={`skills ${props.mode}`}>
-            <h1 className='skills_h1'>SKILLS</h1>
-            <div className={`flex flex-col box-content h-4/6 w-3/4 rounded-lg mt-10 pb-20 m-auto shadow-lg bg-white ${props.mode}s`}
-            id='skills_main'>
+            <h1 className={`skills_h1 ${classNames}`}>SKILLS</h1>
+            <div className={`flex flex-col box-content h-4/6 w-3/4 rounded-lg mt-10 pb-20 m-auto shadow-lg bg-white ${props.mode}s ${classNames}`}
+                id='skills_main'>
                 <Pgbar skillicons={<img src="https://img.icons8.com/color/48/000000/html-5--v1.png" />}
                     skillname='HTML'
                     value={90} />
