@@ -1,8 +1,8 @@
 .main{
     max-width: 1700px;
     height: 750px;
-    background-color: #f2f2f2;
     margin: 0 auto;
+    background-color: #f2f2f2;
 }
 .main_inner{
     width: 80%;

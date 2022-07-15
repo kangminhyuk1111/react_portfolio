@@ -4,7 +4,7 @@
     export default function Archiving(props) {
         return (
             <div className='archiving'>
-                <h1 className='skills_h1'>ARCHIVING</h1>
+                <h1 className='archiving_h1'>ARCHIVING</h1>
                 <div className='archiving_main'>
                     <div className={`archiving_left ${props.mode}s`}>
                         <div className='archiving_top'>
