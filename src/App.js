@@ -8,6 +8,7 @@ import Projects from './pages/Projects';
 import DarkMode from './pages/DarkMode';
 import SideLinks from './pages/SideLinks';
 import { useEffect, useState } from 'react';
+import TopBtn from './pages/TopBtn';
 
 function App() {
   const [isdark,setIsDark] = useState(()=>false)
