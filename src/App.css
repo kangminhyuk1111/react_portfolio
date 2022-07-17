@@ -12,6 +12,10 @@
   font-family: "Yoon320";
   src: url(/src/font/윤고딕320.otf);
 }
+@font-face {
+  font-family: 'Yoon350';
+  src: url(/src/font/윤고딕350.otf);
+}
 
 * {
   margin: 0;

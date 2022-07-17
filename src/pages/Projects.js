@@ -48,7 +48,7 @@ export default function Projects(props) {
           선택, 수정 등 기본적인 SQL이해하는데 도움이 되었던 프로젝트였습니다.'
           projectImg={usedcar}
           mode={props.mode}/>
-          <MyProject title='네이버 API를 활용한 책검색 사이트'
+          <MyProject title='네이버 API를 활용한 책 검색 사이트'
           lesstime='4일'
           gitlink='https://github.com/kangminhyuk1111/react-book-api'
           liveserver='#'

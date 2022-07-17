@@ -1,10 +1,11 @@
 .skills{
     width: 80%;
-    height: 600px;
+    height: 700px;
     background-color: #f2f2f2;
     position: relative;
     text-align: center;
     margin: 0 auto;
+    padding-top: 100px;
 }
 .skills_h1{
     width: 75%;
@@ -46,8 +47,8 @@
 #progress::-webkit-progress-value {
     border-radius:10px;
     background: #1D976C;
-    background: -webkit-linear-gradient(to right, #c4c4c4, #7b7b7b);
-    background: linear-gradient(to right, #c4c4c4, #7b7b7b);
+    background: -webkit-linear-gradient(to right, #ffdfd3, #ffb395);
+    background: linear-gradient(to right, #ffdfd3, #ffb395);
 }
 .inner_pgbar img{
     width: 48px;

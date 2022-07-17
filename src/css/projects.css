@@ -1,7 +1,8 @@
 .projects {
     width: 80%;
-    height: 5000px;
+    height: 4850px;
     margin: 0 auto;
+    padding-top: 100px;
 }
 
 .projects_main {
@@ -31,9 +32,21 @@
 
 .myprojects_header p {
     padding-top: 20px;
-    font-size: 26px;
+    font-size: 22px;
     padding-right: 30px;
     padding-left: 20px;
+}
+
+.header_top_titles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.second_p {
+    color: gray;
+    font-size: 14px !important;
+    padding-top: 10px;
 }
 
 .myprojects_summary {
@@ -45,13 +58,39 @@
     text-align: justify;
 }
 
-.header_second{
+.header_second {
     width: 100%;
     display: flex;
     padding-bottom: 20px;
 }
-.header_second p{
+
+.header_second p {
     font-size: 1.2rem;
+}
+
+.header_second_logos {
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding-top: 15px;
+    padding-left: 12px;
+}
+
+.header_second_logos a {
+    display: block;
+    width: 160px;
+    height: 30px;
+    background-color: #ffb395;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 16px;
+    padding-top: 2px;
+    border-radius: 15px;
+}
+
+.header_second_logos a:hover {
+    color: black;
 }
 
 .summary_left {
@@ -68,6 +107,8 @@
 
 .summary_left_top {
     padding-bottom: 40px;
+    color: gray;
+    font-weight: 310;
 }
 
 .summary_left_top h2 {

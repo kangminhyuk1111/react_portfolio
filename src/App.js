@@ -8,7 +8,8 @@ import Projects from './pages/Projects';
 import DarkMode from './pages/DarkMode';
 import SideLinks from './pages/SideLinks';
 import { useEffect, useState } from 'react';
-import TopBtn from './pages/TopBtn';
+import TopMain from './pages/TopMain';
+import ContactMe from './pages/ContactMe';
 
 function App() {
   const [isdark,setIsDark] = useState(()=>false)
@@ -22,11 +23,13 @@ return (
   <div className={`App ${isdark}`}>
     <DarkMode darkmodeSet={darkmodeSet}/>
     <SideLinks/>
+    <TopMain/>
     <Main mode={isdark}/>
     <Aboutme mode={isdark}/>
     <Skills mode={isdark}/>
     <Archiving mode={isdark}/>
     <Projects mode={isdark}/>
+    <ContactMe/>
   </div>
 );
 }

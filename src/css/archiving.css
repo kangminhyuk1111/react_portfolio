@@ -1,11 +1,11 @@
 .archiving{
     width: 100%;
-    background:linear-gradient(135deg,#c0cfff,#8c9eff);
-    clip-path   :polygon(0 15%, 100% 0%, 100% 85%, 0% 100%);
-    height: 850px;
+    background:#faf0e6;
+    height: 800px;
     list-style: none;
     margin: 0 auto;
-    padding-top: 180px;
+    margin-top: 100px;
+    padding-top: 130px;
     z-index: -1;
 }
 .archiving_h1{
@@ -40,9 +40,10 @@
     width: 100%;
     height: 110px;
     display: flex;
-    flex-direction: row;
-    padding-left: 50px;
-    padding-top: 35px;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
 }
 .archiving_top i{
     font-size: 48px;
@@ -52,8 +53,24 @@
 .archiving_logos{
     font-size: 1.5rem;
     font-weight: 500;
-    padding-top: 25px;
+    padding-top: 15px;
     padding-left: 12px;
+}
+.archiving_logos a{
+    display: block;
+    width: 150px;
+    height: 50px;
+    background-color: #ffb395;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 10px;
+    font-size: 18px;
+    border-radius: 15px;
+}
+.archiving_logos a:hover{
+    color: black;
 }
 .archving_footer{
     width: 100%;
@@ -61,14 +78,15 @@
 }
 .archiving_ul{
     padding: 40px;
-    padding-top: 20px;
+    padding-top: 34px;
 }
 .archiving_ul li{
     padding: 20px;
-    padding-left: 30px;
+    padding-left: 40px;
     display: flex;
     flex-direction: row;
-    font-size: 0.9rem;
+    font-size: 0.95rem;
+    margin: 0 auto;
 }
 .archiving_ul li i{
     width: 20px;
