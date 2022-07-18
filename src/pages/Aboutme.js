@@ -6,7 +6,8 @@ import { useEffect, useRef } from 'react';
 export default function Aboutme(props) {
   const [classNames,setClassNames] = useState('none');
   window.addEventListener('scroll',()=>{
-    if(window.scrollY >= 325){
+    console.log(window.scrollY)
+    if(window.scrollY >= 1440){
       setClassNames('right_good');
     }else{
       setClassNames('none');

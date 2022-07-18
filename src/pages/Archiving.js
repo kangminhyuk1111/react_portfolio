@@ -4,7 +4,7 @@ import '../css/archiving.css';
 export default function Archiving(props) {
     const [classNames, setClassNames] = useState('none');
     window.addEventListener('scroll', () => {
-        if (window.scrollY >= 1400) {
+        if (window.scrollY >= 2800) {
             setClassNames('right_good');
         } else {
             setClassNames('none');

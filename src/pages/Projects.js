@@ -11,7 +11,7 @@ import movielist from '../images/movielist.png';
 export default function Projects(props) {
   const [classNames, setClassNames] = useState('none');
     window.addEventListener('scroll', () => {
-        if (window.scrollY >= 2150) {
+        if (window.scrollY >= 3600) {
             setClassNames('good');
         } else {
             setClassNames('none');

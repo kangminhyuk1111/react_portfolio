@@ -14,15 +14,16 @@ export default function MyProject(props) {
                 </div>
             </div>
             <div className='myprojects_summary'>
+            <div className='summary_right'>
+                    <img src={props.projectImg} />
+                </div>
                 <div className='summary_left'>
                     <p className='summary_left_top'><h2>설명</h2>{props.summary}
                     </p>
                     <p className='summary_left_top'><h2>느낀점</h2>{props.feelings}
                     </p>
                 </div>
-                <div className='summary_right'>
-                    <img src={props.projectImg} />
-                </div>
+                
             </div>
         </div>
     )
