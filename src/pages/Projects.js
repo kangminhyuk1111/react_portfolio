@@ -2,7 +2,7 @@ import React , { useState } from 'react'
 import '../css/projects.css';
 import MyProject from './MyProject';
 import usedcar from '../images/usedcar.jpg';
-import todoimgs from '../images/todoimgs.jpg';
+import todoimgs from '../images/ang.png';
 import bookapi from '../images/bookapi.png';
 import htmlport from '../images/htmlport.png';
 import reactport from '../images/reactport.png';
@@ -10,11 +10,10 @@ import movielist from '../images/movielist.png';
 
 export default function Projects(props) {
   const [classNames, setClassNames] = useState('none');
-    window.addEventListener('scroll', () => {
-        if (window.scrollY >= 3600) {
+    window.addEventListener('scroll', (e) => {
+        if (window.scrollY >= 3300) {
             setClassNames('good');
         } else {
-            setClassNames('none');
         }
     });
   return (

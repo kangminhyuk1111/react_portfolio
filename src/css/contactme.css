@@ -1,11 +1,32 @@
-.contact_me{
+.contact_me {
         width: 100%;
-        height: 600px;
+        height: 800px;
         background: #ffb395;
         text-align: center;
         margin: 0 auto;
         margin-top: 20px;
-        padding-top: 100px;
+        padding-top: 50px;
         z-index: 1;
         position: relative;
+}
+
+.contact_me_form_div {
+        width: 60%;
+        height: 30%;
+        position: relative;
+        top: 2%;
+        border-radius: 0.5rem;
+        box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1),
+                0 4px 6px -4px rgb(0 0 0 / 0.1);
+        margin: 0 auto;
+        margin-top: 20px;
+        background-color: #fff;
+        min-height: 550px;
+        padding-bottom: 30px;
+}
+.tell{
+        width: 80%;
+        height: 60px;
+        margin: 10px auto;
+        background-color: aqua;
 }

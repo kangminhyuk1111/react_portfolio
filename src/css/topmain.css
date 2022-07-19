@@ -1,9 +1,10 @@
 .top_main{
     width: 100%;
-    height: 750px;
+    height: 100vh;
     background-color:#faf0e6;
     font-size: 50px;
     text-align: center;
+    animation: topMainOpa 6s;
 }
 .top_main_header{
     font-family: 'Yoon330';

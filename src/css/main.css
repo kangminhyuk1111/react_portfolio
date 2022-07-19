@@ -1,6 +1,6 @@
 .main{
     max-width: 2560px;
-    height: 750px;
+    height: 100vh;
     margin: 0 auto;
     background-color: #f2f2f2;
     animation: fadeInRight 1.5s;
@@ -13,19 +13,16 @@
     margin: 0 auto;
 }
 .main_left{
-    width: 65%;
-    height: 80%;
+    width: 70%;
+    height: 80vh;
     background-color: #f2f2f2;
     position: relative;
     top: 10%;
     text-align: center;
 }
 .main_inner_top{
-    width: 80%;
+    width: 100%;
     font-size: 1.5rem;
-    position: relative;
-    top: 5%;
-    left: 10%;
     text-align: left;
 }
 .top_p_1{
@@ -50,15 +47,16 @@
 }
 .main_right{
     width: 25%;
-    height: 80%;
-    position: relative;
-    top: 10%;
+    height: 80vh;
     display: flex;
     flex-direction: row;
 }
+.right_right{
+    margin-top: 90px;
+}
 .right_right img{
     width: 100%;
-    height: 69%;
+    height: 45vh;
     border-radius: 30px;
     margin-top: 38%;
 }

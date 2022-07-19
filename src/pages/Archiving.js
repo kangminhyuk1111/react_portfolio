@@ -4,10 +4,9 @@ import '../css/archiving.css';
 export default function Archiving(props) {
     const [classNames, setClassNames] = useState('none');
     window.addEventListener('scroll', () => {
-        if (window.scrollY >= 2800) {
+        if (window.scrollY >= 2500) {
             setClassNames('right_good');
         } else {
-            setClassNames('none');
         }
     });
     return (
@@ -21,10 +20,10 @@ export default function Archiving(props) {
                     </div>
                     <div className='archving_footer'>
                         <ul className='archiving_ul'>
-                            <li><i class="fa-solid fa-angle-right"></i>&nbsp;과거 프로젝트, 프로그램, 앱의 소스 코드</li>
-                            <li><i class="fa-solid fa-angle-right"></i>&nbsp;혼자 혹은 같이 공부하기 위해 만든 소스코드</li>
-                            <li><i class="fa-solid fa-angle-right"></i>&nbsp;일일 공부를 기록하기 위해 커밋</li>
-                            <li><i class="fa-solid fa-angle-right"></i>&nbsp;일일 공부를 기록하기 위해 커밋</li>
+                            <li><i class="fa-solid fa-angle-right"></i>&nbsp;<p className='cs'>과거 프로젝트, 프로그램, 앱의 소스 코드</p></li>
+                            <li><i class="fa-solid fa-angle-right"></i>&nbsp;<p className='cs'>혼자 혹은 같이 공부하기 위해 만든 소스코드</p></li>
+                            <li><i class="fa-solid fa-angle-right"></i>&nbsp;<p className='cs'>일일 공부를 기록하기 위해 커밋</p></li>
+                            <li><i class="fa-solid fa-angle-right"></i>&nbsp;<p className='cs'>일일 공부를 기록하기 위해 커밋</p></li>
                         </ul>
                     </div>
                 </div>
@@ -35,10 +34,10 @@ export default function Archiving(props) {
                     </div>
                     <div className='archving_footer'>
                         <ul className='archiving_ul'>
-                            <li><i class="fa-solid fa-angle-right"></i>&nbsp;공부 하면서 어려웠던 점 힘들었던 점 기록</li>
-                            <li><i class="fa-solid fa-angle-right"></i>&nbsp;지식 공유를 통한 선한 영향력 행사</li>
-                            <li><i class="fa-solid fa-angle-right"></i>&nbsp;하루의 목표 설정 목표 성취 유무 기록</li>
-                            <li><i class="fa-solid fa-angle-right"></i>&nbsp;하루의 목표 설정 목표 성취 유무 기록</li>
+                            <li><i class="fa-solid fa-angle-right"></i>&nbsp;<p className='cs'>공부 하면서 어려웠던 점 힘들었던 점 기록</p></li>
+                            <li><i class="fa-solid fa-angle-right"></i>&nbsp;<p className='cs'>지식 공유를 통한 선한 영향력 행사</p></li>
+                            <li><i class="fa-solid fa-angle-right"></i>&nbsp;<p className='cs'>하루의 목표 설정 목표 성취 유무 기록</p></li>
+                            <li><i class="fa-solid fa-angle-right"></i>&nbsp;<p className='cs'>하루의 목표 설정 목표 성취 유무 기록</p></li>
                         </ul>
                     </div>
                 </div>

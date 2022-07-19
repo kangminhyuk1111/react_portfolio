@@ -1,11 +1,11 @@
 .skills{
     width: 80%;
-    height: 700px;
+    height: 720px;
     background-color: #f2f2f2;
     position: relative;
     text-align: center;
     margin: 0 auto;
-    padding-top: 100px;
+    padding-top: 50px;
 }
 .skills_h1{
     width: 75%;
@@ -20,7 +20,8 @@
 .inner_pgbar{
     display: flex;
     flex-direction: row;
-    margin: 5px;
+    margin: 8px;
+    margin-right: 50px;
     padding-left: 50px;
 }
 .inner_pgbar progress{

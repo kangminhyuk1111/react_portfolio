@@ -4,13 +4,11 @@ import Carousel from './Carousel';
 import { useEffect, useRef } from 'react';
 
 export default function Aboutme(props) {
-  const [classNames,setClassNames] = useState('none');
+  const [classNames,setClassNames] = useState('right_good');
   window.addEventListener('scroll',()=>{
-    console.log(window.scrollY)
-    if(window.scrollY >= 1440){
+    if(window.scrollY > 700){
       setClassNames('right_good');
     }else{
-      setClassNames('none');
     }
   });
   return (
