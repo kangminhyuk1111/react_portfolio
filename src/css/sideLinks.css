@@ -37,3 +37,6 @@
 .burger_ul li a:hover{
     color: rgb(95, 95, 95);
 }
+#j{
+    position: fixed;
+}

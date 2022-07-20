@@ -57,7 +57,7 @@ html {
   z-index: 99;
 }
 .app_left{
-  position: relative;
+  position: fixed;
   width: 20%;
   height: 100vh;
   background-color: #f2f2f2;
@@ -103,8 +103,12 @@ html {
   background-color: #f2f2f2;
 }
 .app_right{
+  position: absolute;
+  top:0;
+  right: 0;
   width: 80%;
   height: 100%;
+  background-color: #f2f2f2;
 }
 
 @media all and (max-width : 768px) {

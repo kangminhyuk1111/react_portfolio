@@ -18,7 +18,7 @@ export default function Projects(props) {
     });
   return (
     <div className='projects'>
-        <h1 className={`skills_h1 ${classNames}`}>PROJECTS</h1>
+        <h1 className={`aboutme_h1 ${classNames}`}>PROJECTS</h1>
         <div className={`projects_main ${classNames}`}>
           <MyProject title='TO DO LIST'
           lesstime='1주'

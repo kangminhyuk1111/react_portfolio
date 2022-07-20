@@ -4,7 +4,7 @@
     height: 100vh;
     list-style: none;
     margin: 0 auto;
-    padding-top: 100px;
+    padding-top: 50px;
     z-index: -1;
 }
 .archiving_h1{
@@ -16,7 +16,7 @@
 }
 .archiving_main {
     width: 66.66%;
-    height: 500px;
+    height: 600px;
     margin: 0 auto;
     display: flex;
     flex-direction: row;
@@ -80,7 +80,8 @@
 .archiving_ul li{
     width: 100%;
     padding: 20px;
-    padding-left: 20%;
+    padding-top: 40px;
+    padding-left: 12%;
     display: flex;
     flex-direction: row;
     font-size: 0.95rem;
