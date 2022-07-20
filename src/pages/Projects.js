@@ -9,7 +9,7 @@ import reactport from '../images/reactport.png';
 import movielist from '../images/movielist.png';
 
 export default function Projects(props) {
-  const [classNames, setClassNames] = useState('none');
+  const [classNames, setClassNames] = useState('good');
     window.addEventListener('scroll', (e) => {
         if (window.scrollY >= 3300) {
             setClassNames('good');

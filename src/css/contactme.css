@@ -26,7 +26,19 @@
 }
 .tell{
         width: 80%;
-        height: 60px;
+        height: 100px;
         margin: 10px auto;
         background-color: aqua;
+        display: flex;
+        flex-direction: row;
+}
+.contact_icons{
+        width: 10%;
+}
+.contact_icons img{
+        margin-top: 20%;
+}
+.contact_tell{
+        width: 90%;
+        background-color: beige;
 }

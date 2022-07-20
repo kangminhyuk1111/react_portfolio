@@ -46,6 +46,8 @@ html {
   max-width: 1920px;
   background-color: #f2f2f2;
   margin: 0 auto;
+  display: flex;
+  flex-direction: row;
 }
 
 .toggle_btn {
@@ -53,6 +55,56 @@ html {
   top: 87%;
   left: 92%;
   z-index: 99;
+}
+.app_left{
+  position: relative;
+  width: 20%;
+  height: 100vh;
+  background-color: #f2f2f2;
+  border-right: 1px solid gray;
+}
+.app_left_top{
+  width: 80%;
+  height: 80%;
+  background-color: #f2f2f2;
+  margin: 0 auto;
+}
+.app_left_top_img{
+  width: 150px;
+  height: 150px;
+  background-color: #f2f2f2;
+  margin: 0 auto;
+  margin-top: 40px;
+  border-radius: 100%;
+  overflow: hidden;
+}
+.app_left_top_img img{
+  position: relative;
+  bottom: 10%;
+}
+.app_left_top_links{
+  width: 100%;
+  height: 70%;
+  background-color: #f2f2f2;
+}
+.app_left_top_links{
+  padding-top: 10px;
+  width: 100%;
+  font-size: 24px;
+  text-align: center;
+}
+.app_left_top_links h3{
+  font-size: 14px;
+}
+.app_left_top_links_footer{
+  margin-top: 40px;
+  width: 100%;
+  height: 100%;
+  background-color: #f2f2f2;
+}
+.app_right{
+  width: 80%;
+  height: 100%;
 }
 
 @media all and (max-width : 768px) {
@@ -145,7 +197,7 @@ html {
   display: none;
 }
 .good{
-  animation: fadeInRight 2s;
+  animation: fadeInLeft 2s;
 }
 .right_good{
   animation: fadeInLeft 2s;

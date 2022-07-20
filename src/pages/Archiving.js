@@ -2,7 +2,7 @@ import React , { useState } from 'react'
 import '../css/archiving.css';
 
 export default function Archiving(props) {
-    const [classNames, setClassNames] = useState('none');
+    const [classNames, setClassNames] = useState('good');
     window.addEventListener('scroll', () => {
         if (window.scrollY >= 2500) {
             setClassNames('right_good');

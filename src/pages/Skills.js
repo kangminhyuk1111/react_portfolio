@@ -3,7 +3,7 @@ import '../css/skills.css'
 import Pgbar from './Pgbar'
 
 export default function Skills(props) {
-    const [classNames, setClassNames] = useState('none');
+    const [classNames, setClassNames] = useState('good');
     window.addEventListener('scroll', () => {
         if (window.scrollY >= 1600) {
             setClassNames('good');
@@ -28,7 +28,6 @@ export default function Skills(props) {
                 <Pgbar skillicons={<img src="https://img.icons8.com/ios/50/000000/jquery.png" />}
                     skillname='JQuery'
                     value={70} />
-
                 <Pgbar skillicons={<img src="https://img.icons8.com/ultraviolet/40/000000/react--v1.png" />}
                     skillname='ReactJS'
                     value={80} />

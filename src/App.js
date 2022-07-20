@@ -9,9 +9,9 @@ import DarkMode from './pages/DarkMode';
 import SideLinks from './pages/SideLinks';
 import { useEffect, useState } from 'react';
 import TopMain from './pages/TopMain';
-import TopBtn from './pages/TopBtn';
+import { BrowserRouter , Routes , Route} from 'react-router-dom';
 import ContactMe from './pages/ContactMe';
-import { BrowserRouter, Routes, Route , Link } from 'react-router-dom';
+import myprofile from './images/myprofile.jpg';
 
 function App() {
   const [isdark, setIsDark] = useState(() => false)
@@ -73,31 +73,44 @@ function App() {
   //     }
   //   }, { passive: false });
   // }
+  const [posfixed,SetPosFixed]=useState('');
 
 
   return (
     <div className={`App ${isdark}`}>
+      <div className='app_left'>
+      <div className='app_left_top'>
+        <div className='app_left_top_img'>
+          <img src={myprofile}/>
+        </div>
+        <div className='app_left_top_links'>
+          <h2>강민혁</h2>
+          <h3>FRONTEND DEVELOPER</h3>
+          <div className='app_left_top_links_footer'>
+            <SideLinks/>
+          </div>
+        </div>
+      </div>
       <DarkMode darkmodeSet={darkmodeSet} />
-      <SideLinks />
-      <TopMain mode={isdark} />
+      </div>
+      <div className='app_right'>
+        <Routes>
+          <Route path={'/'} element={<TopMain mode={isdark} />} />
+          <Route path={'/1'} element={<Main mode={isdark} />} />
+          <Route path={'/2'} element={<Aboutme mode={isdark} />} />
+          <Route path={'/3'} element={<Skills mode={isdark} />} />
+          <Route path={'/4'} element={<Archiving mode={isdark} />} />
+          <Route path={'/5'} element={<Projects mode={isdark} />} />
+          <Route path={'/6'} element={<ContactMe mode={isdark} /> } />
+        </Routes>
+      </div>
+      {/* <TopMain mode={isdark} />
       <Main mode={isdark} />
       <Aboutme mode={isdark} />
       <Skills mode={isdark} />
       <Archiving mode={isdark} />
       <Projects mode={isdark} />
-      <ContactMe mode={isdark} />
-      {/* <BrowserRouter>
-        <Routes>
-          <Route path={'/'} element={<TopMain mode={isdark} />} />
-          <Route path={'/2'} element={<Main mode={isdark} />} />
-          <Route path={'/3'} element={<Aboutme mode={isdark} />} />
-          <Route path={'/4'} element={<Aboutme />} />
-          <Route path={'/5'} element={<Aboutme />} />
-          <Route path={'/6'} element={<Aboutme />} />
-          <Route path={'/7'} element={<Aboutme />} />
-          <Route path={'/8'} element={<TopBtn/>} />
-        </Routes>
-      </BrowserRouter> */}
+      <ContactMe mode={isdark} /> */}
     </div>
   );
 }

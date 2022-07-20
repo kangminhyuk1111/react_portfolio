@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import '../css/sideLinks.css';
+import { Link } from 'react-router-dom';
 
 export default function SideLinks() {
   const [burgerMenu, setburgerMenu] = useState(() => false);
@@ -11,22 +12,23 @@ export default function SideLinks() {
     }
   }
   const windowHeights = (scrollHeight) => {
-    window.scrollTo({top : scrollHeight , behavior:'smooth'})
+    window.scrollTo({ top: scrollHeight, behavior: 'smooth' })
   }
   return (
     <div className='sideLinks'>
-      <div
+      {/* <div
         onClick={burgerState}
         className='burger_menu'>
         {burgerMenu ? <i className="fa-solid fa-x"></i> : <i className="fa-solid fa-bars"></i>}
-      </div>
+      </div> */}
       <div className='a_setting_div'>
-        <ul className={burgerMenu ? 'burger_ul' : "burger_ul_hides"}>
-          <li><a onClick={() => windowHeights(760)}>INTRO</a></li>
-          <li><a onClick={() => windowHeights(1540)}>PROFILE</a></li>
-          <li><a onClick={() => windowHeights(2050)}>SKILLS</a></li>
-          <li><a onClick={() => windowHeights(2860)}>ARCHIVING</a></li>
-          <li><a onClick={() => windowHeights(3675)}>PROJECTS</a></li>
+        <ul className='burger_ul'>
+          <li><Link to='/'>INTRO</Link></li>
+          <li><Link to='/1'>ABOUTME</Link></li>
+          <li><Link to='/2'>PROFILE</Link></li>
+          <li><Link to='/3'>SKILLS</Link></li>
+          <li><Link to='/4'>ARCHIVING</Link></li>
+          <li><Link to='/5'>PROJECTS</Link></li>
         </ul>
       </div>
     </div>
