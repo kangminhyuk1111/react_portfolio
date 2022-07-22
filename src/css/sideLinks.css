@@ -25,7 +25,7 @@
 .burger_ul li{
     position: relative;
     white-space: nowrap;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 .burger_ul li a{
     text-decoration: none;
@@ -36,6 +36,33 @@
 }
 .burger_ul li a:hover{
     color: rgb(95, 95, 95);
+}
+.burger_ul_projects_li{
+    padding-bottom: 20px;
+}
+.burger_projects{
+    margin: 0 auto;
+    padding: 0 auto !important;
+    width: 100%;
+}
+.burger_projects_li{
+    padding-top: 5px !important;
+    margin: 0 auto;
+    width: 100%;
+    height: 20px;
+    font-size: 10px;
+}
+.burger_projects_li:nth-child(1){
+    padding-top: 10px !important;
+}
+.showProject{
+    display: block;
+    animation: fadeInDown 1.5s;
+}
+.hideProject{
+    display: none;
+    animation: fadeOutUp 1.5s;
+    animation-fill-mode: forwards;
 }
 #j{
     position: fixed;

@@ -43,11 +43,12 @@ html {
 }
 
 .App {
-  max-width: 1920px;
+  max-width: 5000px;
   background-color: #f2f2f2;
   margin: 0 auto;
   display: flex;
   flex-direction: row;
+  overflow-x: hidden;
 }
 
 .toggle_btn {
@@ -71,12 +72,12 @@ html {
 }
 .app_left_top_img{
   width: 150px;
-  height: 150px;
-  background-color: #f2f2f2;
+  height: 50px;
+  /* background-color: #f2f2f2; */
   margin: 0 auto;
-  margin-top: 40px;
-  border-radius: 100%;
-  overflow: hidden;
+  margin-top: 20%;
+  /* border-radius: 100%;
+  overflow: hidden; */
 }
 .app_left_top_img img{
   position: relative;
@@ -93,8 +94,15 @@ html {
   font-size: 24px;
   text-align: center;
 }
+.app_left_top_links_h2{
+  font-size: 1.5rem;
+}
+.app_left_top_links_h2_2{
+  font-size: 1.1rem;
+  padding-bottom: 10px;
+}
 .app_left_top_links h3{
-  font-size: 14px;
+  font-size: 0.9rem;
 }
 .app_left_top_links_footer{
   margin-top: 40px;
@@ -112,6 +120,9 @@ html {
 }
 
 @media all and (max-width : 768px) {
+  .app{
+    width: 768px;
+  }
   .main {
     height: 500px !important;
   }
@@ -154,6 +165,10 @@ html {
 
   .toggle_btn {
     left: 90% !important;
+  }
+  .app_left_top_img{
+    width: 100px;
+    height: 100px;
   }
 }
 @media all and (max-width : 450px){

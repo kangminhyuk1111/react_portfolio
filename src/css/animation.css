@@ -3,37 +3,65 @@
         opacity: 0;
         transform: translate3d(-100%, 0, 0);
     }
+
     to {
         opacity: 1;
         transform: translateZ(0);
     }
 }
+
 @keyframes fadeInLeft {
     0% {
         opacity: 0;
         transform: translate3d(100%, 0, 0);
     }
+
     to {
         opacity: 1;
         transform: translateZ(0);
     }
 }
+
 @keyframes topMainOpa {
     from {
         opacity: 0;
     }
+
     to {
         opacity: 1;
     }
 }
+
 @keyframes typing {
     from {
-      width: 30%;
+        width: 30%;
     }
-  }
-      
-  @keyframes blink {
+}
+
+@keyframes blink {
     50% {
-      border-color: transparent
+        border-color: transparent
     }
-  }
+}
+
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        transform: translate3d(0, -10%, 0);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateZ(0);
+    }
+}
+
+@keyframes fadeOutUp {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}

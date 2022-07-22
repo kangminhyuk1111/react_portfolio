@@ -7,6 +7,7 @@ import bookapi from '../images/bookapi.png';
 import htmlport from '../images/htmlport.png';
 import reactport from '../images/reactport.png';
 import movielist from '../images/movielist.png';
+import newppo from '../images/newppo.png';
 
 export default function Projects(props) {
   const [classNames, setClassNames] = useState('good');
@@ -74,7 +75,7 @@ export default function Projects(props) {
           많은 도움을 주었습니다. 기존에 class형 컴포넌트를 사용했지만 함수형 컴포넌트로 바꾸었고,
            state와 props의 개념을 확실하게 이해 할 수 있었습니다. 어떻게하면 더 심플하고 깔끔하게 보일 수 있을지 UI적인
            부분도 많이 공부 할 수 있었습니다.'
-          projectImg={reactport}
+          projectImg={newppo}
           mode={props.mode}/>
           <MyProject title='API 통신을 이용한 인기영화 조회 웹사이트'
           lesstime='1주'

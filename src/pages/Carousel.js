@@ -15,7 +15,6 @@ export default function Carousel(props) {
 
     return (
         <div className='dis'>
-            <Slider {...settings} dotsClass='test-css'>
                 <Card title='Name'
                 second='강민혁'
                 third={<i class="fa-solid fa-circle-user"></i>}
@@ -40,7 +39,6 @@ export default function Carousel(props) {
                 second='신입'
                 third={<i class="fa-solid fa-pen-to-square"></i>}
                 mode={props.mode}/>
-            </Slider>
         </div>
     );
 }
