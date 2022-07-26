@@ -4,7 +4,6 @@
     background-color:#f2f2f2;
     font-size: 50px;
     text-align: center;
-    animation: topMainOpa 4s;
 }
 .top_main_header{
     font-family: 'Yoon330';
@@ -29,4 +28,7 @@
     width: 80%;
     margin: 0 auto;
     font-size: 20px;
+}
+.fadeInMode{
+    animation: topMainOpa 3s;
 }

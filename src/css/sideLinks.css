@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     width: 100%;
-    height: 100%;
+    height: 110%;
     font-size: 24px;
     text-align: center;
     z-index: 99;
@@ -16,7 +16,7 @@
 .burger_ul{
     position: relative;
     width: 100%;
-    height: 100%;
+    height: 110%;
     background-color: #f2f2f2;
     text-align: center;
     font-size: 18px;
@@ -25,7 +25,7 @@
 .burger_ul li{
     position: relative;
     white-space: nowrap;
-    padding-bottom: 20px;
+    padding-bottom: 8%;
 }
 .burger_ul li a{
     text-decoration: none;
@@ -49,7 +49,7 @@
     padding-top: 5px !important;
     margin: 0 auto;
     width: 100%;
-    height: 20px;
+    height: 30px;
     font-size: 10px;
 }
 .burger_projects_li:nth-child(1){

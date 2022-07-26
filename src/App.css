@@ -23,6 +23,14 @@
   font-family: 'Noto Sans KR', sans-serif;
 }
 
+body{
+  -ms-overflow-style: none;
+  }
+  
+ ::-webkit-scrollbar {
+   display: none;
+ }
+
 a {
   color: rgb(120, 120, 255);
   text-decoration: underline;
@@ -72,7 +80,6 @@ html {
 }
 .app_left_top_img{
   width: 150px;
-  height: 50px;
   /* background-color: #f2f2f2; */
   margin: 0 auto;
   margin-top: 20%;

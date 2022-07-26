@@ -3,7 +3,6 @@
     height: 100vh;
     margin: 0 auto;
     background-color: #f2f2f2;
-    animation: fadeInLeft 1.5s;
 }
 .main_inner{
     width: 80%;
@@ -22,7 +21,7 @@
 }
 .main_inner_top{
     width: 100%;
-    font-size: 1.5rem;
+    font-size: 1.45rem;
     text-align: left;
 }
 .top_p_1{
@@ -83,6 +82,9 @@
 /* dark mode theme */
 .true{
     background-color: #202b38 !important;
+    color: #dbdbdb !important;
+}
+.trueCol{
     color: #dbdbdb !important;
 }
 .trues{

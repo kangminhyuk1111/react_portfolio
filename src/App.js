@@ -33,17 +33,17 @@ function App() {
 
   return (
     <div className={`App ${isdark}`}>
-      <div className={`app_left`} id={`${getParams}`}>
-      <div className='app_left_top'>
+      <div className={`app_left ${isdark}`} id={`${getParams}`}>
+      <div className={`app_left_top ${isdark}`}>
         <div className='app_left_top_img'>
           {/* <img src={myprofile}/> */}
         </div>
-        <div className='app_left_top_links'>
+        <div className={`app_left_top_links ${isdark}`}>
           <h2 className='app_left_top_links_h2'>강 민 혁</h2>
           <h2 className='app_left_top_links_h2_2'>Kang Min Hyuk</h2>
           <h3>FRONTEND DEVELOPER</h3>
-          <div className='app_left_top_links_footer'>
-            <SideLinks appSearchParams={appSearchfnc}/>
+          <div className={`app_left_top_links_footer ${isdark}`}>
+            <SideLinks appSearchParams={appSearchfnc} mode={isdark}/>
           </div>
         </div>
       </div>

@@ -4,12 +4,6 @@ import profile from '../images/profile.jpg';
 
 export default function Main(props) {
     const [classNames, setClassNames] = useState('good');
-    window.addEventListener('scroll', () => {
-        if (window.scrollY >= 10) {
-            setClassNames('good');
-        } else {
-        }
-    });
     return (
         <div className={`top_main`}>
             <div className={`main ${props.mode}`}>

@@ -25,16 +25,16 @@ export default function SideLinks(props) {
     await props.appSearchParams(searchParams);
   }
   return (
-    <div className={`sideLinks`}>
-      <div className='a_setting_div'>
-        <ul className='burger_ul' onClick={()=>renderParams()}>
-          <li><Link to='/intro'>INTRO</Link></li>
-          <li><Link to='/aboutme'>ABOUTME</Link></li>
-          <li><Link to='/profile'>PROFILE</Link></li>
-          <li><Link to='/skills'>SKILLS</Link></li>
-          <li><Link to='/archiving'>ARCHIVING</Link></li>
-          <li className={`burger_ul_projects_li`} onClick={()=>{burgerHandler()}}><Link to='/projects'>PROJECTS</Link>
-            <ul className={`burger_projects ${projectDisplay}`}>
+    <div className={`sideLinks ${props.mode}`}>
+      <div className={`a_setting_div ${props.mode}`}>
+        <ul className={`burger_ul ${props.mode}`} onClick={()=>renderParams()}>
+          <li><Link className={`${props.mode}`} to='/intro'>INTRO</Link></li>
+          <li><Link className={`${props.mode}`} to='/aboutme'>ABOUTME</Link></li>
+          <li><Link className={`${props.mode}`} to='/profile'>PROFILE</Link></li>
+          <li><Link className={`${props.mode}`} to='/skills'>SKILLS</Link></li>
+          <li><Link className={`${props.mode}`} to='/archiving'>ARCHIVING</Link></li>
+          <li className={`burger_ul_projects_li ${props.mode}`} onClick={()=>{burgerHandler()}}><Link className={`${props.mode}`} to='/projects'>PROJECTS</Link>
+            <ul className={`burger_projects ${projectDisplay} ${props.mode}`}>
               <li className='burger_projects_li'>TO DO LIST</li>
               <li className='burger_projects_li'>현대모비스 오토벨</li>
               <li className='burger_projects_li'>책 검색 API</li>
@@ -43,7 +43,7 @@ export default function SideLinks(props) {
               <li className='burger_projects_li'>포트폴리오(NONE-REACT)</li>
             </ul>
           </li>
-          <li><Link to='/contactme'>CONTACT</Link></li>
+          <li><Link className={`${props.mode}`} to='/contactme'>CONTACT</Link></li>
         </ul>
       </div>
     </div>

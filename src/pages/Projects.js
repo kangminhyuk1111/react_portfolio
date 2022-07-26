@@ -11,16 +11,10 @@ import newppo from '../images/newppo.png';
 
 export default function Projects(props) {
   const [classNames, setClassNames] = useState('good');
-    window.addEventListener('scroll', (e) => {
-        if (window.scrollY >= 3300) {
-            setClassNames('good');
-        } else {
-        }
-    });
   return (
-    <div className='projects'>
-        <h1 className={`aboutme_h1 ${classNames}`}>PROJECTS</h1>
-        <div className={`projects_main ${classNames}`}>
+    <div className={`projects ${props.mode}`}>
+        <h1 className={`aboutme_h1 ${props.mode} ${classNames}`}>PROJECTS</h1>
+        <div className={`projects_main ${props.mode}pro ${classNames}`}>
           <MyProject title='TO DO LIST'
           lesstime='1주'
           gitlink='https://github.com/kangminhyuk1111/react-hook-todoList'

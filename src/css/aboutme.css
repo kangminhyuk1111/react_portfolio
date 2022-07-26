@@ -10,6 +10,13 @@
 }
 
 .aboutme_h1 {
+    width: 80%;
+    padding-top: 20px;
+    font-size: 2rem;
+    margin: 0 auto;
+    text-align: left;
+}
+.aboutme_h1s {
     width: 60%;
     padding-top: 20px;
     font-size: 2rem;
