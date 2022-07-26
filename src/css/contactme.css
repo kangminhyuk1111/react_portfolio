@@ -12,7 +12,7 @@
 
 .contact_me_form_div {
         width: 60%;
-        height: 30%;
+        height: 75%;
         position: relative;
         top: 2%;
         border-radius: 0.5rem;
@@ -21,8 +21,6 @@
         margin: 0 auto;
         margin-top: 20px;
         background-color: #fff;
-        min-height: 550px;
-        padding-bottom: 30px;
 }
 .tell{
         width: 80%;
