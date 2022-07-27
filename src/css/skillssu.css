@@ -1,0 +1,21 @@
+.my_skills_sum_header{
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5rem;
+    text-align: left;
+    font-weight: 500;
+}
+.my_skills_sum_header img{
+    width: 48px;
+    margin-right: 0.5%;
+}
+.my_skills_sum{
+    margin: 0 auto;
+    font-size: 1rem;
+    text-align: left;
+    font-weight: 300;
+}
+.inner_pt{
+    padding-top: 1%;
+    padding-left: 0.5%;
+}

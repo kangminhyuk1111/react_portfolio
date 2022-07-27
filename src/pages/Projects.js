@@ -14,7 +14,7 @@ export default function Projects(props) {
   return (
     <div className={`projects ${props.mode}`}>
         <h1 className={`aboutme_h1 ${props.mode} ${classNames}`}>PROJECTS</h1>
-        <div className={`projects_main ${props.mode}pro ${classNames}`}>
+        <div className={`projects_main ${props.mode}pro right_${classNames}`}>
           <MyProject title='TO DO LIST'
           lesstime='1주'
           gitlink='https://github.com/kangminhyuk1111/react-hook-todoList'

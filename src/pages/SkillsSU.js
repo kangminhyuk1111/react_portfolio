@@ -1,48 +1,56 @@
 import React, { useState } from 'react';
 import '../css/aboutmesu.css';
 import '../css/aboutme.css';
+import '../css/skillssu.css';
 
 export default function AboutmeSU(props) {
     const [classNames ,setClassNames] = useState('good');
     return (
         <div className={`aboutmy ${props.mode}linear`}>
-            <h1 className={`aboutme_h1 ${classNames}`}>Skills</h1>
-            <div className={`about_my ${classNames}`}>
+            <h1 className={`aboutme_h1 ${classNames}`}>SKILLS</h1>
+            <div className={`about_my right_${classNames}`}>
                 <div className='my_name'>
-                    <p className='my_name_sum_header'>이름</p>
-                    <p className='my_name_sum'>강민혁 (Kang Min Hyuk)</p>
+                    <p className='my_skills_sum_header'><img src="https://img.icons8.com/color/48/000000/html-5--v1.png" /><p className='inner_pt'>HTML</p></p>
+                    <p className='my_skills_sum'>웹 표준과 웹 접근성을 고려한 표준 마크업을 능숙하게 다룰 수 있습니다.</p>
+                    <p className='my_skills_sum'>사용자의 입장에서 더욱 보기편하고 좋은 UI를 구성하려 노력합니다.</p>
                 </div>
                 <div className='my_name'>
-                    <p className='my_name_sum_header'>생년월일</p>
-                    <p className='my_name_sum'>2022.02.22 (만22세)</p>
+                    <p className='my_skills_sum_header'><img src="https://img.icons8.com/color/48/000000/css3.png" /><p className='inner_pt'>CSS</p></p>
+                    <p className='my_skills_sum'>CSS 모듈(CSS-IN-CSS)방식을 주로 사용하며 필요에 따라 CSS-IN-JS로도 스타일링이 가능합니다.</p>
+                    <p className='my_skills_sum'>Media Query를 이용한 반응형 웹 페이지를 제작 가능합니다.</p>
+                    <p className='my_skills_sum'>React에서의 Styled-Component를 사용 할 수 있습니다.</p>
+                    <p className='my_skills_sum'>CSS 전처리기인 Sass 사용 해본 경험이 있습니다.</p>
                 </div>
                 <div className='my_name'>
-                    <p className='my_name_sum_header'>학력</p>
-                    <p className='my_name_sum'>대구한의대학교 중퇴 2018.03 ~ 2019.07</p>
-                    <p className='my_name_sum'>영남고등학교 졸업 ~2018.02</p>
+                    <p className='my_skills_sum_header'><img src="https://img.icons8.com/color/48/000000/javascript--v1.png" /><p className='inner_pt'>JavaScript</p></p>
+                    <p className='my_skills_sum'>ES2015+ 이상의 Modern JavaScript 문법에 익숙합니다.</p>
+                    <p className='my_skills_sum'>JavaScript 라이브러리인 JQuery 사용 해본 경험이 있습니다.</p>
                 </div>
                 <div className='my_name'>
-                    <p className='my_name_sum_header'>병역</p>
-                    <p className='my_name_sum'>육군 병장 만기전역 2020.02 ~ 2021.08</p>
+                    <p className='my_skills_sum_header'><img src="https://img.icons8.com/ultraviolet/40/000000/react--v1.png" /><p className='inner_pt'>React</p></p>
+                    <p className='my_skills_sum'>효율적인 개발을 위한 React 사용에 익숙합니다.</p>
+                    <p className='my_skills_sum'>Class Component와 Function Component 두 종류를 모두 사용 할 수 있습니다.</p>
+                    <p className='my_skills_sum'>React Custom Hooks를 제작 또는 사용 할 수 있습니다.</p>
+                    <p className='my_skills_sum'>상태관리를 위해 Redux ,Context API를 사용 해본 경험이 있습니다.</p>
                 </div>
                 <div className='my_name'>
-                    <p className='my_name_sum_header'>자격 및 면허</p>
-                    <p className='my_name_sum'>운전면허 1종 보통 2019.05 (대구광역시 달서구청)</p>
-                    <p className='my_name_sum'>쇼핑몰관리사 2022.07 (한국교육검정원)</p>
+                    <p className='my_skills_sum_header'><img src="https://img.icons8.com/color/48/000000/nodejs.png" /><p className='inner_pt'>NodeJS</p></p>
+                    <p className='my_skills_sum'>Express를 이용한 서버 구축을 할 수 있습니다.</p>
+                    <p className='my_skills_sum'>REST API로직에 따라 Database(MySQL)에 접근하여 작업을 처리 할 수 있습니다.</p>
                 </div>
                 <div className='my_name'>
-                    <p className='my_name_sum_header'>교육사항</p>
-                    <p className='my_name_sum'>교육기관 코리아IT 아카데미 대구지점</p>
-                    <p className='my_name_sum'>교육기간 2021.08 ~ 2022.05 (총 10개월) </p>
+                    <p className='my_skills_sum_header'><img src="https://img.icons8.com/fluency/48/000000/mysql-logo.png" /><p className='inner_pt'>MySQL</p></p>
+                    <p className='my_skills_sum'>데이터베이스의 기본적인 개념을 알고 이해 할 수있습니다.</p>
+                    <p className='my_skills_sum'>SQL문을 활용한 테이블 생성과 검색, 수정 삭제 처리 기능을 처리할 수 있습니다.</p>
                 </div>
                 <div className='my_name'>
-                    <p className='my_name_sum_header'>교육과정</p>
-                    <p className='my_name_sum'>FrontEnd DEV 2021.11 ~ 2022.05</p>
-                    <p className='my_name_sum'>웹 개발 2021.12 ~ 2022.04</p>
-                    <p className='my_name_sum'>Python 2021.08 ~ 2021.10</p>
-                    <p className='my_name_sum'>Java 2021.10 ~ 2021.12</p>
-                    <p className='my_name_sum'>Linux 2021.09 ~ 2021.11</p>
-                    <p className='my_name_sum'>Python 2021.11 ~ 2021.12</p>
+                    <p className='my_skills_sum_header'><img src="https://img.icons8.com/color/48/000000/folder-invoices--v1.png"/><p className='inner_pt'>Libraries</p></p>
+                    <p className='my_skills_sum'>BootStrap5, Tailwind CSS, Material UI, JQuery의 라이브러리를 사용 또는 적용 해본 경험이 있습니다.</p>
+                </div>
+                <div className='my_name'>
+                    <p className='my_skills_sum_header'><img src="https://img.icons8.com/external-basicons-color-edtgraphics/50/000000/external-Pen-office-stationery-basicons-color-edtgraphics.png"/><p className='inner_pt'>Studying</p></p>
+                    <p className='my_skills_sum'>현재 더 나은 개발자가 되기위해 AWS,TypeScript를 공부하고 있습니다.</p>
+                    <p className='my_skills_sum'>현업에서의 원활한 소통을 위해 백엔드 관련 지식을 습득하고 있습니다.</p>
                 </div>
             </div>
         </div>

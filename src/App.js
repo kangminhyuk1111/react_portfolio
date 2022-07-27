@@ -54,11 +54,10 @@ function App() {
           <Route path={'/intro'} element={<TopMain mode={isdark} />} />
           <Route path={'/aboutme'} element={<Main mode={isdark} />} />
           <Route path={'/profile'} element={<AboutmeSU mode={isdark} />} />
-          <Route path={'/skills'} element={<Skills mode={isdark} />} />
+          <Route path={'/skills'} element={<SkillsSu mode={isdark} />} />
           <Route path={'/archiving'} element={<Archiving mode={isdark} />} />
           <Route path={'/projects'} element={<Projects mode={isdark} />} />
           <Route path={'/contactme'} element={<ContactMe mode={isdark} /> } />
-          <Route path={'/test'} element={<SkillsSu/>}/>
         </Routes>
       </div>
       {/* <TopMain mode={isdark} />

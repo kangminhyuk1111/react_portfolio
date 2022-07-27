@@ -7,7 +7,7 @@ export default function AboutmeSU(props) {
     return (
         <div className={`aboutmy ${props.mode}linear`}>
             <h1 className={`aboutme_h1 ${classNames}`}>PROFILE</h1>
-            <div className={`about_my ${classNames}`}>
+            <div className={`about_my right_${classNames}`}>
                 <div className='my_name'>
                     <p className='my_name_sum_header'>이름</p>
                     <p className='my_name_sum'>강민혁 (Kang Min Hyuk)</p>
