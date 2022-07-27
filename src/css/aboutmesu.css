@@ -1,0 +1,34 @@
+.aboutmy {
+    width: 100%;
+    background: #f2f2f2;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 50px;
+    z-index: 1;
+    position: relative;
+}
+.about_my{
+    width: 80%;
+    margin: 0 auto;
+}
+.my_name{
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.my_name_sum{
+    margin: 0 auto;
+    font-size: 1.2rem;
+    text-align: left;
+    font-weight: 300;
+}
+.my_name_sum_header{
+    font-size: 1.5rem;
+    text-align: left;
+    font-weight: 500;
+}
+.my_name:first-child{
+    padding-top: 3%;
+}
+.my_name:last-child{
+    padding-bottom: 5%;
+}

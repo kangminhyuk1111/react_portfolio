@@ -1,17 +1,17 @@
 import './App.css';
 import './css/animation.css';
 import Main from './pages/Main';
-import Aboutme from './pages/Aboutme';
 import Skills from './pages/Skills';
 import Archiving from './pages/Archiving';
 import Projects from './pages/Projects';
 import DarkMode from './pages/DarkMode';
 import SideLinks from './pages/SideLinks';
 import { useEffect, useState } from 'react';
+import AboutmeSU from './pages/AboutmeSU';
+import SkillsSu from './pages/SkillsSU';
 import TopMain from './pages/TopMain';
 import { BrowserRouter , Routes , Route} from 'react-router-dom';
 import ContactMe from './pages/ContactMe';
-import myprofile from './images/myprofile.jpg';
 
 function App() {
   const [isdark, setIsDark] = useState(() => false)
@@ -53,11 +53,12 @@ function App() {
         <Routes>
           <Route path={'/intro'} element={<TopMain mode={isdark} />} />
           <Route path={'/aboutme'} element={<Main mode={isdark} />} />
-          <Route path={'/profile'} element={<Aboutme mode={isdark} />} />
+          <Route path={'/profile'} element={<AboutmeSU mode={isdark} />} />
           <Route path={'/skills'} element={<Skills mode={isdark} />} />
           <Route path={'/archiving'} element={<Archiving mode={isdark} />} />
           <Route path={'/projects'} element={<Projects mode={isdark} />} />
           <Route path={'/contactme'} element={<ContactMe mode={isdark} /> } />
+          <Route path={'/test'} element={<SkillsSu/>}/>
         </Routes>
       </div>
       {/* <TopMain mode={isdark} />
