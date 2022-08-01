@@ -27,6 +27,12 @@
     white-space: nowrap;
     padding-bottom: 8%;
 }
+.burger_ul li:nth-child(5){
+    padding-bottom: 0;
+}
+.burger_ul li:last-child{
+    padding-top: 8%;
+}
 .burger_ul li a{
     text-decoration: none;
     color: black;
@@ -37,13 +43,11 @@
 .burger_ul li a:hover{
     color: rgb(95, 95, 95);
 }
-.burger_ul_projects_li{
-    padding-bottom: 20px;
-}
 .burger_projects{
     margin: 0 auto;
     padding: 0 auto !important;
     width: 100%;
+    padding-top: 10px;
 }
 .burger_projects_li{
     padding-top: 5px !important;
@@ -66,4 +70,10 @@
 }
 #j{
     position: fixed;
+}
+.trueatg{
+    color: #dbdbdb !important;
+}
+.trueatg:hover{
+    color: gray !important;
 }

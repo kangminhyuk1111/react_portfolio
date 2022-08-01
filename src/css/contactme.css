@@ -60,6 +60,6 @@
         text-align: center;
 }
 .contact_icons a img:hover{
-        padding: 60px;
+        padding: 30%;
         transition: .5s;
 }

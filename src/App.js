@@ -51,7 +51,7 @@ function App() {
       <div className='app_right'>
       <DarkMode darkmodeSet={darkmodeSet} />
         <Routes>
-          <Route path={'/intro'} element={<TopMain mode={isdark} />} />
+          <Route path={'/'} element={<TopMain mode={isdark} />} />
           <Route path={'/aboutme'} element={<Main mode={isdark} />} />
           <Route path={'/profile'} element={<AboutmeSU mode={isdark} />} />
           <Route path={'/skills'} element={<SkillsSu mode={isdark} />} />

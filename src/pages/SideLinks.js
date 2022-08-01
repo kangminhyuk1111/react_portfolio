@@ -3,6 +3,9 @@ import '../css/sideLinks.css';
 import { Link } from 'react-router-dom';
 
 export default function SideLinks(props) {
+  window.addEventListener('scroll',()=>{
+    console.log(window.scrollY);
+  })
   const [searchParams , setSearchParams] = useState(window.location.pathname[4]);
   const [burgerMenu, setburgerMenu] = useState(() => false);
   const [projectDisplay , setProjectDisplay] = useState('hideProject');
@@ -20,6 +23,9 @@ export default function SideLinks(props) {
       setProjectDisplay('showProject')
     }
   }
+  const windowHrefHandler = (scrollHeight) =>{
+    window.scrollTo(0,scrollHeight);
+  }
   const renderParams = async() =>{
     await setSearchParams(window.location.pathname[4]);
     await props.appSearchParams(searchParams);
@@ -28,21 +34,19 @@ export default function SideLinks(props) {
     <div className={`sideLinks ${props.mode}`}>
       <div className={`a_setting_div ${props.mode}`}>
         <ul className={`burger_ul ${props.mode}`} onClick={()=>renderParams()}>
-          <li><Link className={`${props.mode}`} to='/intro'>INTRO</Link></li>
           <li><Link className={`${props.mode}`} to='/aboutme'>ABOUTME</Link></li>
           <li><Link className={`${props.mode}`} to='/profile'>PROFILE</Link></li>
           <li><Link className={`${props.mode}`} to='/skills'>SKILLS</Link></li>
           <li><Link className={`${props.mode}`} to='/archiving'>ARCHIVING</Link></li>
-          <li className={`burger_ul_projects_li ${props.mode}`} onClick={()=>{burgerHandler()}}><Link className={`${props.mode}`} to='/projects'>PROJECTS</Link>
-            <ul className={`burger_projects ${projectDisplay} ${props.mode}`}>
-              <li className='burger_projects_li'>TO DO LIST</li>
-              <li className='burger_projects_li'>현대모비스 오토벨</li>
-              <li className='burger_projects_li'>책 검색 API</li>
-              <li className='burger_projects_li'>포트폴리오(REACT)</li>
-              <li className='burger_projects_li'>영화 API</li>
-              <li className='burger_projects_li'>포트폴리오(NONE-REACT)</li>
+          <li className={`burger_ul_projects_li ${props.mode}`} onClick={()=>{burgerHandler()}}><Link className={`${props.mode}`} to='/projects'>PROJECTS</Link></li>
+          <ul className={`burger_projects ${projectDisplay} ${props.mode}`}>
+              <li className={`burger_projects_li`}><a className={`${props.mode}atg`}onClick={()=>{windowHrefHandler(116)}}>TO DO LIST</a></li>
+              <li className={`burger_projects_li`}><a className={`${props.mode}atg`}onClick={()=>{windowHrefHandler(979)}}>현대모비스 오토벨</a></li>
+              <li className={`burger_projects_li`}><a className={`${props.mode}atg`}onClick={()=>{windowHrefHandler(2441)}}>책 검색 API</a></li>
+              <li className={`burger_projects_li`}><a className={`${props.mode}atg`}onClick={()=>{windowHrefHandler(3300)}}>포트폴리오(REACT)</a></li>
+              <li className={`burger_projects_li`}><a className={`${props.mode}atg`}onClick={()=>{windowHrefHandler(4200)}}>영화 API</a></li>
+              <li className={`burger_projects_li`}><a className={`${props.mode}atg`}onClick={()=>{windowHrefHandler(5050)}}>포트폴리오(NONE-REACT)</a></li>
             </ul>
-          </li>
           <li><Link className={`${props.mode}`} to='/contactme'>CONTACT</Link></li>
         </ul>
       </div>
