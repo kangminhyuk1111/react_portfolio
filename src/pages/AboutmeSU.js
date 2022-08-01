@@ -14,10 +14,11 @@ export default function AboutmeSU(props) {
                 </div>
                 <div className='my_name'>
                     <p className='my_name_sum_header'>생년월일</p>
-                    <p className='my_name_sum'>2022.02.22 (만22세)</p>
+                    <p className='my_name_sum'>2000.02.22 (만22세)</p>
                 </div>
                 <div className='my_name'>
                     <p className='my_name_sum_header'>학력</p>
+                    <p className='my_name_sum'>학점은행제 컴퓨터공학 수강 중 2022.08 ~</p>
                     <p className='my_name_sum'>대구한의대학교 중퇴 2018.03 ~ 2019.07</p>
                     <p className='my_name_sum'>영남고등학교 졸업 ~2018.02</p>
                 </div>

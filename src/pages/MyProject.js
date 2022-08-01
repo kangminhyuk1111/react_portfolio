@@ -11,6 +11,7 @@ export default function MyProject(props) {
                 <div className='header_second'>
                     <p className='header_second_logos'><a href={props.gitlink}>LINK TO GIT HUB</a></p>
                     <p className='header_second_logos'><a href={props.liveserver}>LIVE PAGES</a></p>
+                    <p className='header_second_logos padding_top'>사용 기술 스택 : {props.usedskills}</p>
                 </div>
             </div>
             <div className='myprojects_summary'>

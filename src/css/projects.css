@@ -136,3 +136,6 @@
     margin-top: 20px;
     border: 1px solid gray;
 }
+.padding_top{
+    padding-top: 24px !important;
+}

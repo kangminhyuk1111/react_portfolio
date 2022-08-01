@@ -15,10 +15,6 @@ import ContactMe from './pages/ContactMe';
 
 function App() {
   const [isdark, setIsDark] = useState(() => false)
-  const [myLists, setMyLists] = useState([
-    <TopMain mode={isdark} />
-  ])
-  const [pages, setPages] = useState(Number(1));
   const [getParams , setParams] = useState('');
   const darkmodeSet = (mode) => {
     setIsDark(mode);
@@ -36,7 +32,6 @@ function App() {
       <div className={`app_left ${isdark}`} id={`${getParams}`}>
       <div className={`app_left_top ${isdark}`}>
         <div className='app_left_top_img'>
-          {/* <img src={myprofile}/> */}
         </div>
         <div className={`app_left_top_links ${isdark}`}>
           <h2 className='app_left_top_links_h2'>강 민 혁</h2>
@@ -60,13 +55,6 @@ function App() {
           <Route path={'/contactme'} element={<ContactMe mode={isdark} /> } />
         </Routes>
       </div>
-      {/* <TopMain mode={isdark} />
-      <Main mode={isdark} />
-      <Aboutme mode={isdark} />
-      <Skills mode={isdark} />
-      <Archiving mode={isdark} />
-      <Projects mode={isdark} />
-      <ContactMe mode={isdark} /> */}
     </div>
   );
 }

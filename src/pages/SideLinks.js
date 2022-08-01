@@ -43,9 +43,10 @@ export default function SideLinks(props) {
               <li className={`burger_projects_li`}><a className={`${props.mode}atg`}onClick={()=>{windowHrefHandler(116)}}>TO DO LIST</a></li>
               <li className={`burger_projects_li`}><a className={`${props.mode}atg`}onClick={()=>{windowHrefHandler(979)}}>현대모비스 오토벨</a></li>
               <li className={`burger_projects_li`}><a className={`${props.mode}atg`}onClick={()=>{windowHrefHandler(2441)}}>책 검색 API</a></li>
-              <li className={`burger_projects_li`}><a className={`${props.mode}atg`}onClick={()=>{windowHrefHandler(3300)}}>포트폴리오(REACT)</a></li>
-              <li className={`burger_projects_li`}><a className={`${props.mode}atg`}onClick={()=>{windowHrefHandler(4200)}}>영화 API</a></li>
-              <li className={`burger_projects_li`}><a className={`${props.mode}atg`}onClick={()=>{windowHrefHandler(5050)}}>포트폴리오(NONE-REACT)</a></li>
+              <li className={`burger_projects_li`}><a className={`${props.mode}atg`}onClick={()=>{windowHrefHandler(3300)}}>게시판(REACT)</a></li>
+              <li className={`burger_projects_li`}><a className={`${props.mode}atg`}onClick={()=>{windowHrefHandler(4200)}}>포트폴리오(REACT)</a></li>
+              <li className={`burger_projects_li`}><a className={`${props.mode}atg`}onClick={()=>{windowHrefHandler(5100)}}>영화 API</a></li>
+              <li className={`burger_projects_li`}><a className={`${props.mode}atg`}onClick={()=>{windowHrefHandler(5950)}}>포트폴리오(NONE-REACT)</a></li>
             </ul>
           <li><Link className={`${props.mode}`} to='/contactme'>CONTACT</Link></li>
         </ul>
