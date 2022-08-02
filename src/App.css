@@ -178,9 +178,41 @@ html {
     height: 100px;
   }
 }
-@media all and (max-width : 450px){
+@media all and (max-width : 440px){
+  .App{
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  .app_left_top_img{
+    display: none;
+  }
+  .app_left{
+    display: flex;
+    flex-direction: column !important;
+    position: relative !important;
+    width: 100% !important;
+    height: 30vh !important;
+    z-index: 99;
+  }
+  .aboutmy,.archiving{
+    padding-top: 0 !important;
+    padding-bottom: 50px !important;
+  }
+  .app_right{
+    width: 100%;
+  }
+  .app_right{
+    position: relative !important;
+  }
   .main {
     height: 550px !important;
+  }
+  .main_left{
+    top: 0 !important;
+    height: 50vh !important;
+  }
+  .main_inner{
+    height: 70% !important;
   }
   .inner_pgbar{
     padding-left: 10px !important;
@@ -207,6 +239,7 @@ html {
     flex-direction: column;
   }
   .projects{
+    padding-top: 0 !important;
     height: 5200px !important;
   }
   .toggle_btn {
@@ -216,7 +249,37 @@ html {
     z-index: 1;
   }
   .sideLinks{
-    position: absolute !important;
+    font-size: 4px !important;
+  }
+  .top_main{
+    font-size: 1px !important;
+  }
+  .burger_ul{
+    display: flex;
+    flex-direction: row;
+    font-size: 1px !important;
+  }
+  .burger_ul li{
+    padding: 5px !important;
+  }
+  .burger_projects_li{
+    padding-top: 30px !important;
+    font-size: 0.2rem !important;
+    display: none !important;
+  }
+  .toggle_btn{
+    display: none;
+  }
+  .summary_left{
+    flex-direction: column !important;
+  }
+  .summary_left_top{
+    width: 100% !important;
+  }
+  .header_top_titles{
+    flex-direction: column !important;
+    margin: 0 auto !important;
+    text-align: center !important;
   }
 }
 .none{
