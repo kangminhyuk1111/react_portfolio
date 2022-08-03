@@ -187,6 +187,9 @@ html {
     display: flex !important;
     flex-direction: column !important;
   }
+  .app_left_top_links{
+    padding: 30px 0 0 0 !important;
+  }
   .app_left_top_img{
     display: none;
   }
@@ -211,6 +214,9 @@ html {
   }
   .app_right{
     position: relative !important;
+  }
+  .top_main{
+    height: 90vh !important;
   }
   .main {
     height: 550px !important;
@@ -282,7 +288,7 @@ html {
   .burger_ul{
     display: flex;
     flex-direction: row;
-    font-size: 1rem !important;
+    font-size: 0.8rem !important;
   }
   .burger_ul li{
     padding: 5px !important;
@@ -320,6 +326,9 @@ html {
   .contact_icons a{
     width: 80% !important;
     margin: 0 auto !important;
+  }
+  .header_second p{
+    text-align: center;
   }
 }
 .none{
