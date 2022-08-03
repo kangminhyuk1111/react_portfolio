@@ -30,7 +30,7 @@ export default function Archiving(props) {
                 <div className={`archiving_right ${props.mode}s ${classNames}`}>
                     <div className='archiving_top'>
                         <i className="fa-brands fa-blogger-b" id='naverblog'></i>
-                        <span className='archiving_logos'><a href='https://blog.naver.com/rkdglqkr12'>NAVER BLOG</a></span>
+                        <span className='archiving_logos archiving_naver'><a href='https://blog.naver.com/rkdglqkr12'>NAVER BLOG</a></span>
                     </div>
                     <div className='archving_footer'>
                         <ul className='archiving_ul'>

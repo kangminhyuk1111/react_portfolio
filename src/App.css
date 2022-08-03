@@ -179,6 +179,10 @@ html {
   }
 }
 @media all and (max-width : 440px){
+  html, body{
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+  }
   .App{
     display: flex !important;
     flex-direction: column !important;
@@ -197,6 +201,10 @@ html {
   .aboutmy,.archiving{
     padding-top: 0 !important;
     padding-bottom: 50px !important;
+  }
+  .archiving_logos{
+    padding: 0 !important;
+    margin: 0 !important;
   }
   .app_right{
     width: 100%;
@@ -220,20 +228,37 @@ html {
   .skill_name{
     font-size: 10px !important;
   }
+  .archiving_main{
+    flex-direction: column !important;
+  }
+  .archiving_left,
+  .archiving_right{
+    width: 100% !important;
+    height: 40% !important;
+  }
   .archiving_top{
     padding: 0 !important;
-    padding-top: 15px !important;
+    padding-top: 0 !important;
+    margin: 0 auto !important;
     height: 102px !important;
   }
+  .archiving_top i{
+    padding: 16px 0 0 0 !important;
+  }
   .archiving_ul{
-    padding: 0 !important;
+    padding: 12px 0 0 16px !important;
   }
   .archiving_ul li{
-    height: 70px !important;
+    height: 30px !important;
+    padding: 0 !important;
   }
   .archiving_logos{
     font-size: 11px !important;
-    padding-top: 32px !important;
+  }
+  .archiving_naver a{
+    width: 56% !important;
+    position: relative !important;
+    text-align: center !important;
   }
   .header_second{
     flex-direction: column;
@@ -257,14 +282,13 @@ html {
   .burger_ul{
     display: flex;
     flex-direction: row;
-    font-size: 1px !important;
+    font-size: 1rem !important;
   }
   .burger_ul li{
     padding: 5px !important;
   }
   .burger_projects_li{
     padding-top: 30px !important;
-    font-size: 0.2rem !important;
     display: none !important;
   }
   .toggle_btn{
@@ -280,6 +304,22 @@ html {
     flex-direction: column !important;
     margin: 0 auto !important;
     text-align: center !important;
+  }
+  .contact_me{
+    padding: 0 !important;
+    height: 80vh !important;
+  }
+  .contact_me_form_div{
+    height: 74% !important;
+  }
+  .contact_icons{
+    width: 100% !important;
+    flex-direction: column !important;
+    margin: 100px 0 0 0 auto !important;
+  }
+  .contact_icons a{
+    width: 80% !important;
+    margin: 0 auto !important;
   }
 }
 .none{
