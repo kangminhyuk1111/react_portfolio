@@ -12,6 +12,7 @@
     width: 80%;
     margin: 0 auto;
     font-size: 80px;
+    animation: showText 1s;
 }
 .header_first{
     font-family: 'Yoon320';
@@ -20,6 +21,7 @@
     width: 80%;
     margin: 0 auto;
     font-size: 26px;
+    animation: showText 1.3s;
 }
 .header_footer{
     font-family: 'Yoon330';
@@ -28,7 +30,8 @@
     width: 80%;
     margin: 0 auto;
     font-size: 20px;
+    animation: showText 1.7s;
 }
 .fadeInMode{
-    animation: topMainOpa 3s;
+    /* animation: topMainOpa 3s; */
 }

@@ -22,7 +22,7 @@ export default function Archiving(props) {
                         <ul className='archiving_ul'>
                             <li><i class="fa-solid fa-angle-right"></i>&nbsp;<p className='cs'>과거 프로젝트, 프로그램, 앱의 소스 코드</p></li>
                             <li><i class="fa-solid fa-angle-right"></i>&nbsp;<p className='cs'>혼자 혹은 같이 공부하기 위해 만든 소스코드</p></li>
-                            <li><i class="fa-solid fa-angle-right"></i>&nbsp;<p className='cs'>일일 공부를 기록하기 위해 커밋</p></li>
+                            <li><i class="fa-solid fa-angle-right"></i>&nbsp;<p className='cs'>코드를 공유하고 피드백 받기위한 저장소</p></li>
                             <li><i class="fa-solid fa-angle-right"></i>&nbsp;<p className='cs'>일일 공부를 기록하기 위해 커밋</p></li>
                         </ul>
                     </div>
@@ -36,7 +36,7 @@ export default function Archiving(props) {
                         <ul className='archiving_ul'>
                             <li><i class="fa-solid fa-angle-right"></i>&nbsp;<p className='cs'>공부 하면서 어려웠던 점 힘들었던 점 기록</p></li>
                             <li><i class="fa-solid fa-angle-right"></i>&nbsp;<p className='cs'>지식 공유를 통한 선한 영향력 행사</p></li>
-                            <li><i class="fa-solid fa-angle-right"></i>&nbsp;<p className='cs'>하루의 목표 설정 목표 성취 유무 기록</p></li>
+                            <li><i class="fa-solid fa-angle-right"></i>&nbsp;<p className='cs'>프로젝트의 장단점을 파악하기위해 공유,기록</p></li>
                             <li><i class="fa-solid fa-angle-right"></i>&nbsp;<p className='cs'>하루의 목표 설정 목표 성취 유무 기록</p></li>
                         </ul>
                     </div>

@@ -8,6 +8,9 @@ export default function MyProject(props) {
                     <p>{props.title}</p>
                     <p className='second_p'>소요기간 : {props.lesstime}</p>
                 </div>
+                <div className='header_top_shortsum'>
+                    <p>{props.shortsummary}</p>
+                </div>
                 <div className='header_second'>
                     <p className='header_second_logos'><a href={props.gitlink}>LINK TO GIT HUB</a></p>
                     <p className='header_second_logos'><a href={props.liveserver}>LIVE PAGES</a></p>

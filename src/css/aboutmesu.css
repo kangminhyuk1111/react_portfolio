@@ -12,6 +12,10 @@
     margin: 0 auto;
 }
 .my_name{
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.my_name_sk{
     padding-top: 1%;
     padding-bottom: 1%;
 }
@@ -31,4 +35,9 @@
 }
 .my_name:last-child{
     padding-bottom: 5%;
+}
+.dis_flex_set{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
 }

@@ -27,7 +27,8 @@
 }
 
 .myprojects_header {
-    width: 100%;
+    width: 90%;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
 }
@@ -36,19 +37,25 @@
     padding-top: 20px;
     font-size: 22px;
     padding-right: 30px;
-    padding-left: 20px;
+    padding-left: 0px;
 }
 
 .header_top_titles {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 10px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    font-weight: 600;
 }
+
 
 .second_p {
     color: gray;
     font-size: 14px !important;
-    padding-top: 10px;
+    padding: 25px 0 0 0 !important;
+    text-align: right;
 }
 
 .myprojects_summary {
@@ -61,9 +68,11 @@
     text-align: justify;
 }
 
+
 .header_second {
-    width: 100%;
+    width: 90%;
     display: flex;
+    margin: 0 auto;
     padding-bottom: 20px;
 }
 
@@ -75,7 +84,7 @@
     font-size: 1.5rem;
     font-weight: 500;
     padding-top: 15px;
-    padding-left: 12px;
+    padding-left: 0px;
 }
 
 .header_second_logos a {
@@ -94,6 +103,11 @@
 
 .header_second_logos a:hover {
     color: black;
+}
+.header_top_shortsum p{
+    width: 90%;
+    margin: 0 auto;
+    font-size: 16px !important;
 }
 
 .summary_left {
@@ -135,7 +149,14 @@
     margin: 0 auto;
     margin-top: 20px;
     border: 1px solid gray;
+    opacity: 0.5;
+    transition: .5s;
+}
+.summary_right img:hover{
+    opacity: 1;
+    transition: .5s;
 }
 .padding_top{
     padding-top: 24px !important;
+    font-size: 14px !important;
 }

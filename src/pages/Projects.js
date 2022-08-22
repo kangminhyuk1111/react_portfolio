@@ -26,6 +26,7 @@ export default function Projects(props) {
           유동적인 작업이 가능하다고 느꼈습니다. React를 사용 했을때 코드를 재사용 하여 조금 더 빠르고 편리하게 작업을 할 수 있음을 느꼈습니다.'
           projectImg={todoimgs}
           mode={props.mode}
+          shortsummary='일과 생활을 관리하기위한 TO DO LIST. REACT로 기본적인 CRUD 기능 구현'
           usedskills='REACTJS'/>
           <MyProject title='현대모비스 오토벨 중고차 사이트'
           lesstime='2주'
@@ -37,12 +38,14 @@ export default function Projects(props) {
           페이지 이동은 react-router를 이용했으며 간단한 nodejs 서버를 구축하여 데이터베이스(MySQL)에 접근하여
           차량의 필요한 정보들을 받아 올 수 있도록 만들었습니다. 상세정보 클릭시 차량의 고유한 일련번호를 URL Parameter로
           넘겨준뒤 받아온 일련번호로 해당 페이지에 조회 할 수 있도록 만들었습니다."
-          feelings='기존에 react로 UI적인 부분을 편리하게 만들었고 정보와 데이터베이스들을 관리하는 서버를 만들어 보고 공부하기위해
+          feelings='대부분의 중고차 사이트가 CSR로 만들어 진 것을 보고 중고차 사이트를 SPA사이트로 만들어 보면 어떨까?
+          라는 생각에 만들어 보기 시작했습니다. 기존에 react로 UI적인 부분을 편리하게 만들었고 정보와 데이터베이스들을 관리하는 서버를 만들어 보고 공부하기위해
           nodejs를 접했습니다. nodejs로 어떻게 서버를 구축하고 만들어나가는지 알게 되었고, 서버에서 DB에 접근해서 어떻게 정보들을 가져 올 수 있는지
           공부하였고 프로젝트에 접목시켰습니다. 이를 통해 프론트엔드와 백엔드의 흐름을 이해하게 되었고 더 나아가 데이터베이스에 접근
           선택, 수정 등 기본적인 SQL이해하는데 도움이 되었던 프로젝트였습니다.'
           projectImg={usedcar}
           mode={props.mode}
+          shortsummary='중고차 검색 기능을 REACT+NODEJS+MYSQL기반 풀스택으로 구현한 소규모 프로젝트'
           usedskills='REACTJS(REACT-ROUTER-DOM), MYSQL, NODEJS, MUI Library'/>
           <MyProject title='네이버 API를 활용한 책 검색 사이트'
           lesstime='4일'
@@ -57,6 +60,7 @@ export default function Projects(props) {
           이 경험을 통해 필요한 정보들을 보다 자유롭게 가져와서 사용 할 수 있게 되어서 기뻤습니다.'
           projectImg={bookapi}
           mode={props.mode}
+          shortsummary='Naver Developers Open API를 이용하여 제작한 프로젝트'
           usedskills='REACTJS, MUI Library, Naver DEV API'/>
           <MyProject title='게시판 - REACT'
           lesstime='2주'
@@ -72,6 +76,7 @@ export default function Projects(props) {
           작업이 의미있었던 작업이였습니다.'
           projectImg={boardimg}
           mode={props.mode}
+          shortsummary='프론트엔드와 백엔드의 통신을, MySQL의 CRUD를 이해하기 위해 만든 게시판'
           usedskills='REACTJS, NODEJS, MYSQL, MUI Library '/>
           <MyProject title='포트폴리오 웹사이트 - REACT'
           lesstime='2주'
@@ -89,6 +94,7 @@ export default function Projects(props) {
            부분도 많이 공부 할 수 있었습니다.'
           projectImg={newppo}
           mode={props.mode}
+          shortsummary='프론트엔드 개발자가 되기위해 되어가는 과정을 소개하기위한 템플릿'
           usedskills='REACTJS(REACT-ROUTER-DOM), Tailwind CSS, Npm Library'/>
           <MyProject title='API 통신을 이용한 인기영화 조회 웹사이트'
           lesstime='1주'
@@ -102,11 +108,12 @@ export default function Projects(props) {
            데이터 통신의 기본을 알 수 있었습니다. 그리고 새롭게 알게 된 Material UI library를 어떻게 사용 할 수 있는지 이해하고 알 수 있게 되었습니다.'
           projectImg={movielist}
           mode={props.mode}
+          shortsummary='axios를 이용하여 외부 Open API와 통신을 배운 프로젝트'
           usedskills='REACTJS, MUI Library, YTS Data API, Axios'/>
           <MyProject title='포트폴리오 웹사이트'
           lesstime='1주'
           gitlink='https://github.com/kangminhyuk1111/portfolio-project'
-          liveserver='#'
+          liveserver='https://kangminhyuk1111.github.io/portfolio-project/'
           summary="HTML CSS JS를 이용하여 저를 소개할수 있는 웹사이트를 만들었습니다.
           개발 시작후 초창기에 만들었으며 HTML 표준 마크업에 근거하여 제작하려고 노력했습니다."
           feelings='웹 개발에 기본이 되는 HTML CSS JS를 배우고난후 프론트엔드 개발자가 되고싶었습니다.
@@ -115,6 +122,7 @@ export default function Projects(props) {
            JS를 통해 페이지에 동적임 움직임을 주는법을 알 수 있게되었습니다.'
           projectImg={htmlport}
           mode={props.mode}
+          shortsummary='html,css,vanila javascript로 제작한 웹페이지. 홈페이지의 기본적인 레이아웃 구성을 이해한 프로젝트'
           usedskills='HTML, CSS, JAVASCRIPT'/>
         </div>
     </div>
