@@ -6,8 +6,8 @@ export default function AboutmeSU(props) {
     const [classNames, setClassNames] = useState('good');
     return (
         <div className={`aboutmy ${props.mode}linear`}>
-            <h1 className={`aboutme_h1 ${classNames}`}>PROFILE</h1>
-            <div className={`about_my right_${classNames}`}>
+            <h1 className={`aboutme_h1 right_good`}>PROFILE</h1>
+            <div className={`about_my right showText_3s`}>
                 <div className='dis_flex_set'>
                     <div className=''>
                     <div className='my_name'>

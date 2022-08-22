@@ -335,8 +335,25 @@ html {
   display: none;
 }
 .good{
-  animation: fadeInLeft 2s;
+  animation: showText 1s;
 }
 .right_good{
-  animation: fadeInLeft 2.5s;
+  animation: showText 1.5s;
+}
+
+.showText_3s{
+  animation: showText 2s;
+}
+
+.showText_4s{
+  animation: showText 2.5s;
+}
+.showText_5s{
+  animation: showText 3s;
+}
+.showTextTop{
+  animation: showTextTop 2.5s;
+}
+.showTextSlow{
+  animation: showTextSlow 2s;
 }
