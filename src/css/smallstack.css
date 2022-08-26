@@ -1,0 +1,23 @@
+.small_stack{
+    display: flex;
+    flex-direction: row;
+    max-width: 130px;
+    height: 40px;
+    background-color: rgb(116, 253, 255);
+    margin: 30px;
+    border-radius: 30px;
+}
+.stack_img{
+    width: 20%;
+    margin: 0 auto;
+    position: relative;
+    top: 20%;
+}
+.stack_img_img{
+}
+.stack_name{
+    width: 60%;
+    text-align: left;
+    text-overflow: ellipsis;
+    padding-top: 8%;
+}

@@ -11,9 +11,10 @@ import SkillsSu from './pages/SkillsSU';
 import TopMain from './pages/TopMain';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import ContactMe from './pages/ContactMe';
+import SmallStacks from './pages/SmallStacks';
 
 function App() {
-  const [isdark, setIsDark] = useState(() => false)
+  const [isdark, setIsDark] = useState(() => true)
   const [getParams, setParams] = useState('');
   const darkmodeSet = (mode) => {
     setIsDark(mode);
@@ -38,21 +39,19 @@ function App() {
             <h3>FRONTEND DEVELOPER</h3>
             <div className={`app_left_top_links_footer ${isdark}`}>
               <SideLinks appSearchParams={appSearchfnc} mode={isdark} />
+              <DarkMode darkmodeSet={darkmodeSet} />
             </div>
           </div>
         </div>
       </div>
       <div className='app_right'>
-        <DarkMode darkmodeSet={darkmodeSet} />
-        <Routes>
-          <Route path={'/'} element={<TopMain mode={isdark} />} />
-          <Route path={'/aboutme'} element={<Main mode={isdark} />} />
-          <Route path={'/profile'} element={<AboutmeSU mode={isdark} />} />
-          <Route path={'/skills'} element={<SkillsSu mode={isdark} />} />
-          <Route path={'/archiving'} element={<Archiving mode={isdark} />} />
-          <Route path={'/projects'} element={<Projects mode={isdark} />} />
-          <Route path={'/contactme'} element={<ContactMe mode={isdark} />} />
-        </Routes>
+          <TopMain mode={isdark} />
+          <Main mode={isdark} />
+          <Projects mode={isdark} />
+          <SkillsSu mode={isdark} />
+          <Archiving mode={isdark} />
+          <ContactMe mode={isdark} />
+          <SmallStacks />
       </div>
     </div>
   );

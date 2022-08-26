@@ -15,19 +15,6 @@ export default function Projects(props) {
     <div className={`projects ${props.mode}`}>
         <h1 className={`aboutme_h1 ${props.mode} ${classNames}`}>PROJECTS</h1>
         <div className={`projects_main ${props.mode}pro right_${classNames}`}>
-          <MyProject title='TO DO LIST'
-          lesstime='1주'
-          gitlink='https://github.com/kangminhyuk1111/react-hook-todoList'
-          liveserver='#'
-          summary='프론트엔드 개발자를 위해 공부를 하며 개발을 조금더 효율적으로 할 수있는 React 프레임워크를 알게 되었습니다.
-          React를 이해하기 위해 시작한 프로젝트이며 오늘 할 일을 추가,삭제,성공,수정 기능 기본적인 CRUD를 익혔습니다.
-          기존에 클래스형 컴포넌트로 개발하던 프로젝트를 함수형 컴포넌트로 작업중 변경 하였습니다.'
-          feelings='기존에 JavaScript 언어를 이해하기 위해 작업했던 ToDoList와 비교 했을때 React를 사용 했을때 훨씬 더 간결하고
-          유동적인 작업이 가능하다고 느꼈습니다. React를 사용 했을때 코드를 재사용 하여 조금 더 빠르고 편리하게 작업을 할 수 있음을 느꼈습니다.'
-          projectImg={todoimgs}
-          mode={props.mode}
-          shortsummary='일과 생활을 관리하기위한 TO DO LIST. REACT로 기본적인 CRUD 기능 구현'
-          usedskills='REACTJS'/>
           <MyProject title='현대모비스 오토벨 중고차 사이트'
           lesstime='2주'
           gitlink='https://github.com/kangminhyuk1111/react_usedcar'
@@ -78,6 +65,20 @@ export default function Projects(props) {
           mode={props.mode}
           shortsummary='프론트엔드와 백엔드의 통신을, MySQL의 CRUD를 이해하기 위해 만든 게시판'
           usedskills='REACTJS, NODEJS, MYSQL, MUI Library '/>
+           <MyProject title='API 통신을 이용한 인기영화 조회 웹사이트'
+          lesstime='1주'
+          gitlink='https://github.com/kangminhyuk1111/https---github.com-kangminhyuk1111-moviesList'
+          liveserver='#'
+          summary="데이터 통신을 이해하기 위해 진행한 프로젝트이며 YTS라는 웹사이트를 이용했습니다. YTS 웹사이트 안에서
+          영화 데이터 API를 이용하였으며, 이 API는 웹 사이트에 추천하는 영화 20선의 데이터를 받아왔습니다.
+          Material UI를 이용한 기능들을 추가 하였습니다."
+          feelings='다양한 데이터를을 받아오고 사용하는 개념을 익힐 수 있었으며 axios library 를 이용해 데이터를 보다 손쉽게
+           가져 올 수 있었습니다. 데이터 API를 통해 데이터를 요구했을때 어떤식으로 데이터를 받아오는지 그리고 어떻게 도출해낼수있는지
+           데이터 통신의 기본을 알 수 있었습니다. 그리고 새롭게 알게 된 Material UI library를 어떻게 사용 할 수 있는지 이해하고 알 수 있게 되었습니다.'
+          projectImg={movielist}
+          mode={props.mode}
+          shortsummary='axios를 이용하여 외부 Open API와 통신을 배운 프로젝트'
+          usedskills='REACTJS, MUI Library, YTS Data API, Axios'/>
           <MyProject title='포트폴리오 웹사이트 - REACT'
           lesstime='2주'
           gitlink='https://github.com/kangminhyuk1111/react_portfolio'
@@ -96,20 +97,6 @@ export default function Projects(props) {
           mode={props.mode}
           shortsummary='프론트엔드 개발자가 되기위해 되어가는 과정을 소개하기위한 템플릿'
           usedskills='REACTJS(REACT-ROUTER-DOM), Tailwind CSS, Npm Library'/>
-          <MyProject title='API 통신을 이용한 인기영화 조회 웹사이트'
-          lesstime='1주'
-          gitlink='https://github.com/kangminhyuk1111/https---github.com-kangminhyuk1111-moviesList'
-          liveserver='#'
-          summary="데이터 통신을 이해하기 위해 진행한 프로젝트이며 YTS라는 웹사이트를 이용했습니다. YTS 웹사이트 안에서
-          영화 데이터 API를 이용하였으며, 이 API는 웹 사이트에 추천하는 영화 20선의 데이터를 받아왔습니다.
-          Material UI를 이용한 기능들을 추가 하였습니다."
-          feelings='다양한 데이터를을 받아오고 사용하는 개념을 익힐 수 있었으며 axios library 를 이용해 데이터를 보다 손쉽게
-           가져 올 수 있었습니다. 데이터 API를 통해 데이터를 요구했을때 어떤식으로 데이터를 받아오는지 그리고 어떻게 도출해낼수있는지
-           데이터 통신의 기본을 알 수 있었습니다. 그리고 새롭게 알게 된 Material UI library를 어떻게 사용 할 수 있는지 이해하고 알 수 있게 되었습니다.'
-          projectImg={movielist}
-          mode={props.mode}
-          shortsummary='axios를 이용하여 외부 Open API와 통신을 배운 프로젝트'
-          usedskills='REACTJS, MUI Library, YTS Data API, Axios'/>
           <MyProject title='포트폴리오 웹사이트'
           lesstime='1주'
           gitlink='https://github.com/kangminhyuk1111/portfolio-project'

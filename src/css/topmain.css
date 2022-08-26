@@ -6,16 +6,15 @@
     text-align: center;
 }
 .top_main_header{
-    font-family: 'Yoon330';
     position: relative;
     top: 30%;
     width: 80%;
     margin: 0 auto;
     font-size: 80px;
+    font-weight: 500;
     animation: showText 1s;
 }
 .header_first{
-    font-family: 'Yoon320';
     position: relative;
     top: 30%;
     width: 80%;
@@ -24,7 +23,6 @@
     animation: showText 1.3s;
 }
 .header_footer{
-    font-family: 'Yoon330';
     position: relative;
     top: 65%;
     width: 80%;

@@ -16,7 +16,7 @@
     height: 80vh;
     background-color: #f2f2f2;
     position: relative;
-    top: 10%;
+    top: 4%;
     text-align: center;
 }
 .main_inner_top{
@@ -78,7 +78,15 @@
 .strong{
     font-weight: 700;
 }
-
+.my_name_title{
+    font-size: 1.3rem !important;
+}
+.dis_flex_row{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 /* dark mode theme */
 .true{
     background-color: #202b38 !important;
