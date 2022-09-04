@@ -16,7 +16,7 @@ export default function SideLinks(props) {
       setburgerMenu(false)
     }
   }
-  const burgerHandler = () => {
+  const burgerHandler = () => { 
     if (projectDisplay === 'showProject') {
       setProjectDisplay('hideProject')
     } else {
@@ -36,14 +36,14 @@ export default function SideLinks(props) {
         <ul className={`burger_ul ${props.mode}`} onClick={() => renderParams()}>
           <li><Link className={`${props.mode}`} to='/aboutme'>ABOUTME</Link></li>
           <li className={`burger_ul_projects_li ${props.mode}`} onClick={() => { burgerHandler() }}><Link className={`${props.mode}`} to='/projects'>PROJECTS</Link></li>
-          <ul className={`burger_projects ${projectDisplay} ${props.mode}`}>
+          {/* <ul className={`burger_projects ${projectDisplay} ${props.mode}`}>
             <li className={`burger_projects_li`}><a className={`${props.mode}atg`} onClick={() => { windowHrefHandler(979) }}>현대모비스 오토벨</a></li>
             <li className={`burger_projects_li`}><a className={`${props.mode}atg`} onClick={() => { windowHrefHandler(2441) }}>책 검색 API</a></li>
             <li className={`burger_projects_li`}><a className={`${props.mode}atg`} onClick={() => { windowHrefHandler(3300) }}>게시판(REACT)</a></li>
             <li className={`burger_projects_li`}><a className={`${props.mode}atg`} onClick={() => { windowHrefHandler(4200) }}>포트폴리오(REACT)</a></li>
             <li className={`burger_projects_li`}><a className={`${props.mode}atg`} onClick={() => { windowHrefHandler(5100) }}>영화 API</a></li>
             <li className={`burger_projects_li`}><a className={`${props.mode}atg`} onClick={() => { windowHrefHandler(5950) }}>포트폴리오(NONE-REACT)</a></li>
-          </ul>
+          </ul> */}
           <li><Link className={`${props.mode}`} to='/skills'>SKILLS</Link></li>
           <li><Link className={`${props.mode}`} to='/archiving'>ARCHIVING</Link></li>
           <li><Link className={`${props.mode}`} to='/contactme'>CONTACT</Link></li>

@@ -1,9 +1,116 @@
 .main{
-    max-width: 2560px;
+    width: 80%;
     height: 100vh;
+    background-color:#f2f2f2;
+    font-size: 50px;
+    text-align: center;
     margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    padding: 24px 24px 0 36px;
+    text-align: left;
+}
+.intro_left{
+    width: 30%;
+    height: 100vh;
     background-color: #f2f2f2;
 }
+.left_title{
+    font-size: 1.3rem;
+}
+.intro_left_top{
+    padding-top: 32px;
+    font-weight: 600;
+}
+.intro_left_bottom{
+    padding-top: 24px;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.intro_right{
+    width: 70%;
+    height: 100vh;
+    background-color: #f2f2f2;
+}
+.right_birth{
+    padding: 72px 24px 24px 24px;
+}
+.right_education{
+    padding: 36px 24px 24px 24px;
+}
+.right_title{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.right_second{
+    font-size: 1.2rem;
+    padding-top: 16px;
+}
+.right_second_1{
+    font-size: 1.2rem;
+    padding-top: 32px;
+}
+.right_second_2{
+    font-size: 1.2rem;
+    padding-left: 306px;
+    padding-top: 16px;
+}
+.right_education_div{
+    display: flex;
+    flex-direction: row;
+    font-weight: 200;
+}
+.right_education_div_1{
+    display: flex;
+    flex-direction: row;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .main_inner{
     width: 80%;
     height: 90%;

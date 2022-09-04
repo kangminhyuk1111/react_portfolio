@@ -30,9 +30,9 @@
 .burger_ul li:nth-child(5){
     padding-bottom: 0;
 }
-.burger_ul li:last-child{
+/* .burger_ul li:last-child{
     padding-top: 8%;
-}
+} */
 .burger_ul li a{
     text-decoration: none;
     color: black;
@@ -56,9 +56,9 @@
     height: 30px;
     font-size: 10px;
 }
-.burger_projects_li:nth-child(1){
+/* .burger_projects_li:nth-child(1){
     padding-top: 10px !important;
-}
+} */
 .showProject{
     display: block;
     animation: fadeInDown 1.5s;
