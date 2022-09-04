@@ -14,7 +14,7 @@ import ContactMe from './pages/ContactMe';
 import SmallStacks from './pages/SmallStacks';
 
 function App() {
-  const [isdark, setIsDark] = useState(() => true)
+  const [isdark, setIsDark] = useState(() => false)
   const [getParams, setParams] = useState('');
   const darkmodeSet = (mode) => {
     setIsDark(mode);
