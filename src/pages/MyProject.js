@@ -1,4 +1,5 @@
 import React from 'react'
+import Modalproject from './Modalproject';
 
 export default function MyProject(props) {
     return (
@@ -26,9 +27,9 @@ export default function MyProject(props) {
                     </p>
                     <p className='summary_left_top'><h2>느낀점</h2>{props.feelings}
                     </p>
-                </div>
-                
+                </div>   
             </div>
+            <Modalproject/>
         </div>
     )
 }
