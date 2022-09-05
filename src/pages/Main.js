@@ -33,7 +33,7 @@ export default function Main(props) {
                             <p className='right_second'>2021. 12 ~ 2022. 04 웹 개발</p>
                             <p className='right_second'>2021. 08 ~ 2021. 11 Python</p>
                         </div>
-                        <div className='pl-72'>
+                        <div className=''>
                             <p className='right_second'>2021. 10 ~ 2021. 12 Java</p>
                             <p className='right_second'>2021. 09 ~ 2021. 11 Linux</p>
                             <p className='right_second'>2021. 11 ~ 2022. 12 DBMS</p>

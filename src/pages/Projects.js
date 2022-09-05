@@ -8,6 +8,7 @@ import htmlport from '../images/htmlport.png';
 import movielist from '../images/movielist.png';
 import newppo from '../images/newppo.png';
 import boardimg from '../images/board.png';
+import Modalproject from './Modalproject';
 
 export default function Projects(props) {
   const [classNames, setClassNames] = useState('good');
@@ -15,16 +16,11 @@ export default function Projects(props) {
     <div className={`projects ${props.mode}`}>
         <h1 className={`aboutme_h1 ${props.mode} ${classNames}`}>PROJECTS</h1>
         <div className={`projects_main ${props.mode}pro right_${classNames}`}>
-          <MyProject title='현대모비스 오토벨 중고차 사이트'
+          <Modalproject title='현대모비스 오토벨 중고차 사이트'
           lesstime='2주'
           gitlink='https://github.com/kangminhyuk1111/react_usedcar'
           liveserver='#'
-          summary="평소에 자동차에 관심이 있고 대기업의 중고차 시장 출범소식을 듣고 검색 해 보니 현대에서
-          만든 '현대모비스 오토벨' 이라는 사이트에 관심이 가게 되어 해본 프로젝트 입니다. 프로젝트 안에는 상세검색기능
-          차량명 검색기능, 상세정보보기 클릭시 차량의 상세정보가 담긴 페이지로 이동하게 만들었습니다.
-          페이지 이동은 react-router를 이용했으며 간단한 nodejs 서버를 구축하여 데이터베이스(MySQL)에 접근하여
-          차량의 필요한 정보들을 받아 올 수 있도록 만들었습니다. 상세정보 클릭시 차량의 고유한 일련번호를 URL Parameter로
-          넘겨준뒤 받아온 일련번호로 해당 페이지에 조회 할 수 있도록 만들었습니다."
+          summary="시발스톤"
           feelings='대부분의 중고차 사이트가 CSR로 만들어 진 것을 보고 중고차 사이트를 SPA사이트로 만들어 보면 어떨까?
           라는 생각에 만들어 보기 시작했습니다. 기존에 react로 UI적인 부분을 편리하게 만들었고 정보와 데이터베이스들을 관리하는 서버를 만들어 보고 공부하기위해
           nodejs를 접했습니다. nodejs로 어떻게 서버를 구축하고 만들어나가는지 알게 되었고, 서버에서 DB에 접근해서 어떻게 정보들을 가져 올 수 있는지
@@ -33,7 +29,7 @@ export default function Projects(props) {
           projectImg={usedcar}
           mode={props.mode}
           shortsummary='중고차 검색 기능을 REACT+NODEJS+MYSQL기반 풀스택으로 구현한 소규모 프로젝트'
-          usedskills='REACTJS(REACT-ROUTER-DOM), MYSQL, NODEJS, MUI Library'/>
+          usedskills='REACTJS(REACT-ROUTER-DOM) · MYSQL · NODEJS · MUI Library'/>
           <MyProject title='네이버 API를 활용한 책 검색 사이트'
           lesstime='4일'
           gitlink='https://github.com/kangminhyuk1111/react-book-api'

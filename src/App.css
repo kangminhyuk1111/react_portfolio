@@ -23,6 +23,10 @@
   font-family: 'Noto Sans KR', sans-serif;
 }
 
+html{
+  background-color: #f2f2f2;
+}
+
 /* body{
   -ms-overflow-style: none;
   }

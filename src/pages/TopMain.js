@@ -10,12 +10,12 @@ export default function TopMain(props) {
     <div className={`top_main ${props.mode}`}>
       <div className='top_main_left'>
         <div className='top_main_left_top'>
-          <h1 className='left_name'>
+          <p className='left_name'>
             Kang Min Hyuk
-          </h1>
-          <h1 className='left_second'>
+          </p>
+          <p className='left_second'>
             Portfolio 2022
-          </h1>
+          </p>
         </div>
         <div className='top_main_left_bottom'>
           <h1 className='bottom_job'>
