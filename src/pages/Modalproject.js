@@ -10,9 +10,7 @@ export default function Example(props) {
   const handleShow = () => setShow(true);
   return (
     <>
-      <div className='dis_flex_box'>
-        <div className='project_img' onClick={handleShow}></div>
-      </div>
+        <div className='project_img' onClick={handleShow}>{props.title}</div>
 
 
       <Modal show={show} onHide={handleClose} size='xl' centered>
