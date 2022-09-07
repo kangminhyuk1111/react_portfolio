@@ -10,11 +10,10 @@ export default function Example(props) {
   const handleShow = () => setShow(true);
   return (
     <>
-      <Button variant="primary" onClick={handleShow}>
-        Launch demo modal
-      </Button>
+        <div className='project_img' onClick={handleShow}>{props.title}</div>
 
-      <Modal show={show} onHide={handleClose} size='xl'>
+
+      <Modal show={show} onHide={handleClose} size='xl' centered>
         <div className='top_modal'>
           <div className='modal_div'>
             <div className='flex_col'>
@@ -40,7 +39,7 @@ export default function Example(props) {
               </div>
               <div className='modal_right_summary'>
                 <div className='modal_right_summary_skills'>
-                Stack : {props.usedskills}
+                  Stack : {props.usedskills}
                 </div>
                 <div className='pt-6'>{props.summary}</div>
               </div>

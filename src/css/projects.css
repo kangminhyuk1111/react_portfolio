@@ -9,6 +9,9 @@
 .projects_main {
     width: 80%;
     margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .myprojects {
@@ -231,4 +234,10 @@
     padding-top: 12px;
     font-size: 1.2rem;
     text-align: center;
+}
+.project_img{
+    width: 300px;
+    height: 300px;
+    background-color: aquamarine;
+    margin: 10px;
 }

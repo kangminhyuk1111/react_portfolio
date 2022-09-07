@@ -20,7 +20,7 @@ export default function Projects(props) {
           lesstime='2주'
           gitlink='https://github.com/kangminhyuk1111/react_usedcar'
           liveserver='#'
-          summary="시발스톤"
+          summary="설명"
           feelings='대부분의 중고차 사이트가 CSR로 만들어 진 것을 보고 중고차 사이트를 SPA사이트로 만들어 보면 어떨까?
           라는 생각에 만들어 보기 시작했습니다. 기존에 react로 UI적인 부분을 편리하게 만들었고 정보와 데이터베이스들을 관리하는 서버를 만들어 보고 공부하기위해
           nodejs를 접했습니다. nodejs로 어떻게 서버를 구축하고 만들어나가는지 알게 되었고, 서버에서 DB에 접근해서 어떻게 정보들을 가져 올 수 있는지
@@ -30,7 +30,7 @@ export default function Projects(props) {
           mode={props.mode}
           shortsummary='중고차 검색 기능을 REACT+NODEJS+MYSQL기반 풀스택으로 구현한 소규모 프로젝트'
           usedskills='REACTJS(REACT-ROUTER-DOM) · MYSQL · NODEJS · MUI Library'/>
-          <MyProject title='네이버 API를 활용한 책 검색 사이트'
+          <Modalproject title='네이버 API를 활용한 책 검색 사이트'
           lesstime='4일'
           gitlink='https://github.com/kangminhyuk1111/react-book-api'
           liveserver='#'
@@ -45,7 +45,7 @@ export default function Projects(props) {
           mode={props.mode}
           shortsummary='Naver Developers Open API를 이용하여 제작한 프로젝트'
           usedskills='REACTJS, MUI Library, Naver DEV API'/>
-          <MyProject title='게시판 - REACT'
+          <Modalproject title='게시판 - REACT'
           lesstime='2주'
           gitlink='https://github.com/kangminhyuk1111/react_portfolio'
           liveserver='#'
@@ -61,7 +61,7 @@ export default function Projects(props) {
           mode={props.mode}
           shortsummary='프론트엔드와 백엔드의 통신을, MySQL의 CRUD를 이해하기 위해 만든 게시판'
           usedskills='REACTJS, NODEJS, MYSQL, MUI Library '/>
-           <MyProject title='API 통신을 이용한 인기영화 조회 웹사이트'
+           <Modalproject title='API 통신을 이용한 인기영화 조회 웹사이트'
           lesstime='1주'
           gitlink='https://github.com/kangminhyuk1111/https---github.com-kangminhyuk1111-moviesList'
           liveserver='#'
@@ -75,7 +75,7 @@ export default function Projects(props) {
           mode={props.mode}
           shortsummary='axios를 이용하여 외부 Open API와 통신을 배운 프로젝트'
           usedskills='REACTJS, MUI Library, YTS Data API, Axios'/>
-          <MyProject title='포트폴리오 웹사이트 - REACT'
+          <Modalproject title='포트폴리오 웹사이트 - REACT'
           lesstime='2주'
           gitlink='https://github.com/kangminhyuk1111/react_portfolio'
           liveserver='#'
@@ -93,7 +93,7 @@ export default function Projects(props) {
           mode={props.mode}
           shortsummary='프론트엔드 개발자가 되기위해 되어가는 과정을 소개하기위한 템플릿'
           usedskills='REACTJS(REACT-ROUTER-DOM), Tailwind CSS, Npm Library'/>
-          <MyProject title='포트폴리오 웹사이트'
+          <Modalproject title='포트폴리오 웹사이트'
           lesstime='1주'
           gitlink='https://github.com/kangminhyuk1111/portfolio-project'
           liveserver='https://kangminhyuk1111.github.io/portfolio-project/'
