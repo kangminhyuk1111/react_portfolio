@@ -10,7 +10,12 @@ export default function Example(props) {
   const handleShow = () => setShow(true);
   return (
     <>
-        <div className='project_img' onClick={handleShow}>{props.title}</div>
+      <div className='project_img' onClick={handleShow}>
+          <img src={props.projectImg} />
+          {/* <p className='hover_comment'>
+
+          </p> */}
+      </div>
 
 
       <Modal show={show} onHide={handleClose} size='xl' centered>
