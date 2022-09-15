@@ -1,20 +1,21 @@
-import React, { useState } from 'react';
-import Button from 'react-bootstrap/Button';
+import React, { useState , useEffect } from 'react';
 import Modal from 'react-bootstrap/Modal';
 import '../css/projects.css'
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export default function Example(props) {
   console.log(props.title);
   const [show, setShow] = useState(false);
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
+  useEffect(()=>{
+    AOS.init();
+  })
   return (
     <>
-      <div className='project_img' onClick={handleShow}>
+      <div className='project_img' onClick={handleShow} data-aos="fade-right" data-aos-duration="1000">
           <img src={props.projectImg} />
-          {/* <p className='hover_comment'>
-
-          </p> */}
       </div>
 
 

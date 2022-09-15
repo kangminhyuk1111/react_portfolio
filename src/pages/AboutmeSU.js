@@ -1,9 +1,14 @@
-import React, { useState } from 'react';
+import React, { useState , useEffect } from 'react';
 import '../css/aboutmesu.css';
 import '../css/aboutme.css';
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export default function AboutmeSU(props) {
     const [classNames, setClassNames] = useState('good');
+    useEffect(()=>{
+        AOS.init();
+      })
     return (
         <div className={`aboutmy ${props.mode}linear`}>
             <div className='aboutmy_w_set'>

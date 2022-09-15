@@ -10,7 +10,7 @@ export default function Archiving(props) {
         }
     });
     return (
-        <div className={`archiving ${props.mode}linear`}>
+        <div className={`archiving ${props.mode}linear`} >
             <h1 className={`archiving_h1 ${classNames}`}>ARCHIVING</h1>
             <div className={`archiving_main ${classNames}`}>
                 <div className={`archiving_left ${props.mode}s ${classNames}`}>
