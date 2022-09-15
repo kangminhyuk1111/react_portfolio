@@ -10,17 +10,21 @@
 .about_my{
     width: 80%;
     margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 20px;
 }
 .my_name{
     padding-top: 3%;
     padding-bottom: 3%;
 }
 .my_name_sk{
+    width: 45%;
     padding-top: 0.8%;
     padding-bottom: 0.8%;
-}
-.my_name_sk:first-child{
-    padding-top: 2% !important;
+    text-align: left;
 }
 .my_name_sk:last-child{
     padding-bottom: 4%;

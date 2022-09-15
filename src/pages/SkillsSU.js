@@ -30,6 +30,7 @@ export default function AboutmeSU(props) {
                     <p className='my_skills_sum_header'><img src="https://img.icons8.com/color/48/000000/javascript--v1.png" /><p className='inner_pt'>JavaScript</p></p>
                     <p className='my_skills_sum'>ES2015+ 이상의 Modern JavaScript 문법에 익숙합니다.</p>
                     <p className='my_skills_sum'>JavaScript 라이브러리인 JQuery 사용 해본 경험이 있습니다.</p>
+                    <p className='my_skills_sum'>JavaScript 라이브러리인 JQuery 사용 해본 경험이 있습니다.</p>
                 </div>
                 <div className='my_name_sk' data-aos="fade-right" data-aos-duration="1000">
                     <p className='my_skills_sum_header'><img src="https://img.icons8.com/ultraviolet/40/000000/react--v1.png" /><p className='inner_pt'>React</p></p>
