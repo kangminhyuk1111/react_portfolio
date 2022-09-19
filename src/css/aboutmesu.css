@@ -1,5 +1,5 @@
 .aboutmy {
-    width: 80%;
+    width: 100%;
     background: #f2f2f2;
     text-align: center;
     margin: 0 auto;
@@ -8,7 +8,7 @@
     position: relative;
 }
 .about_my{
-    width: 80%;
+    width: 60%;
     margin: 0 auto;
     display: flex;
     flex-direction: row;

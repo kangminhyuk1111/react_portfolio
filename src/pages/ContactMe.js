@@ -7,7 +7,7 @@ export default function ContactMe(props) {
   const [classNames, setClassNames] = useState('good');
   return (
     <div className={`contact_me ${props.mode}`} id='contactFocus'>
-      <h1 className={`aboutme_h1s ${props.mode} ${classNames}`}>CONTACT</h1>
+      <h1 className={`aboutme_h1 ${props.mode} ${classNames}`}>CONTACT</h1>
       <div className={`contact_me_form_div ${props.mode}s right_${classNames}`}>
         <div className='contact_me_ment'>
 
