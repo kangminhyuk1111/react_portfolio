@@ -3,15 +3,13 @@ import './css/animation.css';
 import Main from './pages/Main';
 import Archiving from './pages/Archiving';
 import Projects from './pages/Projects';
-import DarkMode from './pages/DarkMode';
-import SideLinks from './pages/SideLinks';
 import { useEffect, useState } from 'react';
-import AboutmeSU from './pages/AboutmeSU';
 import SkillsSu from './pages/SkillsSU';
 import TopMain from './pages/TopMain';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import ContactMe from './pages/ContactMe';
-import SmallStacks from './pages/SmallStacks';
+import $ from 'jquery';
+import { OffcanvasTitle } from 'react-bootstrap';
+
 
 function App() {
   const [isdark, setIsDark] = useState(() => false)
@@ -26,6 +24,29 @@ function App() {
   const appSearchfnc = (params) => {
     setParams(params);
   }
+
+  useEffect(()=>{
+    $('#aboutmeClick').on('click',()=>{
+      const focusDiv = $('#mainFocus').offset().top;
+      console.log(focusDiv);
+      $('html, body').animate({scrollTop : focusDiv},200)
+    })
+    $('#projectClick').on('click',()=>{
+      const focusDiv = $('#projectFocus').offset().top;
+      console.log(focusDiv);
+      $('html, body').animate({scrollTop : focusDiv},200)
+    })
+    $('#skillsClick').on('click',()=>{
+      const focusDiv = $('#skillFocus').offset().top;
+      console.log(focusDiv);
+      $('html, body').animate({scrollTop : focusDiv},200)
+    })
+    $('#contactClick').on('click',()=>{
+      const focusDiv = $('#contactFocus').offset().top;
+      console.log(focusDiv);
+      $('html, body').animate({scrollTop : focusDiv},200)
+    })
+  })
 
   return (
     <div className={`App ${isdark}`}>
@@ -46,12 +67,11 @@ function App() {
       </div>
       <div className='app_right'>
         <TopMain mode={isdark} />
-        <Main mode={isdark} />
+        <Main mode={isdark}/>
         <Projects mode={isdark} />
         <SkillsSu mode={isdark} />
-        <Archiving mode={isdark} />
+        {/* <Archiving mode={isdark} />   */}
         <ContactMe mode={isdark} />
-        <SmallStacks />
       </div>
     </div>
   );

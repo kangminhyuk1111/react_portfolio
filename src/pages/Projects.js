@@ -13,7 +13,7 @@ import Modalproject from './Modalproject';
 export default function Projects(props) {
   const [classNames, setClassNames] = useState('good');
   return (
-    <div className={`projects ${props.mode}`}>
+    <div className={`projects ${props.mode}`} id='projectFocus'>
         <h1 className={`aboutme_h1 ${props.mode} ${classNames}`}>PROJECTS</h1>
         <div className={`projects_main ${props.mode}pro right_${classNames}`}>
           <Modalproject title='현대모비스 오토벨 중고차 사이트'

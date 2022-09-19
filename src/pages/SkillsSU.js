@@ -11,7 +11,7 @@ export default function AboutmeSU(props) {
         AOS.init();
       })
     return (
-        <div className={`aboutmy ${props.mode}linear`}>
+        <div className={`aboutmy ${props.mode}linear`} id='skillFocus'>
             <h1 className={`aboutme_h1 right_good`} data-aos="fade-right" data-aos-duration="1000">SKILLS</h1>
             <div className={`about_my showText_3s`} data-aos="fade-right" data-aos-duration="1000">
                 <div className='my_name_sk' data-aos="fade-right">

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import '../css/sideLinks.css';
 import { Link } from 'react-router-dom';
 
@@ -24,11 +24,10 @@ export default function SideLinks(props) {
     <div className={`sideLinks ${props.mode}`}>
       <div className={`a_setting_div ${props.mode}`}>
         <ul className={`burger_ul ${props.mode}`} onClick={() => renderParams()}>
-          <li><Link className={`${props.mode}`} to='/aboutme'>ABOUTME</Link></li>
-          <li className={`burger_ul_projects_li ${props.mode}`} onClick={() => { burgerHandler() }}><Link className={`${props.mode}`} to='/projects'>PROJECTS</Link></li>
-          <li><Link className={`${props.mode}`} to='/skills'>SKILLS</Link></li>
-          <li><Link className={`${props.mode}`} to='/archiving'>ARCHIVING</Link></li>
-          <li><Link className={`${props.mode}`} to='/contactme'>CONTACT</Link></li>
+          <li id='aboutmeClick'><Link className={`${props.mode}`} to='/aboutme'>ABOUTME</Link></li>
+          <li id='projectClick' className={`burger_ul_projects_li ${props.mode}`} onClick={() => { burgerHandler() }}><Link className={`${props.mode}`} to='/projects'>PROJECTS</Link></li>
+          <li id='skillsClick'><Link className={`${props.mode}`} to='/skills'>SKILLS</Link></li>
+          <li id='contactClick'><Link className={`${props.mode}`} to='/contactme'>CONTACT</Link></li>
         </ul>
       </div>
     </div>

@@ -8,7 +8,7 @@ export default function Main(props) {
         AOS.init();
       })
     return (
-        <div className={`main`} >
+        <div className={`main`} id='mainFocus'>
             <div className='intro_left'>
                 <p className='left_title' data-aos="fade-right" data-aos-duration="1000">Intro</p>
                 <div className='intro_left_top' data-aos="fade-right" data-aos-duration="1000">
