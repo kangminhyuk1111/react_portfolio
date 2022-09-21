@@ -3,11 +3,11 @@ import '../css/projects.css';
 import MyProject from './MyProject';
 import usedcar from '../images/mockautobell.png';
 import todoimgs from '../images/ang.png';
-import bookapi from '../images/reactbooks.png';
+import bookapi from '../images/book_remake.png';
 import htmlport from '../images/htmlport.png';
 import movielist from '../images/movielist.png';
 import newppo from '../images/newppo.png';
-import boardimg from '../images/board.png';
+import boardimg from '../images/board_remake.png';
 import Modalproject from './Modalproject';
 
 export default function Projects(props) {
