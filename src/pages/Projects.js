@@ -7,7 +7,7 @@ import bookapi from '../images/book_remake.png';
 import htmlport from '../images/htmlport.png';
 import movielist from '../images/movielist.png';
 import newppo from '../images/newppo.png';
-import boardimg from '../images/board_remake.png';
+import boardimg from '../images/imacboard.jpg';
 import Modalproject from './Modalproject';
 
 export default function Projects(props) {
