@@ -1,22 +1,22 @@
 .archiving{
     width: 100%;
-    background:#f2f2f2;
+    background:white;
     height: 100vh;
     list-style: none;
     margin: 0 auto;
-    padding-top: 50px;
+    padding-top: 5rem;
     z-index: -1;
 }
 .archiving_h1{
     width: 60%;
-    padding-top: 20px;
+    padding-top: 2rem;
     font-size: 2rem;
     margin: 0 auto;
     text-align: left;
 }
 .archiving_main {
     width: 66.66%;
-    height: 600px;
+    height: 60rem;
     margin: 0 auto;
     display: flex;
     flex-direction: row;
@@ -37,23 +37,23 @@
 .archiving_top{
     position: relative;
     width: 100%;
-    height: 110px;
+    height: 11rem;
     display: flex;
     flex-direction: column;
     margin: 0 auto;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 2rem;
 }
 .archiving_top i{
-    font-size: 48px;
-    padding-top: 16px;
-    padding-left: 16px;
+    font-size: 4.8rem;
+    padding-top: 1.6rem;
+    padding-left: 1.6rem;
 }
 .archiving_logos{
     font-size: 1.5rem;
     font-weight: 500;
-    padding-top: 15px;
-    padding-left: 12px;
+    padding-top: 1.5rem;
+    padding-left: 1.2rem;
 }
 .archiving_logos a{
     display: block;
@@ -63,24 +63,24 @@
     color: #fff;
     text-align: center;
     margin: 0 auto;
-    font-size: 18px;
-    border-radius: 15px;
-    margin-top: 15px;
+    font-size: 1.8rem;
+    border-radius: 1.5rem;
+    margin-top: 1.5rem;
 }
 .archiving_logos a:hover{
     color: black;
 }
 .archving_footer{
     width: 100%;
-    height: 300px;
+    height: 30rem;
 }
 .archiving_ul{
-    padding-top: 34px;
+    padding-top: 3.4rem;
 }
 .archiving_ul li{
     width: 100%;
-    padding: 20px;
-    padding-top: 40px;
+    padding: 2rem;
+    padding-top: 4rem;
     padding-left: 12%;
     display: flex;
     flex-direction: row;
@@ -89,13 +89,13 @@
     text-align: justify;
 }
 .archiving_ul li i{
-    width: 20px;
-    height: 20px;
-    padding-top: 4px;
+    width: 2rem;
+    height: 2rem;
+    padding-top: 0.4rem;
 }
 #naverblog{
-    font-size: 40px;
-    padding-top: 20px;
+    font-size: 4rem;
+    padding-top: 2rem;
 }
 .cs{
     text-align: center;

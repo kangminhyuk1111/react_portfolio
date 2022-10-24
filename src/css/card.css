@@ -6,13 +6,13 @@
 }
 .card{
     width: 50%;
-    height: 175px;
+    height: 17.5rem;
     margin: 0 auto;
 }
 .top_btn{
     position: fixed;
     top: 92%;
     left: 87%;
-    width: 100px;
-    height: 100px;
+    width: 10rem;
+    height: 10rem;
 }

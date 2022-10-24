@@ -8,7 +8,6 @@ import SkillsSu from './pages/SkillsSU';
 import TopMain from './pages/TopMain';
 import ContactMe from './pages/ContactMe';
 import $ from 'jquery';
-import { OffcanvasTitle } from 'react-bootstrap';
 
 
 function App() {

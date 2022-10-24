@@ -1,11 +1,11 @@
 .small_stack{
     display: flex;
     flex-direction: row;
-    max-width: 130px;
-    height: 40px;
+    max-width: 13rem;
+    height: 4rem;
     background-color: rgb(116, 253, 255);
-    margin: 30px;
-    border-radius: 30px;
+    margin: 3rem;
+    border-radius: 3rem;
 }
 .stack_img{
     width: 20%;

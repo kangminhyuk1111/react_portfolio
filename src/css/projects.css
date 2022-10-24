@@ -3,7 +3,7 @@
     margin: 0 auto;
     padding-top: 50px;
     padding-bottom: 100px;
-    background-color: #f2f2f2;
+    background-color: white;
 }
 
 .projects_main {
@@ -124,7 +124,7 @@
 .summary_left {
     width: 90%;
     height: 80%;
-    padding-top: 10px;
+    padding-top: 1rem;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -139,7 +139,7 @@
 
 .summary_left_top {
     width: 45%;
-    padding: 20px;
+    padding: 2rem;
     font-weight: 310;
     color: rgb(203, 203, 203);
     transition: .3s;
@@ -151,7 +151,7 @@
 }
 
 .summary_left_top h2 {
-    padding-bottom: 20px;
+    padding-bottom: 2rem;
     font-weight: 600;
 }
 
@@ -159,7 +159,7 @@
     width: 90%;
     height: 90%;
     margin: 0 auto;
-    margin-top: 20px;
+    margin-top: 2rem;
     opacity: 0.5;
     transition: .5s;
 }
@@ -170,14 +170,14 @@
 }
 
 .padding_top {
-    padding-top: 24px !important;
-    font-size: 14px !important;
+    padding-top: 2.4rem !important;
+    font-size: 1.4rem !important;
 }
 
 .modal_div {
     width: 100%;
-    height: 600px;
-    background-color: #f2f2f2;
+    height: 60rem;
+    background-color: white;
     display: flex;
     flex-direction: row;
 }
@@ -194,21 +194,21 @@
 
 .flex_col{
     width: 40%;
-    border-right: 1px solid gray;
+    border-right: 0.1rem solid gray;
 }
 
 .modal_left_1{
     height: 34%;
-    padding: 36px;
+    padding: 3.6rem;
     padding-bottom: 0;
-    border-bottom: 1px solid gray;
+    border-bottom: 0.1px solid gray;
 }
 .modal_left_2{
     height: 66%;
-    padding: 36px;
-    padding-top: 68px;
+    padding: 3.6rem;
+    padding-top: 6.8rem;
     position: relative;
-    top: 234px;
+    top: 23.4rem;
 }
 .modal_left_title{
     font-size: 1.8rem;
@@ -228,20 +228,20 @@
     margin: 0 auto;
 }
 .modal_right_summary{
-    padding: 0 36px 0 36px;
+    padding: 0 3.6rem 0 3.6rem;
     text-align: justify;
 }
 .modal_right_summary_skills{
-    padding-top: 12px;
+    padding-top: 1.2rem;
     font-size: 1.2rem;
     text-align: center;
 }
 .project_img{
     position: relative;
     width: 45%;
-    height: 400px;
-    background-color: #f2f2f2;
-    margin: 10px;
+    height: 40rem;
+    background-color: white;
+    margin: 1rem;
     transition: 1s;
 }
 .project_img:hover{
@@ -250,13 +250,13 @@
     transition: 1s;
 }
 .project_img:first-child{
-    margin-top: 50px;
+    margin-top: 5rem;
 }
 .project_img:nth-child(2n){
     margin-top: 20vh;
 }
 .project_img:nth-child(2){
-    height: 550px;
+    height: 5.5rem;
 }
 .hover_comment{
     width: 100%;

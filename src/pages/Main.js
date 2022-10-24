@@ -4,9 +4,9 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 export default function Main(props) {
-    useEffect(()=>{
+    useEffect(() => {
         AOS.init();
-      })
+    })
     return (
         <div className={`main`} id='mainFocus'>
             <div className='intro_left'>
@@ -47,9 +47,11 @@ export default function Main(props) {
                 </div>
                 <div className='right_education' data-aos="fade-right" data-aos-duration="1000">
                     <p className='right_title'>Certificate</p>
-                    <div className='right_education_div_1'>
-                        <p className='right_second'>2019. 05 운전면허 1종 보통</p>
-                        <p className='right_second_2'>2022. 08 쇼핑몰 관리사</p>
+                    <div className='right_education_div'>
+                        <div className='w-50'>
+                            <p className='right_second'>2019. 05 운전면허 1종 보통</p>
+                            <p className='right_second'>2022. 08 쇼핑몰 관리사</p>
+                        </div>
                     </div>
                 </div>
                 <div className='right_education' data-aos="fade-right" data-aos-duration="1000">

@@ -9,14 +9,8 @@ export default function ContactMe(props) {
     <div className={`contact_me ${props.mode}`} id='contactFocus'>
       <h1 className={`aboutme_h1 ${props.mode} ${classNames}`}>CONTACT</h1>
       <div className={`contact_me_form_div ${props.mode}s right_${classNames}`}>
-        <div className='contact_me_ment'>
-
-        </div>
-        <div className='tell'>
-          <div className='contact_icons'>
-            <a href='https://open.kakao.com/o/sfYmY6re'><img src={kakaoIcon} /></a>
-            <a href='mailto:rkdglqkr12@naver.com'><img src={emailIcon} /></a>
-          </div>
+        <div className='inner_contactme'>
+          
         </div>
       </div>
     </div>
