@@ -4,9 +4,9 @@ import MyProject from './MyProject';
 import usedcar from '../images/mockautobell.png';
 import todoimgs from '../images/ang.png';
 import bookapi from '../images/mstudio.png';
-import htmlport from '../images/htmlport.png';
-import movielist from '../images/movielist.png';
-import newppo from '../images/newppo.png';
+import htmlport from '../images/LaptopOldFort.png';
+import movielist from '../images/ipadmovieList.png';
+import newppo from '../images/ipadRfort2.png';
 import boardimg from '../images/imacboard.jpg';
 import Modalproject from './Modalproject';
 
