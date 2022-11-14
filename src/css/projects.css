@@ -239,7 +239,7 @@
 }
 .project_img{
     position: relative;
-    width: 40%;
+    width: 45%;
     height: 50rem;
     background-color: white;
     margin: 1rem;
@@ -259,5 +259,5 @@
     display: block;
 }
 .project_img:nth-child(2n){
-    margin-top: 10rem;
+    margin-top: 30rem;
 }
