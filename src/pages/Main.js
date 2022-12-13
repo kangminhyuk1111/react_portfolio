@@ -2,6 +2,10 @@ import React, { useState, useEffect } from 'react'
 import '../css/main.css';
 import AOS from "aos";
 import "aos/dist/aos.css";
+import kakaoPng from '../images/kakao-talk.png'
+import emailPng from '../images/email.png';
+import velogPng from '../images/velogpng.png';
+import gitPng from '../images/gitpng.png';
 
 export default function Main(props) {
     useEffect(() => {
@@ -20,11 +24,17 @@ export default function Main(props) {
                     <p className=''>사용자들의 보다 나은 경험,</p>
                     <p className=''>그것이 저의 목표입니다.</p>
                 </div>
+                <div className='intro_left_contact' data-aos="fade-right" data-aos-duration="1000">
+                    <a href='#' className='contact_png'><img src={kakaoPng}/></a>
+                    <a href='#' className='contact_png'><img src={emailPng}/></a>
+                    <a href='#' className='contact_png'><img src={velogPng}/></a>
+                    <a href='#' className='contact_png'><img src={gitPng}/></a>
+                </div>
             </div>
             <div className='intro_right'>
                 <div className='right_birth' data-aos="fade-right" data-aos-duration="1000">
                     <p className='right_title'>Birth</p>
-                    <p className='right_second'>2000. 02. 22</p>
+                    <p className='right_second'>2000. 02. 22 (만 22세)</p>
                 </div>
                 <div className='right_education' data-aos="fade-right" data-aos-duration="1000">
                     <p className='right_title'>Education</p>
@@ -57,6 +67,7 @@ export default function Main(props) {
                 <div className='right_education' data-aos="fade-right" data-aos-duration="1000">
                     <p className='right_title'>Experience</p>
                     <p className='right_second'>2022. 09 ~ 2022. 12 (주)유비엔</p>
+                    <p className='right_second'>인공지능 학습용 데이터 구축사업 (<a href='http://dltms.k-agridata.com/'>dltms.k-agridata.com</a>)</p>
                 </div>
             </div>
         </div>

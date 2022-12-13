@@ -30,6 +30,18 @@
     font-size: 1.5rem;
     font-weight: 500;
 }
+.intro_left_contact{
+    padding-top: 2.4rem;
+    display: flex;
+    flex-direction: row;
+}
+.contact_png{
+    width: 3.8rem;
+    height: 3.8rem;
+    margin: 0.5rem;
+    margin-left: 0;
+    margin-right: 1rem;
+}
 .intro_right{
     width: 70%;
     height: 100vh;

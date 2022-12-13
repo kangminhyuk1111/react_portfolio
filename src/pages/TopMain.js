@@ -49,7 +49,7 @@ export default function TopMain(props) {
         <div className='right_emoji'>
           <img src={emoji} />
         </div>
-        <div className='main_right_contact'>
+        {/* <div className='main_right_contact'>
           <div className='right_contact_social'>
             <p className='right_contact_social_tag'>Github</p>
             <p className='right_contact_social_sum'>https://github.com/kangminhyuk1111</p>
@@ -58,7 +58,7 @@ export default function TopMain(props) {
             <p className='right_contact_social_tag'>Contact</p>
             <p className='right_contact_social_sum'>rktqkr1313@gmail.com</p>
           </div>
-        </div>
+        </div> */}
       </div>
       {/* 메뉴바 */}
       <div className='right_small_menu'>
