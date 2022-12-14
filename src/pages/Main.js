@@ -14,7 +14,7 @@ export default function Main(props) {
     return (
         <div className={`main`} id='mainFocus'>
             <div className='intro_left'>
-                <p className='left_title' data-aos="fade-right" data-aos-duration="1000">Intro</p>
+                <p className='left_title' data-aos="fade-right" data-aos-duration="1000">About Me</p>
                 <div className='intro_left_top' data-aos="fade-right" data-aos-duration="1000">
                     <p className='intro_name_1'>Kang</p>
                     <p className='intro_name_2'>Min Hyuk</p>
@@ -26,9 +26,9 @@ export default function Main(props) {
                 </div>
                 <div className='intro_left_contact' data-aos="fade-right" data-aos-duration="1000">
                     <a href='#' className='contact_png'><img src={kakaoPng}/></a>
-                    <a href='#' className='contact_png'><img src={emailPng}/></a>
-                    <a href='#' className='contact_png'><img src={velogPng}/></a>
-                    <a href='#' className='contact_png'><img src={gitPng}/></a>
+                    <a href='mailto:"rkdglqkr12n@naver.com' className='contact_png'><img src={emailPng}/></a>
+                    <a href='https://velog.io/@minhyuk00' className='contact_png'><img src={velogPng}/></a>
+                    <a href='https://github.com/kangminhyuk1111' className='contact_png'><img src={gitPng}/></a>
                 </div>
             </div>
             <div className='intro_right'>

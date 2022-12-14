@@ -261,3 +261,6 @@
 .project_img:nth-child(2n){
     margin-top: 30rem;
 }
+.pt-6{
+    font-size: 1.3rem;
+}

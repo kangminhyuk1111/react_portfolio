@@ -41,7 +41,7 @@ export default function Example(props) {
               <img src={props.projectImg} />
               <div className='modal_right_link'>
                 <p className='header_second_logos'><a href={props.gitlink}>LINK TO GIT HUB</a></p>
-                <p className='header_second_logos'><a href={props.liveserver}>LIVE PAGES</a></p>
+                {/* <p className='header_second_logos'><a href={props.liveserver}>LIVE PAGES</a></p> */}
               </div>
               <div className='modal_right_summary'>
                 <div className='modal_right_summary_skills'>

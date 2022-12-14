@@ -1,4 +1,4 @@
-import React , { useState } from 'react'
+import React, { useState } from 'react'
 import '../css/projects.css';
 import MyProject from './MyProject';
 import usedcar from '../images/mockautobell.png';
@@ -14,13 +14,18 @@ export default function Projects(props) {
   const [classNames, setClassNames] = useState('good');
   return (
     <div className={`projects ${props.mode}`} id='projectFocus'>
-        <h1 className={`aboutme_h1 ${props.mode} ${classNames}`}>PROJECTS</h1>
-        <div className={`projects_main ${props.mode}pro right_${classNames}`}>
-          <Modalproject title='현대모비스 오토벨 중고차 사이트'
+      <h1 className={`aboutme_h1 ${props.mode} ${classNames}`}>PROJECTS</h1>
+      <div className={`projects_main ${props.mode}pro right_${classNames}`}>
+        <Modalproject title='현대모비스 오토벨 중고차 사이트'
           lesstime='2주'
           gitlink='https://github.com/kangminhyuk1111/react_usedcar'
           liveserver='#'
-          summary="설명"
+          summary="평소에 자동차에 관심이 있고 대기업의 중고차 시장 출범소식을 듣고 검색 해 보니 현대에서
+          만든 '현대모비스 오토벨' 이라는 사이트에 관심이 가게 되어 해본 프로젝트 입니다. 프로젝트 안에는 상세검색기능
+                    차량명 검색기능, 상세정보보기 클릭시 차량의 상세정보가 담긴 페이지로 이동하게 만들었습니다.
+                    페이지 이동은 react-router를 이용했으며 간단한 nodejs 서버를 구축하여 데이터베이스(MySQL)에 접근하여
+                    차량의 필요한 정보들을 받아 올 수 있도록 만들었습니다. 상세정보 클릭시 차량의 고유한 일련번호를 URL Parameter로
+                    넘겨준뒤 받아온 일련번호로 해당 페이지에 조회 할 수 있도록 만들었습니다."
           feelings='대부분의 중고차 사이트가 CSR로 만들어 진 것을 보고 중고차 사이트를 SPA사이트로 만들어 보면 어떨까?
           라는 생각에 만들어 보기 시작했습니다. 기존에 react로 UI적인 부분을 편리하게 만들었고 정보와 데이터베이스들을 관리하는 서버를 만들어 보고 공부하기위해
           nodejs를 접했습니다. nodejs로 어떻게 서버를 구축하고 만들어나가는지 알게 되었고, 서버에서 DB에 접근해서 어떻게 정보들을 가져 올 수 있는지
@@ -29,8 +34,8 @@ export default function Projects(props) {
           projectImg={usedcar}
           mode={props.mode}
           shortsummary='중고차 검색 기능을 REACT+NODEJS+MYSQL기반 풀스택으로 구현한 소규모 프로젝트'
-          usedskills='REACTJS(REACT-ROUTER-DOM) · MYSQL · NODEJS · MUI Library'/>
-          <Modalproject title='네이버 API를 활용한 책 검색 사이트'
+          usedskills='REACTJS(REACT-ROUTER-DOM) · MYSQL · NODEJS · MUI Library' />
+        <Modalproject title='네이버 API를 활용한 책 검색 사이트'
           lesstime='4일'
           gitlink='https://github.com/kangminhyuk1111/react-book-api'
           liveserver='#'
@@ -44,8 +49,8 @@ export default function Projects(props) {
           projectImg={bookapi}
           mode={props.mode}
           shortsummary='Naver Developers Open API를 이용하여 제작한 프로젝트'
-          usedskills='REACTJS, MUI Library, Naver DEV API'/>
-          <Modalproject title='게시판 - REACT'
+          usedskills='REACTJS · MUI Library · Naver DEV API' />
+        <Modalproject title='게시판 - REACT'
           lesstime='2주'
           gitlink='https://github.com/kangminhyuk1111/react_portfolio'
           liveserver='#'
@@ -60,8 +65,8 @@ export default function Projects(props) {
           projectImg={boardimg}
           mode={props.mode}
           shortsummary='프론트엔드와 백엔드의 통신을, MySQL의 CRUD를 이해하기 위해 만든 게시판'
-          usedskills='REACTJS, NODEJS, MYSQL, MUI Library '/>
-           <Modalproject title='API 통신을 이용한 인기영화 조회 웹사이트'
+          usedskills='REACTJS · NODEJS · MYSQL · MUI Library ' />
+        <Modalproject title='API 통신을 이용한 인기영화 조회 웹사이트'
           lesstime='1주'
           gitlink='https://github.com/kangminhyuk1111/https---github.com-kangminhyuk1111-moviesList'
           liveserver='#'
@@ -74,8 +79,8 @@ export default function Projects(props) {
           projectImg={movielist}
           mode={props.mode}
           shortsummary='axios를 이용하여 외부 Open API와 통신을 배운 프로젝트'
-          usedskills='REACTJS, MUI Library, YTS Data API, Axios'/>
-          <Modalproject title='포트폴리오 웹사이트 - REACT'
+          usedskills='REACTJS, MUI Library, YTS Data API, Axios' />
+        <Modalproject title='포트폴리오 웹사이트 - REACT'
           lesstime='2주'
           gitlink='https://github.com/kangminhyuk1111/react_portfolio'
           liveserver='#'
@@ -92,8 +97,8 @@ export default function Projects(props) {
           projectImg={newppo}
           mode={props.mode}
           shortsummary='프론트엔드 개발자가 되기위해 되어가는 과정을 소개하기위한 템플릿'
-          usedskills='REACTJS(REACT-ROUTER-DOM), Tailwind CSS, Npm Library'/>
-          <Modalproject title='포트폴리오 웹사이트'
+          usedskills='REACTJS(REACT-ROUTER-DOM), Tailwind CSS, Npm Library' />
+        <Modalproject title='포트폴리오 웹사이트'
           lesstime='1주'
           gitlink='https://github.com/kangminhyuk1111/portfolio-project'
           liveserver='https://kangminhyuk1111.github.io/portfolio-project/'
@@ -106,8 +111,8 @@ export default function Projects(props) {
           projectImg={htmlport}
           mode={props.mode}
           shortsummary='html,css,vanila javascript로 제작한 웹페이지. 홈페이지의 기본적인 레이아웃 구성을 이해한 프로젝트'
-          usedskills='HTML, CSS, JAVASCRIPT'/>
-        </div>
+          usedskills='HTML, CSS, JAVASCRIPT' />
+      </div>
     </div>
   )
 }
