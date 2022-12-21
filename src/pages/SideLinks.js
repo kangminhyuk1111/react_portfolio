@@ -3,9 +3,6 @@ import '../css/sideLinks.css';
 import { Link } from 'react-router-dom';
 
 export default function SideLinks(props) {
-  window.addEventListener('scroll', () => {
-    console.log(window.scrollY);
-  })
   const [searchParams, setSearchParams] = useState(window.location.pathname[4]);
   const [burgerMenu, setburgerMenu] = useState(() => false);
   const [projectDisplay, setProjectDisplay] = useState('hideProject');

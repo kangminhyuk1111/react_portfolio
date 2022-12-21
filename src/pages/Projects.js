@@ -52,7 +52,7 @@ export default function Projects(props) {
           usedskills='REACTJS · MUI Library · Naver DEV API' />
         <Modalproject title='게시판 - REACT'
           lesstime='2주'
-          gitlink='https://github.com/kangminhyuk1111/react_portfolio'
+          gitlink='https://github.com/kangminhyuk1111/react-board'
           liveserver='#'
           summary="REACTJS와 NODEJS-MYSQL을 이용한 풀스택 프로젝트 입니다. 게시판 기능을 구현하였으며 로그인시에만 작성할 수 있도록
           LocalStorage를 이용하였으며 회원가입 로그인 로그아웃 기능을 구현하였습니다. 추가로 10개이상의 글이 보여지는 것을 막기위해
