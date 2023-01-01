@@ -44,9 +44,9 @@ export default function Main(props) {
                     <p className='right_second_1'>2021. 08 ~ 2022. 05 코리아IT아카데미 대구지점</p>
                     <div className='right_education_div'>
                         <div className='w-50'>
-                            <p className='right_second'>2021. 11 ~ 2022. 05 FrontEnd Dev</p>
-                            <p className='right_second'>2021. 12 ~ 2022. 04 웹 개발</p>
-                            <p className='right_second'>2021. 08 ~ 2021. 11 Python</p>
+                            <p className='right_second_3'>2021. 11 ~ 2022. 05 FrontEnd Dev</p>
+                            <p className='right_second_3'>2021. 12 ~ 2022. 04 웹 개발</p>
+                            <p className='right_second_3'>2021. 08 ~ 2021. 11 Python</p>
                         </div>
                         <div className=''>
                             <p className='right_second'>2021. 10 ~ 2021. 12 Java</p>
@@ -58,7 +58,7 @@ export default function Main(props) {
                 <div className='right_education' data-aos="fade-right" data-aos-duration="1000">
                     <p className='right_title'>Certificate</p>
                     <div className='right_education_div'>
-                        <div className='w-50'>
+                        <div className='w-45'>
                             <p className='right_second'>2019. 05 운전면허 1종 보통</p>
                             <p className='right_second'>2022. 08 쇼핑몰 관리사</p>
                         </div>

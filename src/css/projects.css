@@ -264,3 +264,9 @@
 .pt-6{
     font-size: 1.3rem;
 }
+.project_second{
+    padding: 0 4.8rem 2rem 4.8rem;
+    display: flex;
+    flex-direction: row;
+    font-size: 1.4rem !important;
+}

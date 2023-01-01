@@ -16,6 +16,8 @@ export default function Example(props) {
     <>
       <div className='project_img' onClick={handleShow}> {/* data-aos="fade-right" data-aos-duration="1000" */}
           <img src={props.projectImg} />
+          <p className='project_second'>{props.title}</p>
+          <p className='project_second'>소요기간 : {props.lesstime}</p>
       </div>
       
 
@@ -24,6 +26,13 @@ export default function Example(props) {
           <div className='modal_div'>
             <div className='flex_col'>
               <div className='modal_left_1'>
+                <button className='close_button' onClick={()=>{
+                  if(show == true){
+                    setShow(false)
+                  }
+                }}>
+                  x
+                </button>
                 <p className='modal_left_sidelink'>Project</p>
                 <p className='modal_left_title'>{props.title}</p>
                 <p className='modal_left_summary'>{props.shortsummary}</p>
