@@ -156,3 +156,89 @@ html {
 .showTextSlow{
   animation: showTextSlow 2s;
 }
+
+/* 반응형 */
+@media (max-width: 450px) {
+  .app_right{
+    width: 450px;
+  }
+  .top_main{
+    height: 30vh !important;
+  }
+  .top_main_left{
+    height: 30vh !important;
+  }
+  .top_main_right{
+    height: 30vh !important;
+  }
+  .top_main_left_top{
+    font-size: 4rem !important;
+    height: 3rem !important;
+  }
+  .top_main_left_bottom{
+     height: 30vh !important;
+  }
+  .right_small_menu{
+    display: none;
+  }
+  .left_name{
+    margin: 0 auto;
+    padding: 4.8rem 1rem 1rem 1rem !important;
+  }
+  .left_second{
+    margin: 0 auto;
+    padding: 0 1rem 1rem 1rem !important;
+  }
+  .bottom_job{
+    width: 450px !important;
+    font-size: 2rem !important;
+    padding: 16rem 0 0 1.1rem !important;
+  }
+  .main{
+    flex-direction: column !important;
+  }
+  .intro_left{
+    width: 100% !important;
+    height: 30vh !important;
+  }
+  .intro_right{
+    width: 100% !important;
+  }
+  .right_birth{
+    padding: 9rem 2.4rem 2.4rem 0 !important;
+  }
+  .right_education{
+    padding: 1rem 0 0 0 !important;
+  }
+  .right_second_1{
+    font-size: 1.19rem !important;
+    padding-top: 0.8rem !important;
+  }
+  .right_education_div{
+    padding-bottom: 2.4rem !important;
+  }
+  .project_main{
+    width: 100% !important;
+  }
+  .project_img{
+    width: 100% !important;
+    height: 25rem !important;
+  }
+  .project_img:nth-child(2n){
+    margin-top: 0 !important;
+  }
+  .about_my{
+    width: 60% !important;
+    flex-direction: column !important;
+  }
+  .my_name_sk{
+    width: 100% !important;
+  }
+  .my_skills_sum{
+    font-size: 1.2rem !important;
+  }
+  .padding_set{
+    width: 60% !important;
+    margin: 0 auto;
+  }
+}

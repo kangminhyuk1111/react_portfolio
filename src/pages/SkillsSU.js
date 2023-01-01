@@ -13,7 +13,8 @@ export default function AboutmeSU(props) {
     return (
         <div className={`aboutmy ${props.mode}linear`} id='skillFocus'>
             <h1 className={`aboutme_h1`}>SKILLS</h1>
-            <div className={`about_my showText_3s`} data-aos="fade-right" data-aos-duration="1000">
+            <div className={`about_my showText_3s`}> 
+            {/*  data-aos="fade-right" data-aos-duration="1000" */}
                 <div className='my_name_sk' data-aos="fade-right">
                     <p className='my_skills_sum_header'><img src="https://img.icons8.com/color/48/000000/html-5--v1.png" /><p className='inner_pt'>HTML</p></p>
                     <p className='my_skills_sum'>웹 표준과 웹 접근성을 고려한 표준 마크업을 능숙하게 다룰 수 있습니다.</p>

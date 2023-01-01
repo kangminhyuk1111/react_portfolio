@@ -14,10 +14,10 @@ export default function Example(props) {
   })
   return (
     <>
-      <div className='project_img' onClick={handleShow} data-aos="fade-right" data-aos-duration="1000">
+      <div className='project_img' onClick={handleShow}> {/* data-aos="fade-right" data-aos-duration="1000" */}
           <img src={props.projectImg} />
       </div>
-
+      
 
       <Modal show={show} onHide={handleClose} size='xl' centered>
         <div className='top_modal'>
