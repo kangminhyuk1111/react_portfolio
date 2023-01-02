@@ -197,7 +197,7 @@ html {
   .main{
     width: 80% !important;
     flex-direction: column !important;
-    height: 160vh !important;
+    height: 200vh !important;
   }
   .intro_left{
     width: 100% !important;
