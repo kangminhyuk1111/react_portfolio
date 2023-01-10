@@ -270,3 +270,8 @@
     flex-direction: row;
     font-size: 1.4rem !important;
 }
+.pg_flex_row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}

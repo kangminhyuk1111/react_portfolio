@@ -35,7 +35,7 @@ export default function Projects(props) {
           mode={props.mode}
           shortsummary='중고차 검색 기능을 REACT+NODEJS+MYSQL기반 풀스택으로 구현한 소규모 프로젝트'
           usedskills='REACTJS(REACT-ROUTER-DOM) · MYSQL · NODEJS · MUI Library' />
-        <Modalproject title='네이버 API를 활용한 책 검색 사이트'
+        <Modalproject title='네이버 API를 활용한 책 검색'
           lesstime='4일'
           gitlink='https://github.com/kangminhyuk1111/react-book-api'
           liveserver='#'
@@ -66,7 +66,7 @@ export default function Projects(props) {
           mode={props.mode}
           shortsummary='프론트엔드와 백엔드의 통신을, MySQL의 CRUD를 이해하기 위해 만든 게시판'
           usedskills='REACTJS · NODEJS · MYSQL · MUI Library ' />
-        <Modalproject title='API 통신을 이용한 인기영화 조회 웹사이트'
+        <Modalproject title='API 통신을 이용한 인기영화 조회'
           lesstime='1주'
           gitlink='https://github.com/kangminhyuk1111/https---github.com-kangminhyuk1111-moviesList'
           liveserver='#'

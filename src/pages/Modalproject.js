@@ -16,8 +16,10 @@ export default function Example(props) {
     <>
       <div className='project_img' onClick={handleShow}> {/* data-aos="fade-right" data-aos-duration="1000" */}
           <img src={props.projectImg} />
+          <div className='pg_flex_row'>
           <p className='project_second'>{props.title}</p>
           <p className='project_second'>소요기간 : {props.lesstime}</p>
+          </div>
       </div>
       
 
