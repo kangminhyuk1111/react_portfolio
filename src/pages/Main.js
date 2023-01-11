@@ -39,7 +39,7 @@ export default function Main(props) {
                 <div className='right_education' data-aos="fade-right" data-aos-duration="1000">
                     <p className='right_title'>Education</p>
                     <p className='right_second'>2015. 03 ~ 2018. 02 영남고등학교 졸업</p>
-                    <p className='right_second'>2018. 03 ~ 2019. 07 대구한의대학교 중퇴</p>
+                    <p className='right_second'>2018. 03 ~ 2019. 07 대구한의대학교 세무금융학과 중퇴</p>
                     <p className='right_second'>2022. 08 ~ 학점은행제 컴퓨터공학 수강중</p>
                     <p className='right_second_1'>2021. 08 ~ 2022. 05 코리아IT아카데미 대구지점</p>
                     <div className='right_education_div'>

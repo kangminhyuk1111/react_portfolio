@@ -93,14 +93,14 @@
 
 .header_second_logos a {
     display: block;
-    width: 60%;
-    height: 3rem;
+    width: 50%;
+    height: 2.2rem;
     background-color: rgb(170, 170, 255);
     text-decoration: none;
     color: #fff;
     text-align: center;
     margin: 0 auto;
-    font-size: 1.6rem;
+    font-size: 1.2rem;
     padding-top: 0.2rem;
     border-radius: 1.5rem;
 }
@@ -236,7 +236,7 @@
     text-align: justify;
 }
 .modal_right_summary_skills{
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     padding-bottom: 1.2rem;
     text-align: center;
 }
@@ -265,7 +265,8 @@
     margin-top: 30rem;
 }
 .pt-6{
-    font-size: 1.3rem;
+    font-size: 1.1rem;
+    font-weight: 300;
 }
 .project_second{
     padding: 0 4.8rem 0rem 4.8rem;
