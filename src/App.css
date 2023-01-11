@@ -288,5 +288,6 @@ html {
     width: 100%;
     text-align: right;
     font-size: 2rem !important;
+    display: block;
   }
 }

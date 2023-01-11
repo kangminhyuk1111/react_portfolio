@@ -1,4 +1,4 @@
-import React, { useState , useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import Modal from 'react-bootstrap/Modal';
 import '../css/projects.css'
 import AOS from "aos";
@@ -9,27 +9,27 @@ export default function Example(props) {
   const [show, setShow] = useState(false);
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
-  useEffect(()=>{
+  useEffect(() => {
     AOS.init();
   })
   return (
     <>
       <div className='project_img' onClick={handleShow}> {/* data-aos="fade-right" data-aos-duration="1000" */}
-          <img src={props.projectImg} />
-          <div className='pg_flex_row'>
-          <p className='project_second'>{props.title}</p>
-          <p className='project_second'>소요기간 : {props.lesstime}</p>
-          </div>
+        <img src={props.projectImg} />
+        <div className='pg_flex_row'>
+          <p className='project_second pb-0 f_w_600'>{props.title}</p>
+          <p className='project_second pb-2 dis_flex'><p>{props.titleEng}</p></p>
+        </div>
       </div>
-      
+
 
       <Modal show={show} onHide={handleClose} size='xl' centered>
         <div className='top_modal'>
           <div className='modal_div'>
             <div className='flex_col'>
               <div className='modal_left_1'>
-                <button className='close_button' onClick={()=>{
-                  if(show == true){
+                <button className='close_button' onClick={() => {
+                  if (show == true) {
                     setShow(false)
                   }
                 }}>
@@ -49,16 +49,18 @@ export default function Example(props) {
               </div>
             </div>
             <div className='right'>
-              <img src={props.projectImg} />
-              <div className='modal_right_link'>
-                <p className='header_second_logos'><a href={props.gitlink}>LINK TO GIT HUB</a></p>
-                {/* <p className='header_second_logos'><a href={props.liveserver}>LIVE PAGES</a></p> */}
-              </div>
-              <div className='modal_right_summary'>
-                <div className='modal_right_summary_skills'>
-                  Stack : {props.usedskills}
+              <div className='flex_center'>
+                <img src={props.projectModalImg} />
+                <div className='modal_right_link'>
+                  <p className='header_second_logos'><a href={props.gitlink}>LINK TO GIT HUB</a></p>
+                  {/* <p className='header_second_logos'><a href={props.liveserver}>LIVE PAGES</a></p> */}
                 </div>
-                <div className='pt-6'>{props.summary}</div>
+                <div className='modal_right_summary'>
+                  <div className='modal_right_summary_skills'>
+                    Stack : {props.usedskills}
+                  </div>
+                  <div className='pt-6'>{props.summary}</div>
+                </div>
               </div>
             </div>
           </div>

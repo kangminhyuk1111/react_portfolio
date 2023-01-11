@@ -9,6 +9,13 @@ import movielist from '../images/ipadmovieList.png';
 import newppo from '../images/mockRFort.png';
 import boardimg from '../images/imacboard.jpg';
 import Modalproject from './Modalproject';
+import boardModalImg from '../images/board_remake.png';
+import movieListModalImg from '../images/movielist.png';
+import naverAPIModalImg from '../images/book_remake.png';
+import htmlModalImg from '../images/htmlport.png';
+import reactportModalImg from '../images/newppo.png';
+import autobellModalImg from '../images/autobell.png';
+
 
 export default function Projects(props) {
   const [classNames, setClassNames] = useState('good');
@@ -32,6 +39,8 @@ export default function Projects(props) {
           공부하였고 프로젝트에 접목시켰습니다. 이를 통해 프론트엔드와 백엔드의 흐름을 이해하게 되었고 더 나아가 데이터베이스에 접근
           선택, 수정 등 기본적인 SQL이해하는데 도움이 되었던 프로젝트였습니다.'
           projectImg={usedcar}
+          projectModalImg={autobellModalImg}
+          titleEng={'Usedcar Website (Hyundai Mobis Autobell)'}
           mode={props.mode}
           shortsummary='중고차 검색 기능을 REACT+NODEJS+MYSQL기반 풀스택으로 구현한 소규모 프로젝트'
           usedskills='REACTJS(REACT-ROUTER-DOM) · MYSQL · NODEJS · MUI Library' />
@@ -47,6 +56,8 @@ export default function Projects(props) {
           다른 사이트들 예를들어 카카오 개발자 사이트, 공공데이터포털 등등 어떻게 정보를 가져오고 사용하는지 알게 되었습니다.
           이 경험을 통해 필요한 정보들을 보다 자유롭게 가져와서 사용 할 수 있게 되어서 기뻤습니다.'
           projectImg={bookapi}
+          projectModalImg={naverAPIModalImg}
+          titleEng={'Naver Developers Open API - Book Search'}
           mode={props.mode}
           shortsummary='Naver Developers Open API를 이용하여 제작한 프로젝트'
           usedskills='REACTJS · MUI Library · Naver DEV API' />
@@ -63,6 +74,8 @@ export default function Projects(props) {
           처음에는 글작성 기능만 넣었지만 하나하나 넣다보니 로그인 로그아웃과 회원가입기능 그리고 조회수 글 검색 조회등 살을 붙여나가는
           작업이 의미있었던 작업이였습니다.'
           projectImg={boardimg}
+          projectModalImg={boardModalImg}
+          titleEng={'Board - REACT'}
           mode={props.mode}
           shortsummary='프론트엔드와 백엔드의 통신을, MySQL의 CRUD를 이해하기 위해 만든 게시판'
           usedskills='REACTJS · NODEJS · MYSQL · MUI Library ' />
@@ -72,11 +85,13 @@ export default function Projects(props) {
           liveserver='#'
           summary="데이터 통신을 이해하기 위해 진행한 프로젝트이며 YTS라는 웹사이트를 이용했습니다. YTS 웹사이트 안에서
           영화 데이터 API를 이용하였으며, 이 API는 웹 사이트에 추천하는 영화 20선의 데이터를 받아왔습니다.
-          Material UI를 이용한 기능들을 추가 하였습니다."
+          Material UI를 이용한 기능들을 추가 했습니다."
           feelings='다양한 데이터를을 받아오고 사용하는 개념을 익힐 수 있었으며 axios library 를 이용해 데이터를 보다 손쉽게
            가져 올 수 있었습니다. 데이터 API를 통해 데이터를 요구했을때 어떤식으로 데이터를 받아오는지 그리고 어떻게 도출해낼수있는지
            데이터 통신의 기본을 알 수 있었습니다. 그리고 새롭게 알게 된 Material UI library를 어떻게 사용 할 수 있는지 이해하고 알 수 있게 되었습니다.'
           projectImg={movielist}
+          projectModalImg={movieListModalImg}
+          titleEng={'YTS Movie API'}
           mode={props.mode}
           shortsummary='axios를 이용하여 외부 Open API와 통신을 배운 프로젝트'
           usedskills='REACTJS, MUI Library, YTS Data API, Axios' />
@@ -95,6 +110,8 @@ export default function Projects(props) {
            state와 props의 개념을 확실하게 이해 할 수 있었습니다. 어떻게하면 더 심플하고 깔끔하게 보일 수 있을지 UI적인
            부분도 많이 공부 할 수 있었습니다.'
           projectImg={newppo}
+          projectModalImg={reactportModalImg}
+          titleEng={'Portfolio - REACT'}
           mode={props.mode}
           shortsummary='프론트엔드 개발자가 되기위해 되어가는 과정을 소개하기위한 템플릿'
           usedskills='REACTJS(REACT-ROUTER-DOM), Tailwind CSS, Npm Library' />
@@ -109,6 +126,8 @@ export default function Projects(props) {
            웹 사이트를 만들어 보고싶다." 라는 생각이들어 만들어 보게 되었습니다. HTML CSS 의 기본을 익히게 해주었으며,
            JS를 통해 페이지에 동적임 움직임을 주는법을 알 수 있게되었습니다.'
           projectImg={htmlport}
+          projectModalImg={htmlModalImg}
+          titleEng={'Portfolio'}
           mode={props.mode}
           shortsummary='html,css,vanila javascript로 제작한 웹페이지. 홈페이지의 기본적인 레이아웃 구성을 이해한 프로젝트'
           usedskills='HTML, CSS, JAVASCRIPT' />
