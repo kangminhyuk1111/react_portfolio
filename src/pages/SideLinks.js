@@ -24,7 +24,6 @@ export default function SideLinks(props) {
           <li id='aboutmeClick'><Link className={`${props.mode}`} to='/aboutme'>ABOUTME</Link></li>
           <li id='projectClick' className={`burger_ul_projects_li ${props.mode}`} onClick={() => { burgerHandler() }}><Link className={`${props.mode}`} to='/projects'>PROJECTS</Link></li>
           <li id='skillsClick'><Link className={`${props.mode}`} to='/skills'>SKILLS</Link></li>
-          <li id='contactClick'><Link className={`${props.mode}`} to='/contactme'>CONTACT</Link></li>
         </ul>
       </div>
     </div>
