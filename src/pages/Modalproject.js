@@ -3,15 +3,45 @@ import Modal from 'react-bootstrap/Modal';
 import '../css/projects.css'
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Slider from "react-slick";
+import prevIcon from "../images/previcon.png";
+import nextToIcon from "../images/nexttoicon.png";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 export default function Example(props) {
-  console.log(props.title);
   const [show, setShow] = useState(false);
+  const [propsModalImgs, setPropsModalImgs] = useState([]);
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    nextArrow: (
+      <div className='next-to'>
+        <img src={nextToIcon} />
+      </div>
+    ),
+    prevArrow: (
+      <div className='prev-to'>
+        <img src={prevIcon} />
+      </div>
+    ),
+  };
+  const mappingPropsImgData = () => {
+    const objKeys = Object.keys(props.projectModalImg)
+    setPropsModalImgs(objKeys.map((data)=>(
+      <img src={props.projectModalImg[data]}/>
+    )))
+  }
+
   useEffect(() => {
+    mappingPropsImgData();
     AOS.init();
-  })
+  },[])
   return (
     <>
       <div className='project_img' onClick={handleShow}> {/* data-aos="fade-right" data-aos-duration="1000" */}
@@ -50,10 +80,13 @@ export default function Example(props) {
             </div>
             <div className='right'>
               <div className='flex_center'>
-                <img src={props.projectModalImg} />
+                <div className='right_imgs'>
+                  <Slider {...settings}>
+                    {propsModalImgs}
+                  </Slider>
+                </div>
                 <div className='modal_right_link'>
                   <p className='header_second_logos'><a href={props.gitlink}>LINK TO GIT HUB</a></p>
-                  {/* <p className='header_second_logos'><a href={props.liveserver}>LIVE PAGES</a></p> */}
                 </div>
                 <div className='modal_right_summary'>
                   <div className='modal_right_summary_skills'>
