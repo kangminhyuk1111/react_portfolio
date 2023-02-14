@@ -233,11 +233,10 @@
 }
 
 .right_imgs {
-    width: 82%;
-    height: 56%;
+    width: 88%;
+    height: 70%;
     padding: 1.7rem;
     margin: 0 auto;
-    overflow: hidden;
 }
 
 .modal_right_summary {
